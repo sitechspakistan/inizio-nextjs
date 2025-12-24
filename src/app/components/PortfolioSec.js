@@ -3,7 +3,7 @@
 import Slider from "react-slick";
 import Link from "next/link";
 
-export default function HomePortfolio() {
+export default function PortfolioSec({subheading, heading}) {
 
   const settings = {
     fade: false,
@@ -41,10 +41,8 @@ export default function HomePortfolio() {
 
           {/* TITLE */}
           <div className="tp-case-title-box text-center">
-            <span className="tp-section-subtitle">Our Portfolio</span>
-            <h2 className="heading-2 pb-30 mb-0">
-              work we're proud to share.
-            </h2>
+            <span className="tp-section-subtitle">{subheading}</span>
+            <h2 className="heading-2 pb-30 mb-0"> {heading}</h2>
           </div>
 
           {/* SLIDER */}

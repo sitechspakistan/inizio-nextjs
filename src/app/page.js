@@ -1,7 +1,7 @@
 import Hero from "./components/Hero";
 import HomeServices from "./components/HomeServices";
 import Counters from "./components/Counters";
-import HomePortfolio from "./components/HomePortfolio";
+import PortfolioSec from "./components/PortfolioSec";
 import MarqueeText from "./components/MarqueeText";
 import Boxes from "./components/Boxes";
 import Testimonials from "./components/Testimonials";
@@ -15,7 +15,7 @@ export default function Home() {
       <Hero />
       <HomeServices />
       <Counters />
-      <HomePortfolio />
+      <PortfolioSec subheading="Abc"  heading="Xyz" />
       <MarqueeText />
       <Boxes />
       <Testimonials />

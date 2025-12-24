@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Header() {
     return (
         <>
@@ -7,18 +9,18 @@ export default function Header() {
                     <div className="row g-0 align-items-center">
                     <div className="col-xl-2 col-lg-2 col-md-4 col-6">
                         <div className="tp-logo mt-5">
-                            <a href="index.html">
+                            <Link href="/">
                                 <img src="/assets/images/inizo-logo-removebg-preview.png" alt="" />
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     <div className="col-xl-10 col-lg-10 col-md-8 col-6 d-flex justify-content-around">
                         <div className="tp-main-menu d-none d-xl-block">
                             <nav id="mobile-menu">
                                 <ul>                
-                                    <li><a href="service.html">Services <i className="fas fa-caret-down"></i></a>
+                                    <li><Link href="/services">Services <i className="fas fa-caret-down"></i></Link>
                                         <ul className="submenu">
-                                            <li><a href="digitizing.html">Embroidery Digitizing</a></li>
+                                            <li><Link href="/services/digitizing">Embroidery Digitizing</Link></li>
                                             <li><a href="vector.html">Vector Art Conversion</a></li>
                                             <li><a href="custom-patch.html">Custom Patches</a></li>
 
