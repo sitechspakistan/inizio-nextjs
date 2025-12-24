@@ -15,7 +15,7 @@ export default function Home() {
       <Hero />
       <HomeServices />
       <Counters />
-      <PortfolioSec subheading="Abc"  heading="Xyz" />
+      <PortfolioSec subheading="Our Portfolio"  heading="work we're proud to share." />
       <MarqueeText />
       <Boxes />
       <Testimonials />

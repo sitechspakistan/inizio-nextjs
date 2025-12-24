@@ -37,15 +37,15 @@ export default function ContentOne() {
                                 <div className="row gx-3">
                                     <div className="col-xl-7 col-lg-6 col-md-7 col-7">
                                         <div className="ab-inner-img">
-                                            <img src="assets/img/about/ab-inner-1.jpg" alt=""/>
+                                            <img src="/assets/img/about/ab-inner-1.jpg" alt="" />
                                         </div>
                                     </div>
                                     <div className="col-xl-5 col-lg-6 col-md-5 col-5">
                                         <div className="ab-inner-img mb-20">
-                                            <img src="assets/img/about/ab-inner-2.jpg" alt="" />
+                                            <img src="/assets/img/about/ab-inner-2.jpg" alt="" />
                                         </div>
                                         <div className="ab-inner-img">
-                                            <img src="assets/img/about/ab-inner-3.jpg" alt="" />
+                                            <img src="/assets/img/about/ab-inner-3.jpg" alt="" />
                                         </div>
                                     </div>
                                 </div>

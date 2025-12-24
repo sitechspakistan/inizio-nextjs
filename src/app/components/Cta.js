@@ -1,4 +1,4 @@
-export default function Cta (){
+export default function Cta(){
 return(
      <div className="tp-cta pb-80">
             <div className="bg-blue"></div>
