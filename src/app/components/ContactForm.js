@@ -1,50 +1,50 @@
 export default function ContactForm() {
     return (
     <section>
-        <div class="tp-contact-area grey-bg pt-80 pb-80" id="contact-us">
-            <div class="container">
-                <div class="tp-contact-wrapper p-relative">
-                    <div class="row">
-                        <div class="col-xl-6 col-lg-6">
-                            <div class="contact-us-sction-box mb-30">
-                                <h2 class="tp-section-title-xs">Let’s Work <span
-                                    class="content-color text-capitalize">Together.</span>
+        <div className="tp-contact-area grey-bg pt-80 pb-80" id="contact-us">
+            <div className="container">
+                <div className="tp-contact-wrapper p-relative">
+                    <div className="row">
+                        <div className="col-xl-6 col-lg-6">
+                            <div className="contact-us-sction-box mb-30">
+                                <h2 className="tp-section-title-xs">Let’s Work <span
+                                    className="content-color text-capitalize">Together.</span>
                                 </h2>
                             </div>
-                            <div class="contact-info">
-                                <div class="contact-info-item d-flex align-items-center">
-                                <div class="contact-icon">
+                            <div className="contact-info">
+                                <div className="contact-info-item d-flex align-items-center">
+                                <div className="contact-icon">
                                     <img src="/assets/images/contact/contact-1.png" alt="" />
                                 </div>
-                                <div class="contact-loaction">
+                                <div className="contact-loaction">
                                     <a href="https://www.google.com.bd/maps/place/United+States/@37.2756214,-104.656551,5z/data=!3m1!4b1!4m5!3m4!1s0x54eab584e432360b:0x1c3bb99243deb742!8m2!3d37.09024!4d-95.712891"
                                         target="_blank">131 Continental Dr Ste 305, Newark, DE 19713, USA</a>
                                 </div>
                                 </div>
-                                <div class="contact-info-item d-flex align-items-center">
-                                    <div class="contact-icon">
+                                <div className="contact-info-item d-flex align-items-center">
+                                    <div className="contact-icon">
                                         <img src="/assets/images/contact/email-mail-web-svgrepo-com.png" height="25" width="25"
                                             alt="" />
                                     </div>
-                                    <div class="contact-loaction">
+                                    <div className="contact-loaction">
                                         <a
                                             href="/cdn-cgi/l/email-protection#03707673736c717743656a646e622d606c6e">orders@iniziosolutions.com</a>
                                     </div>
                                 </div>
-                                <div class="contact-info-item d-flex align-items-center">
-                                    <div class="contact-icon">
+                                <div className="contact-info-item d-flex align-items-center">
+                                    <div className="contact-icon">
                                         <img src="/assets/images/contact/contact-3.png" alt="" />
                                     </div>
-                                    <div class="contact-loaction">
+                                    <div className="contact-loaction">
                                         <a href="tel:08778886664)">+1 (302) 779-1338</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-6 col-lg-6">
-                            <div class="tpcontact">
-                                <div class="tpcontact__heading">
-                                <h4 class="tp-contact-title mb-20">
+                        <div className="col-xl-6 col-lg-6">
+                            <div className="tpcontact">
+                                <div className="tpcontact__heading">
+                                <h4 className="tp-contact-title mb-20">
                                     <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -54,24 +54,24 @@ export default function ContactForm() {
                                      Send us a Message!
                                 </h4>
                                 </div>
-                                <div class="tpcontact__form">
+                                <div className="tpcontact__form">
                                 <form action="#">
-                                    <div class="row">
-                                        <div class="col-lg-6">
+                                    <div className="row">
+                                        <div className="col-lg-6">
                                             <input type="text" placeholder="Enter Your Name" />
                                         </div>
-                                        <div class="col-lg-6">
+                                        <div className="col-lg-6">
                                             <input type="email" placeholder="Enter your E-mail" />
                                         </div>
-                                        <div class="col-lg-12">
+                                        <div className="col-lg-12">
                                             <input type="text" placeholder="Enter your Subject" />
                                         </div>
-                                        <div class="col-lg-12">
+                                        <div className="col-lg-12">
                                             <textarea placeholder="Enter your message" rows="5" cols="20"></textarea>
                                         </div>
                                     </div>
                                 </form>
-                                <button class="tp-btn-1">Let’s Talk</button>
+                                <button className="tp-btn-1">Let’s Talk</button>
                                 </div>
                             </div>
                         </div>
