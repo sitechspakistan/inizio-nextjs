@@ -21,25 +21,25 @@ export default function Header() {
                                     <li><Link href="/services">Services <i className="fas fa-caret-down"></i></Link>
                                         <ul className="submenu">
                                             <li><Link href="/services/digitizing">Embroidery Digitizing</Link></li>
-                                            <li><a href="vector.html">Vector Art Conversion</a></li>
-                                            <li><a href="custom-patch.html">Custom Patches</a></li>
+                                            <li><Link href="/services/vector">Vector Art Conversion</Link></li>
+                                            <li><Link href="/services/custom">Custom Patches</Link></li>
 
 
                                         </ul>
                                     </li>
-                                    <li><a href="price.html">Pricing</a></li>                            
-                                    <li><a href="portfolio.html">Portfolio</a></li>
+                                    <li><Link href="/pricing">Pricing</Link></li>                            
+                                    <li><Link href="/portfolio">Portfolio</Link></li>
                                     <li className="d-block d-xl-none">
-                                        <a href="place-order.html">Place An Order</a>
+                                        <Link href="/placeanorder">Place An Order</Link>
                                     </li>
-                                    <li><a href="pp-shirt.html">Promotional Product <i className="fas fa-caret-down"></i></a>
+                                    <li><Link href="/tshirt">Promotional Product <i className="fas fa-caret-down"></i></Link>
                                         <ul className="submenu">
-                                            <li><a href="pp-shirt.html">PP T-Shirt</a></li>
-                                            <li><a href="pp-caps.html">PP Caps</a></li>
+                                            <li><Link href="/tshirt">PP T-Shirt</Link></li>
+                                            <li><Link href="/caps">PP Caps</Link></li>
                                         </ul>
                                     </li>
-                                    <li><a href="https://www.etsy.com/shop/iniziosolutionsshop/?etsrc=sdt">Shop</a></li>
-                                    <li><a href="blog.html">Blogs</a></li>
+                                    <li><Link target='_blank' href="https://www.etsy.com/shop/iniziosolutionsshop/?etsrc=sdt">Shop</Link></li>
+                                    <li><Link href="/blogs">Blogs</Link></li>
                                 </ul>
                             </nav>
                         </div>
@@ -47,8 +47,8 @@ export default function Header() {
                             <div
                                 className="header-right-two d-flex align-items-center justify-content-end ml-10 mt-5 mt-sm-0 pt-sm-0 pt-5">
 
-                                <a className="tp-btn-border d-none d-xl-block" href="place-order.html">Place an
-                                Order</a>
+                                <Link className="tp-btn-border d-none d-xl-block" href="/placeanorder">Place an
+                                Order</Link>
                                 <a className="bars d-xl-none tp-menu-bar " href="javascript:void(0)"><i className="fa fa-bars"></i></a>
                             </div>
                         </div>

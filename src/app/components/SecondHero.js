@@ -1,4 +1,6 @@
-export default function SecondHero(){
+import Link from "next/link";
+
+export default function SecondHero( {subheading,headingone,heading,description}){
     return(
         <section className="breadcrumb__area breadcrumb-height include-bg p-relative"
             data-background="/assets/images/slider-grident-bg.png" style={{ backgroundImage: "url(/assets/images/slider-grident-bg.png)" }}>
@@ -7,22 +9,18 @@ export default function SecondHero(){
                     <div className="col-lg-6">
                         <div className="breadcrumb__content">
                             <div className="breadcrumb__list wow tpfadeUp" data-wow-duration=".9s">
-                                <span><a href="#">Home</a></span>
+                                <span><Link href="/">Home</Link></span>
                                 <span className="dvdr"><i className="fa fa-angle-right"></i></span>
-                                <span>Our Services</span>
+                                <span> {subheading}</span>
                             </div>
-                            <h3 className="breadcrumb__title wow tpfadeUp" data-wow-duration=".7s" data-wow-delay=".5s">Our
-                                <span className="content-color text-capitalize">Services</span>
+                            <h3 className="breadcrumb__title wow tpfadeUp" data-wow-duration=".7s" data-wow-delay=".5s">{headingone}
+                                <span className="content-color text-capitalize"> {heading}</span>
                             </h3>
 
                         </div>
                     </div>
                     <div className="col-lg-6">
-                        <p>We provide high-quality embroidery digitizing, vector art services, and custom patches
-                            tailored to your needs. Every design is crafted with precision to ensure your brand looks
-                            sharp and professional. Our team focuses on fast turnaround, clean results, and complete
-                            customer satisfaction. Whether you need logo digitizing, vector redraws, or premium custom
-                            patches we’ve got you covered.</p>
+                        <p>{description}</p>
                     </div>
                 </div>
             </div>

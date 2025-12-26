@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function ServiceBoxes(){
     return(
          <div className="tp-service-area pt-120 pb-100">
@@ -9,14 +11,14 @@ export default function ServiceBoxes(){
                                 <img src="assets/images/pricing/1.webp" alt="" width="100" height="100" />
                             </div>
                             <div className="service-item-three__content">
-                                <h4 className="tp-service-sm-title"><a href="digitizing.html">Embroidery <br />
-                                        Digitizing</a>
+                                <h4 className="tp-service-sm-title"><Link href="/digitizing">Embroidery <br />
+                                        Digitizing</Link>
                                 </h4>
                                 <p>Get flawless, machine-ready digitized files for all fabrics. High-quality DST/EXP
                                     formats with guaranteed stitch results.</p>
                             </div>
                             <div className="service-item-three__button">
-                                <a href="digitizing.html">
+                                <Link href="/digitizing">
                                     <span>
                                         <svg width="34" height="16" viewBox="0 0 34 16" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
@@ -26,7 +28,7 @@ export default function ServiceBoxes(){
                                         </svg>
                                     </span>
                                     Read More
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -36,13 +38,13 @@ export default function ServiceBoxes(){
                                 <img src="assets/images/service/vector.png" alt="" width="100" height="100" />
                             </div>
                             <div className="service-item-three__content">
-                                <h4 className="tp-service-sm-title"><a href="vector.html">Vector Art <br />
-                                        Conversion</a></h4>
+                                <h4 className="tp-service-sm-title"><Link href="/vector">Vector Art <br />
+                                        Conversion</Link></h4>
                                 <p>Convert any logo or raster image into clean, scalable vector format (AI/EPS/SVG) for
                                     printing and apparel.</p>
                             </div>
                             <div className="service-item-three__button">
-                                <a href="vector.html">
+                                <Link href="/vector">
                                     <span>
                                         <svg width="34" height="16" viewBox="0 0 34 16" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
@@ -52,7 +54,7 @@ export default function ServiceBoxes(){
                                         </svg>
                                     </span>
                                     Read More
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -62,13 +64,13 @@ export default function ServiceBoxes(){
                                 <img src="assets/images/service/patches.png" alt="" width="100" height="100" />
                             </div>
                             <div className="service-item-three__content">
-                                <h4 className="tp-service-sm-title"><a href="custom-patch.html">Custom<br />
-                                        Patches</a></h4>
+                                <h4 className="tp-service-sm-title"><Link href="custom-patch.html">Custom<br />
+                                        Patches</Link></h4>
                                 <p>We design and deliver premium embroidered, PVC, and Woven patches for businesses and
                                     personal use with Fast turnaround.</p>
                             </div>
                             <div className="service-item-three__button">
-                                <a href="custom-patch.html">
+                                <Link href="/custom">
                                     <span>
                                         <svg width="34" height="16" viewBox="0 0 34 16" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
@@ -78,7 +80,7 @@ export default function ServiceBoxes(){
                                         </svg>
                                     </span>
                                     Read More
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>

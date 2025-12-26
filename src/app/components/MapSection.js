@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function MapSection() {
     return (
         <section>
@@ -13,7 +15,7 @@ export default function MapSection() {
                            feel
                            proud to contribute in the growth of over 1,000 satisfied customers from all around the
                            world!</p>
-                        <a className="tp-btn-map text-capitalize" href="#contact-us">Get a Quote </a>
+                        <Link className="tp-btn-map text-capitalize" href="#contact-us">Get a Quote </Link>
                      </div>
                   </div>
                   <div className="col-xl-7 col-lg-7 wow tpfadeRight " data-wow-duration=".7s" data-wow-delay=".5s"
@@ -21,44 +23,44 @@ export default function MapSection() {
                      <div className="tp-about-global">
 
                         <div className="tp-map-icon kissimmee">
-                           <a href="dig-city-template.html">
+                           <Link href="/template">
                               <i className="far fa-dot-circle"></i>
                               <p>Kissimmee, Florida</p>
-                           </a>
+                           </Link>
                         </div>
 
                         <div className="tp-map-icon sunrise">
-                           <a href="dig-city-template.html">
+                           <Link href="/template">
                               <i className="far fa-dot-circle"></i>
                               <p>Sunrise, Floride</p>
-                           </a>
+                           </Link>
                         </div>
 
                         <div className="tp-map-icon okeechobee">
-                           <a href="dig-city-template.html">
+                           <Link href="/template">
                               <i className="far fa-dot-circle"></i>
                               <p>Okeechobee, Florida</p>
-                           </a>
+                           </Link>
                         </div>
 
                         <div className="tp-map-icon new-york">
-                           <a href="dig-city-template.html">
+                           <Link href="/template">
                               <i className="far fa-dot-circle"></i>
                               <p>New York City, NY</p>
-                           </a>
+                           </Link>
                         </div>
 
                         <div className="tp-map-icon buffalo">
-                           <a href="dig-city-template.html">
+                           <Link href="/template">
                               <i className="far fa-dot-circle"></i>
                               <p>Buffalo, NY</p>
-                           </a>
+                           </Link>
                         </div>
                         <div className="tp-map-icon phoenix">
-                           <a href="dig-city-template.html">
+                           <Link href="/template">
                               <i className="far fa-dot-circle"></i>
                               <p>Phoenix, A rizona</p>
-                           </a>
+                           </Link>
                         </div>
 
                      </div>

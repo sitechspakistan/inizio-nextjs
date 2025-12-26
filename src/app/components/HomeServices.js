@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function HomeServices() {
     return (
         <section>
@@ -29,7 +31,7 @@ export default function HomeServices() {
 
                            </p>
                            <div className="tp-service-content mb-20">
-                              <a className="tp-btn mt-10 text-capitalize" href="service.html">See all Services</a>
+                              <Link className="tp-btn mt-10 text-capitalize" href="/services">See all Services</Link>
                            </div>
 
                         </div>
@@ -41,11 +43,11 @@ export default function HomeServices() {
                            <div className="tp-service-item mb-20">
                               <div className="d-flex justify-content-between ">
                                  <div className="tp-service-item__content">
-                                    <h3 className="tp-service-sm-title"><a href="digitizing.html">Embroidery Digitizing</a>
+                                    <h3 className="tp-service-sm-title"><Link href="/services/digitizing">Embroidery Digitizing</Link>
                                     </h3>
                                  </div>
                                  <div className="tp-service-item__button-link">
-                                    <a href="digitizing.html">
+                                    <Link href="/services/digitizing">
                                        <span>
                                           <svg width="34" height="16" viewBox="0 0 34 16" fill="none"
                                              xmlns="http://www.w3.org/2000/svg">
@@ -55,7 +57,7 @@ export default function HomeServices() {
                                           </svg>
                                        </span>
                                        Read More
-                                    </a>
+                                    </Link>
                                  </div>
                               </div>
                               <div className="tp-service-item__description">
@@ -70,11 +72,11 @@ export default function HomeServices() {
                            <div className="tp-service-item sv-color-blue-one mb-20">
                               <div className="d-flex justify-content-between ">
                                  <div className="tp-service-item__content">
-                                    <h3 className="tp-service-sm-title"><a href="vector.html">Vector Art Conversion</a>
+                                    <h3 className="tp-service-sm-title"><Link href="/services/vector">Vector Art Conversion</Link>
                                     </h3>
                                  </div>
                                  <div className="tp-service-item__button-link">
-                                    <a href="vector.html">
+                                    <Link href="/vector">
                                        <span>
                                           <svg width="34" height="16" viewBox="0 0 34 16" fill="none"
                                              xmlns="http://www.w3.org/2000/svg">
@@ -84,7 +86,7 @@ export default function HomeServices() {
                                           </svg>
                                        </span>
                                        Read More
-                                    </a>
+                                    </Link>
                                  </div>
                               </div>
                               <div className="tp-service-item__description">
@@ -99,12 +101,12 @@ export default function HomeServices() {
                            <div className="tp-service-item sv-color-blue-two mb-20">
                               <div className="d-flex justify-content-between ">
                                  <div className="tp-service-item__content">
-                                    <h3 className="tp-service-sm-title"><a href="custom-patch.html">Premium Custom
-                                          Patches</a>
+                                    <h3 className="tp-service-sm-title"><Link href="/services/custom">Premium Custom
+                                          Patches</Link>
                                     </h3>
                                  </div>
                                  <div className="tp-service-item__button-link">
-                                    <a href="custom-patch.html">
+                                    <Link href="/custom">
                                        <span>
                                           <svg width="34" height="16" viewBox="0 0 34 16" fill="none"
                                              xmlns="http://www.w3.org/2000/svg">
@@ -114,7 +116,7 @@ export default function HomeServices() {
                                           </svg>
                                        </span>
                                        Read More
-                                    </a>
+                                    </Link>
                                  </div>
                               </div>
                               <div className="tp-service-item__description">

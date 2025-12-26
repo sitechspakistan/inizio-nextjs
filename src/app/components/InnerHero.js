@@ -1,4 +1,6 @@
-export default function InnerHero() {
+import Link from "next/link";
+
+export default function InnerHero({ subheading, headingone, headingtwo, paragraph }) {
     return (
         <section className="breadcrumb__area breadcrumb-height include-bg p-relative"
             data-background="/assets/images/slider-grident-bg.png" style={{ backgroundImage: "url(/assets/images/slider-grident-bg.png)" }}>
@@ -6,18 +8,15 @@ export default function InnerHero() {
                 <div className="row">
                     <div className="col-xl-6">
                         <div className="breadcrumb__list wow tpfadeUp " data-wow-duration=".9s">
-                            <span><a href="index.html">Home</a></span>
+                            <span><Link href="/">Home</Link></span>
                             <span className="dvdr"><i className="fa fa-angle-right"></i></span>
-                            <span>Embroidery Digitizing</span>
+                            <span>{subheading}</span>
 
                         </div>
                         <div className="breadcrumb__content">
-                            <h1 className="breadcrumb__title fw-normal fw-bold">Embroidery <span
-                                    className="content-color text-capitalize">Digitizing</span></h1>
+                            <h1 className="breadcrumb__title fw-normal fw-bold">{headingone} <span className="content-color text-capitalize">{headingtwo}</span></h1>
 
-                            <p>Get your designs stitch-ready with our expert embroidery digitizing service. We convert
-                                any logo or artwork into DST, PES files with perfect stitch quality and fast turnaround,
-                                ensuring flawless machine embroidery.</p>
+                            <p>{paragraph}</p>
                         </div>
                     </div>
                     <div className="col-xl-6">
@@ -56,8 +55,8 @@ export default function InnerHero() {
                                                     </select>
                                                 </div>
                                                 <div className="col-lg-12 w-100">
-                                                    <a href="place-order.html"><button className="hero-btn">Get a
-                                                            free Quote</button></a>
+                                                    <Link href="/placeanorder"><button className="hero-btn">Get a
+                                                        free Quote</button></Link>
                                                 </div>
                                             </div>
                                         </form>

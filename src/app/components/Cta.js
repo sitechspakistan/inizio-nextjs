@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Cta(){
 return(
      <div className="tp-cta pb-80">
@@ -10,8 +12,8 @@ return(
                 </p>
 
 
-                <button className="btn btn-primary d-flex justify-content-center mx-auto"><a href="place-order.html">Get A
-                        Free Quote</a></button>
+                <button className="btn btn-primary d-flex justify-content-center mx-auto"><Link href="/placeanorder">Get A
+                        Free Quote</Link></button>
 
             </div>
         </div>

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
     return (
         <>
@@ -12,12 +14,12 @@ export default function Footer() {
                             </div>
                             <div className="tp-footer-widget__list">
                                 <ul>
-                                    <li><a href="service.html">Services</a></li>
-                                    <li><a href="price.html">Our Pricing</a></li>
-                                    <li><a href="https://www.etsy.com/shop/iniziosolutionsshop/?etsrc=sdt">Shop</a></li>
-                                    <li><a href="portfolio.html">Portfolio</a></li>
-                                    <li><a href="#">Privacy Policy</a></li>
-                                    <li><a href="#">Terms of Use</a></li>
+                                    <li><Link href="/services">Services</Link></li>
+                                    <li><Link href="/pricing">Our Pricing</Link></li>
+                                    <li><Link href="https://www.etsy.com/shop/iniziosolutionsshop/?etsrc=sdt">Shop</Link></li>
+                                    <li><Link href="/portfolio">Portfolio</Link></li>
+                                    <li><Link href="#">Privacy Policy</Link></li>
+                                    <li><Link href="#">Terms of Use</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -29,11 +31,11 @@ export default function Footer() {
                             </div>
                             <div className="tp-footer-widget__list">
                                 <ul>
-                                    <li><a href="digitizing.html">Digitizing</a></li>
-                                    <li><a href="vector.html">Verctor Art</a></li>
-                                    <li><a href="custom-patch.html">Custom Patches</a></li>
-                                    <li><a href="pp-shirt.html">Shirts</a></li>
-                                    <li><a href="pp-caps.html">Caps</a></li>
+                                    <li><Link href="/digitizing">Digitizing</Link></li>
+                                    <li><Link href="/vector">Verctor Art</Link></li>
+                                    <li><Link href="/custom">Custom Patches</Link></li>
+                                    <li><Link href="/tshirt">Shirts</Link></li>
+                                    <li><Link href="/caps">Caps</Link></li>
                                 </ul>
                             </div>
                         </div>

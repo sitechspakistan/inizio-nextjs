@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import Slider from "react-slick";
 
 export default function Hero() {
@@ -114,7 +115,7 @@ export default function Hero() {
                                 </select>
                             </div>
                             <div className="col-lg-12 w-100">
-                                <a href="place-order.html"><button className="hero-btn">Get a free Quote</button></a>
+                                <Link href="/placeanorder"><button className="hero-btn">Get a free Quote</button></Link>
                             </div>
                             </div>
                         </form>
