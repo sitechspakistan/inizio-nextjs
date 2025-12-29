@@ -13,13 +13,8 @@ export default function ContentFive() {
                                 animationName: "tpfadeRight",
                             }}>
                             <div className="tp-ab-section-title-box">
-                                <h2 className="tp-section-title text-white">We are dynamic team of creative design and
-                                    development</h2>
-                                <p>We have almost 12+ years of experience for helping consulting services <br /> and
-                                    business
-                                    solutions and best protect. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Iusto deserunt cupiditate odit enim tempora vero. Assumenda, voluptatibus? Unde,
-                                    sapiente dolores.</p>
+                                <h2 className="tp-section-title text-white">Flawless Stitching & Machine-Ready Files Tailored for [City Name].</h2>
+                                <p>We go beyond basic conversion by creating production-ready embroidery files that reduce thread breaks and improve machine speed. With local support in [City Name], we expertly handle 3D Puff, delicate fabrics, and complex jacket backs. Our industry-leading digitizing helps [City Name] businesses reduce downtime and deliver premium-quality embroidery consistently.</p>
                             </div>
                         </div>
                         <div className="col-xl-5 col-lg-5 wow tpfadeRight" data-wow-duration=".7s" data-wow-delay=".5s"

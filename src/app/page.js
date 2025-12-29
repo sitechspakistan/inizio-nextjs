@@ -12,7 +12,11 @@ import ContactForm from "./components/ContactForm";
 export default function Home() {
   return (
     <>
-      <Hero />
+      <Hero heading={`Expert Embroidery Digitizing & Vector Art`} headingone={` IN THE USA.`} paragraph={`Inizio Solutions is your
+                          trusted partner for professional apparel branding services in the U.S. We specialize in
+                          converting your designs into high-quality embroidery digitizing files, scalable vector
+                          art, and manufacturing premium custom patches. Get guaranteed quality and the fastest
+                          turnaround in the industry.`}/>
       <HomeServices />
       <Counters />
       <PortfolioSec subheading="Our Portfolio"  heading="work we're proud to share." />

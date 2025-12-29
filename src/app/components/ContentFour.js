@@ -15,13 +15,8 @@ export default function ContentFour() {
                                 animationName: "tpfadeRight",
                             }}>
                             <div className="tp-ab-section-title-box">
-                                <h2 className="tp-section-title">We are dynamic team of creative design and
-                                    development</h2>
-                                <p>We have almost 12+ years of experience for helping consulting services <br /> and
-                                    business
-                                    solutions and best protect. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Iusto deserunt cupiditate odit enim tempora vero. Assumenda, voluptatibus? Unde,
-                                    sapiente dolores.</p>
+                                <h2 className="tp-section-title">Over 12 Years of Excellence in Embroidery Digitizing in [City Name]</h2>
+                                <p>Inizio Solutions is not just a service provider; we are a dynamic team of creative designers and digitizing experts. With nearly 12+ years of industry experience, we have helped businesses in [City Name] achieve flawless branding through precision-driven embroidery digitizing. Our mission is to provide local businesses with machine-ready files that ensure smooth production and high-quality results every time.</p>
                                 <Link className="tp-btn" href="/digitizing">Read More</Link>
                             </div>
                         </div>

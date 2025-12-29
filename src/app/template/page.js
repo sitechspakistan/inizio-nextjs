@@ -6,17 +6,21 @@ import ContentFive from "../components/ContentFive"
 import Testimonials from "../components/Testimonials"
 import Cta from "../components/Cta"
 import FaqsDigitizing from "../components/faqs/FaqsDigitizing"
-export default function template(){
-    return(
+export default function template() {
+    return (
         <>
-        <Hero/>
-        <ContentFour/>
-        <PortfolioSec subheading={"Our Portfolio"} heading={"work we're proud to share."}/>
-        <Counters/>
-        <ContentFive/>
-        <Testimonials/>
-        <Cta/>
-        <FaqsDigitizing/>
+            <Hero heading={`Top-Rated Embroidery Digitizing Experts in`} headingone={` [City Name]`}
+                paragraph={`Join hundreds of satisfied clients in [City Name] who trust Inizio Solutions for their embroidery digitizing 
+            needs.Our expert team ensures your designs are perfectly optimized for any fabric, ensuring a smooth machine-ready files 
+            to make your brand stand out.`}
+            />
+            <ContentFour />
+            <PortfolioSec subheading={"Our Portfolio"} heading={"work we're proud to share."} />
+            <Counters />
+            <ContentFive />
+            <Testimonials />
+            <Cta />
+            <FaqsDigitizing />
         </>
     )
 }
