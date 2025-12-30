@@ -23,18 +23,16 @@ export default function Header() {
                                             <li><Link href="/services/digitizing">Embroidery Digitizing</Link></li>
                                             <li><Link href="/services/vector">Vector Art Conversion</Link></li>
                                             <li><Link href="/services/custom">Custom Patches</Link></li>
-
-
                                         </ul>
                                     </li>
                                     <li><Link href="/pricing">Pricing</Link></li>                            
                                     <li><Link href="/portfolio">Portfolio</Link></li>
                                     <li className="d-block d-xl-none">
-                                        <Link href="/placeanorder">Place An Order</Link>
+                                        <Link href="/place-an-order">Place An Order</Link>
                                     </li>
-                                    <li><Link href="/tshirt">Promotional Product <i className="fas fa-caret-down"></i></Link>
+                                    <li><Link href="/t-shirt">Promotional Product <i className="fas fa-caret-down"></i></Link>
                                         <ul className="submenu">
-                                            <li><Link href="/tshirt">PP T-Shirt</Link></li>
+                                            <li><Link href="/t-shirt">PP T-Shirt</Link></li>
                                             <li><Link href="/caps">PP Caps</Link></li>
                                         </ul>
                                     </li>
@@ -47,7 +45,7 @@ export default function Header() {
                             <div
                                 className="header-right-two d-flex align-items-center justify-content-end ml-10 mt-5 mt-sm-0 pt-sm-0 pt-5">
 
-                                <Link className="tp-btn-border d-none d-xl-block" href="/placeanorder">Place an
+                                <Link className="tp-btn-border d-none d-xl-block" href="/place-an-order">Place an
                                 Order</Link>
                                 <a className="bars d-xl-none tp-menu-bar " href="javascript:void(0)"><i className="fa fa-bars"></i></a>
                             </div>

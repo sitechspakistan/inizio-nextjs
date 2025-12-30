@@ -37,110 +37,110 @@ export default function PortfolioImg(){
                                                 <div className="row gx-20">
                                                     <div className="col-xl-3 col-lg-3">
                                                         <div className="tp-case-thumb p-relative fix mb-20">
-                                                            <img src="assets/images/digitizing/logo/3.webp" alt="" />
+                                                            <img src="/assets/images/digitizing/logo/3.webp" alt="" />
                                                             <div className="case-icon">
                                                                 <a className="popup-image"
-                                                                    href="assets/images/digitizing/logo/3.webp"><i
+                                                                    href="/assets/images/digitizing/logo/3.webp"><i
                                                                         className="fas fa-eye"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-xl-3 col-lg-3">
                                                         <div className="tp-case-thumb p-relative fix mb-20">
-                                                            <img src="assets/images/digitizing/logo/4.webp" alt="" />
+                                                            <img src="/assets/images/digitizing/logo/4.webp" alt="" />
                                                             <div className="case-icon">
                                                                 <a className="popup-image"
-                                                                    href="assets/images/digitizing/logo/4.webp"><i
+                                                                    href="/assets/images/digitizing/logo/4.webp"><i
                                                                         className="fas fa-eye"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-xl-3 col-lg-3">
                                                         <div className="tp-case-thumb p-relative fix mb-20">
-                                                            <img src="assets/images/digitizing/logo/5.webp" alt="" />
+                                                            <img src="/assets/images/digitizing/logo/5.webp" alt="" />
                                                             <div className="case-icon">
                                                                 <a className="popup-image"
-                                                                    href="assets/images/digitizing/logo/5.webp"><i
+                                                                    href="/assets/images/digitizing/logo/5.webp"><i
                                                                         className="fas fa-eye"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-xl-3 col-lg-3">
                                                         <div className="tp-case-thumb p-relative fix mb-20">
-                                                            <img src="assets/images/digitizing/logo/6.webp" alt="" />
+                                                            <img src="/assets/images/digitizing/logo/6.webp" alt="" />
                                                             <div className="case-icon">
                                                                 <a className="popup-image"
-                                                                    href="assets/images/digitizing/logo/6.webp"><i
+                                                                    href="/assets/images/digitizing/logo/6.webp"><i
                                                                         className="fas fa-eye"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-xl-3 col-lg-3">
                                                         <div className="tp-case-thumb p-relative fix mb-20">
-                                                            <img src="assets/images/digitizing/logo/7.webp" alt="" />
+                                                            <img src="/assets/images/digitizing/logo/7.webp" alt="" />
                                                             <div className="case-icon">
                                                                 <a className="popup-image"
-                                                                    href="assets/images/digitizing/logo/7.webp"><i
+                                                                    href="/assets/images/digitizing/logo/7.webp"><i
                                                                         className="fas fa-eye"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-xl-3 col-lg-3">
                                                         <div className="tp-case-thumb p-relative fix mb-20">
-                                                            <img src="assets/images/digitizing/logo/8.webp" alt="" />
+                                                            <img src="/assets/images/digitizing/logo/8.webp" alt="" />
                                                             <div className="case-icon">
                                                                 <a className="popup-image"
-                                                                    href="assets/images/digitizing/logo/8.webp"><i
+                                                                    href="/assets/images/digitizing/logo/8.webp"><i
                                                                         className="fas fa-eye"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-xl-3 col-lg-3">
                                                         <div className="tp-case-thumb p-relative fix mb-20">
-                                                            <img src="assets/images/digitizing/logo/9.webp" alt="" />
+                                                            <img src="/assets/images/digitizing/logo/9.webp" alt="" />
                                                             <div className="case-icon">
                                                                 <a className="popup-image"
-                                                                    href="assets/images/digitizing/logo/9.webp"><i
+                                                                    href="/assets/images/digitizing/logo/9.webp"><i
                                                                         className="fas fa-eye"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-xl-3 col-lg-3">
                                                         <div className="tp-case-thumb p-relative fix mb-20">
-                                                            <img src="assets/images/digitizing/logo/10.webp" alt="" />
+                                                            <img src="/assets/images/digitizing/logo/10.webp" alt="" />
                                                             <div className="case-icon">
                                                                 <a className="popup-image"
-                                                                    href="assets/images/digitizing/logo/10.webp"><i
+                                                                    href="/assets/images/digitizing/logo/10.webp"><i
                                                                         className="fas fa-eye"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-xl-3 col-lg-3">
                                                         <div className="tp-case-thumb p-relative fix mb-20">
-                                                            <img src="assets/images/digitizing/logo/11.webp" alt="" />
+                                                            <img src="/assets/images/digitizing/logo/11.webp" alt="" />
                                                             <div className="case-icon">
                                                                 <a className="popup-image"
-                                                                    href="assets/images/digitizing/logo/11.webp"><i
+                                                                    href="/assets/images/digitizing/logo/11.webp"><i
                                                                         className="fas fa-eye"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-xl-3 col-lg-3">
                                                         <div className="tp-case-thumb p-relative fix mb-20">
-                                                            <img src="assets/images/digitizing/logo/12.webp" alt="" />
+                                                            <img src="/assets/images/digitizing/logo/12.webp" alt="" />
                                                             <div className="case-icon">
                                                                 <a className="popup-image"
-                                                                    href="assets/images/digitizing/logo/12.webp"><i
+                                                                    href="/assets/images/digitizing/logo/12.webp"><i
                                                                         className="fas fa-eye"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-xl-3 col-lg-3">
                                                         <div className="tp-case-thumb p-relative fix mb-20">
-                                                            <img src="assets/images/digitizing/logo/13.webp" alt="" />
+                                                            <img src="/assets/images/digitizing/logo/13.webp" alt="" />
                                                             <div className="case-icon">
                                                                 <a className="popup-image"
-                                                                    href="assets/images/digitizing/logo/13.webp"><i
+                                                                    href="/assets/images/digitizing/logo/13.webp"><i
                                                                         className="fas fa-eye"></i></a>
                                                             </div>
                                                         </div>
@@ -148,130 +148,130 @@ export default function PortfolioImg(){
 
                                                     <div className="col-xl-3 col-lg-3">
                                                         <div className="tp-case-thumb p-relative fix mb-20">
-                                                            <img src="assets/images/digitizing/logo/14.webp" alt="" />
+                                                            <img src="/assets/images/digitizing/logo/14.webp" alt="" />
                                                             <div className="case-icon">
                                                                 <a className="popup-image"
-                                                                    href="assets/images/digitizing/logo/14.webp"><i
+                                                                    href="/assets/images/digitizing/logo/14.webp"><i
                                                                         className="fas fa-eye"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-xl-3 col-lg-3">
                                                         <div className="tp-case-thumb p-relative fix mb-20">
-                                                            <img src="assets/images/digitizing/logo/15.webp" alt="" />
+                                                            <img src="/assets/images/digitizing/logo/15.webp" alt="" />
                                                             <div className="case-icon">
                                                                 <a className="popup-image"
-                                                                    href="assets/images/digitizing/logo/15.webp"><i
+                                                                    href="/assets/images/digitizing/logo/15.webp"><i
                                                                         className="fas fa-eye"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-xl-3 col-lg-3">
                                                         <div className="tp-case-thumb p-relative fix mb-20">
-                                                            <img src="assets/images/digitizing/logo/16.webp" alt="" />
+                                                            <img src="/assets/images/digitizing/logo/16.webp" alt="" />
                                                             <div className="case-icon">
                                                                 <a className="popup-image"
-                                                                    href="assets/images/digitizing/logo/16.webp"><i
+                                                                    href="/assets/images/digitizing/logo/16.webp"><i
                                                                         className="fas fa-eye"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-xl-3 col-lg-3">
                                                         <div className="tp-case-thumb p-relative fix mb-20">
-                                                            <img src="assets/images/digitizing/logo/17.webp" alt="" />
+                                                            <img src="/assets/images/digitizing/logo/17.webp" alt="" />
                                                             <div className="case-icon">
                                                                 <a className="popup-image"
-                                                                    href="assets/images/digitizing/logo/17.webp"><i
+                                                                    href="/assets/images/digitizing/logo/17.webp"><i
                                                                         className="fas fa-eye"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-xl-3 col-lg-3">
                                                         <div className="tp-case-thumb p-relative fix mb-20">
-                                                            <img src="assets/images/digitizing/logo/18.webp" alt="" />
+                                                            <img src="/assets/images/digitizing/logo/18.webp" alt="" />
                                                             <div className="case-icon">
                                                                 <a className="popup-image"
-                                                                    href="assets/images/digitizing/logo/18.webp"><i
+                                                                    href="/assets/images/digitizing/logo/18.webp"><i
                                                                         className="fas fa-eye"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-xl-3 col-lg-3">
                                                         <div className="tp-case-thumb p-relative fix mb-20">
-                                                            <img src="assets/images/digitizing/logo/19.webp" alt="" />
+                                                            <img src="/assets/images/digitizing/logo/19.webp" alt="" />
                                                             <div className="case-icon">
                                                                 <a className="popup-image"
-                                                                    href="assets/images/digitizing/logo/19.webp"><i
+                                                                    href="/assets/images/digitizing/logo/19.webp"><i
                                                                         className="fas fa-eye"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-xl-3 col-lg-3">
                                                         <div className="tp-case-thumb p-relative fix mb-20">
-                                                            <img src="assets/images/digitizing/logo/20.webp" alt="" />
+                                                            <img src="/assets/images/digitizing/logo/20.webp" alt="" />
                                                             <div className="case-icon">
                                                                 <a className="popup-image"
-                                                                    href="assets/images/digitizing/logo/20.webp"><i
+                                                                    href="/assets/images/digitizing/logo/20.webp"><i
                                                                         className="fas fa-eye"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-xl-3 col-lg-3">
                                                         <div className="tp-case-thumb p-relative fix mb-20">
-                                                            <img src="assets/images/digitizing/logo/21.webp" alt="" />
+                                                            <img src="/assets/images/digitizing/logo/21.webp" alt="" />
                                                             <div className="case-icon">
                                                                 <a className="popup-image"
-                                                                    href="assets/images/digitizing/logo/21.webp"><i
+                                                                    href="/assets/images/digitizing/logo/21.webp"><i
                                                                         className="fas fa-eye"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-xl-3 col-lg-3">
                                                         <div className="tp-case-thumb p-relative fix mb-20">
-                                                            <img src="assets/images/digitizing/logo/22.webp" alt="" />
+                                                            <img src="/assets/images/digitizing/logo/22.webp" alt="" />
                                                             <div className="case-icon">
                                                                 <a className="popup-image"
-                                                                    href="assets/images/digitizing/logo/22.webp"><i
+                                                                    href="/assets/images/digitizing/logo/22.webp"><i
                                                                         className="fas fa-eye"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-xl-3 col-lg-3">
                                                         <div className="tp-case-thumb p-relative fix mb-20">
-                                                            <img src="assets/images/digitizing/logo/23.webp" alt="" />
+                                                            <img src="/assets/images/digitizing/logo/23.webp" alt="" />
                                                             <div className="case-icon">
                                                                 <a className="popup-image"
-                                                                    href="assets/images/digitizing/logo/23.webp"><i
+                                                                    href="/assets/images/digitizing/logo/23.webp"><i
                                                                         className="fas fa-eye"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-xl-3 col-lg-3">
                                                         <div className="tp-case-thumb p-relative fix mb-20">
-                                                            <img src="assets/images/digitizing/logo/24.webp" alt="" />
+                                                            <img src="/assets/images/digitizing/logo/24.webp" alt="" />
                                                             <div className="case-icon">
                                                                 <a className="popup-image"
-                                                                    href="assets/images/digitizing/logo/24.webp"><i
+                                                                    href="/assets/images/digitizing/logo/24.webp"><i
                                                                         className="fas fa-eye"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-xl-3 col-lg-3">
                                                         <div className="tp-case-thumb p-relative fix mb-20">
-                                                            <img src="assets/images/digitizing/logo/25.webp" alt="" />
+                                                            <img src="/assets/images/digitizing/logo/25.webp" alt="" />
                                                             <div className="case-icon">
                                                                 <a className="popup-image"
-                                                                    href="assets/images/digitizing/logo/25.webp"><i
+                                                                    href="/assets/images/digitizing/logo/25.webp"><i
                                                                         className="fas fa-eye"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-xl-3 col-lg-3">
                                                         <div className="tp-case-thumb p-relative fix mb-20">
-                                                            <img src="assets/images/digitizing/logo/1.webp" alt="" />
+                                                            <img src="/assets/images/digitizing/logo/1.webp" alt="" />
                                                             <div className="case-icon">
                                                                 <a className="popup-image"
-                                                                    href="assets/images/digitizing/logo/1.webp"><i
+                                                                    href="/assets/images/digitizing/logo/1.webp"><i
                                                                         className="fas fa-eye"></i></a>
                                                             </div>
                                                         </div>
@@ -283,97 +283,97 @@ export default function PortfolioImg(){
                                                     <div className="row gx-20">
                                                         <div className="col-xl-3 col-lg-3">
                                                         <div className="tp-case-thumb p-relative fix mb-20">
-                                                            <img src="assets/images/digitizing/vector-logo/1.webp"
+                                                            <img src="/assets/images/digitizing/vector-logo/1.webp"
                                                                 alt="" />
                                                             <div className="case-icon">
                                                                 <a className="popup-image"
-                                                                    href="assets/images/digitizing/vector-logo/1.webp"><i
+                                                                    href="/assets/images/digitizing/vector-logo/1.webp"><i
                                                                         className="fas fa-eye"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-xl-3 col-lg-3">
                                                         <div className="tp-case-thumb p-relative fix mb-20">
-                                                            <img src="assets/images/digitizing/vector-logo/2.webp"
+                                                            <img src="/assets/images/digitizing/vector-logo/2.webp"
                                                                 alt="" />
                                                             <div className="case-icon">
                                                                 <a className="popup-image"
-                                                                    href="assets/images/digitizing/vector-logo/2.webp"><i
+                                                                    href="/assets/images/digitizing/vector-logo/2.webp"><i
                                                                         className="fas fa-eye"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-xl-3 col-lg-3">
                                                         <div className="tp-case-thumb p-relative fix mb-20">
-                                                            <img src="assets/images/digitizing/vector-logo/3.webp"
+                                                            <img src="/assets/images/digitizing/vector-logo/3.webp"
                                                                 alt="" />
                                                             <div className="case-icon">
                                                                 <a className="popup-image"
-                                                                    href="assets/images/digitizing/vector-logo/3.webp"><i
+                                                                    href="/assets/images/digitizing/vector-logo/3.webp"><i
                                                                         className="fas fa-eye"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-xl-3 col-lg-3">
                                                         <div className="tp-case-thumb p-relative fix mb-20">
-                                                            <img src="assets/images/digitizing/vector-logo/4.webp"
+                                                            <img src="/assets/images/digitizing/vector-logo/4.webp"
                                                                 alt="" />
                                                             <div className="case-icon">
                                                                 <a className="popup-image"
-                                                                    href="assets/images/digitizing/vector-logo/4.webp"><i
+                                                                    href="/assets/images/digitizing/vector-logo/4.webp"><i
                                                                         className="fas fa-eye"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-xl-3 col-lg-3">
                                                         <div className="tp-case-thumb p-relative fix mb-20">
-                                                            <img src="assets/images/digitizing/vector-logo/5.webp"
+                                                            <img src="/assets/images/digitizing/vector-logo/5.webp"
                                                                 alt="" />
                                                             <div className="case-icon">
                                                                 <a className="popup-image"
-                                                                    href="assets/images/digitizing/vector-logo/5.webp"><i
+                                                                    href="/assets/images/digitizing/vector-logo/5.webp"><i
                                                                         className="fas fa-eye"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-xl-3 col-lg-3">
                                                         <div className="tp-case-thumb p-relative fix mb-20">
-                                                            <img src="assets/images/digitizing/vector-logo/10.webp"
+                                                            <img src="/assets/images/digitizing/vector-logo/10.webp"
                                                                 alt="" />
                                                             <div className="case-icon">
                                                                 <a className="popup-image"
-                                                                    href="assets/images/digitizing/vector-logo/10.webp"><i
+                                                                    href="/assets/images/digitizing/vector-logo/10.webp"><i
                                                                         className="fas fa-eye"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-xl-3 col-lg-3">
                                                         <div className="tp-case-thumb p-relative fix mb-20">
-                                                            <img src="assets/images/digitizing/vector-logo/11.webp"
+                                                            <img src="/assets/images/digitizing/vector-logo/11.webp"
                                                                 alt="" />
                                                             <div className="case-icon">
                                                                 <a className="popup-image"
-                                                                    href="assets/images/digitizing/vector-logo/11.webp"><i
+                                                                    href="/assets/images/digitizing/vector-logo/11.webp"><i
                                                                         className="fas fa-eye"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                         <div className="col-xl-3 col-lg-3">
                                                             <div className="tp-case-thumb p-relative fix mb-20">
-                                                                <img src="assets/images/digitizing/logo/4.webp" alt="" />
+                                                                <img src="/assets/images/digitizing/logo/4.webp" alt="" />
                                                                 <div className="case-icon">
                                                                     <a className="popup-image"
-                                                                        href="assets/images/digitizing/logo/4.webp"><i
+                                                                        href="/assets/images/digitizing/logo/4.webp"><i
                                                                             className="fas fa-eye"></i></a>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <div className="col-xl-3 col-lg-3">
                                                             <div className="tp-case-thumb p-relative fix mb-20">
-                                                                <img src="assets/images/digitizing/logo/5.webp" alt="" />
+                                                                <img src="/assets/images/digitizing/logo/5.webp" alt="" />
                                                                 <div className="case-icon">
                                                                     <a className="popup-image"
-                                                                        href="assets/images/digitizing/logo/5.webp"><i
+                                                                        href="/assets/images/digitizing/logo/5.webp"><i
                                                                             className="fas fa-eye"></i></a>
                                                                 </div>
                                                             </div>
@@ -385,97 +385,97 @@ export default function PortfolioImg(){
                                                     <div className="row gx-20">
                                                         <div className="col-xl-3 col-lg-3">
                                                         <div className="tp-case-thumb p-relative fix mb-20">
-                                                            <img src="assets/images/digitizing/vector-logo/1.webp"
+                                                            <img src="/assets/images/digitizing/vector-logo/1.webp"
                                                                 alt="" />
                                                             <div className="case-icon">
                                                                 <a className="popup-image"
-                                                                    href="assets/images/digitizing/vector-logo/1.webp"><i
+                                                                    href="/assets/images/digitizing/vector-logo/1.webp"><i
                                                                         className="fas fa-eye"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-xl-3 col-lg-3">
                                                         <div className="tp-case-thumb p-relative fix mb-20">
-                                                            <img src="assets/images/digitizing/vector-logo/2.webp"
+                                                            <img src="/assets/images/digitizing/vector-logo/2.webp"
                                                                 alt="" />
                                                             <div className="case-icon">
                                                                 <a className="popup-image"
-                                                                    href="assets/images/digitizing/vector-logo/2.webp"><i
+                                                                    href="/assets/images/digitizing/vector-logo/2.webp"><i
                                                                         className="fas fa-eye"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-xl-3 col-lg-3">
                                                         <div className="tp-case-thumb p-relative fix mb-20">
-                                                            <img src="assets/images/digitizing/vector-logo/3.webp"
+                                                            <img src="/assets/images/digitizing/vector-logo/3.webp"
                                                                 alt="" />
                                                             <div className="case-icon">
                                                                 <a className="popup-image"
-                                                                    href="assets/images/digitizing/vector-logo/3.webp"><i
+                                                                    href="/assets/images/digitizing/vector-logo/3.webp"><i
                                                                         className="fas fa-eye"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-xl-3 col-lg-3">
                                                         <div className="tp-case-thumb p-relative fix mb-20">
-                                                            <img src="assets/images/digitizing/vector-logo/4.webp"
+                                                            <img src="/assets/images/digitizing/vector-logo/4.webp"
                                                                 alt="" />
                                                             <div className="case-icon">
                                                                 <a className="popup-image"
-                                                                    href="assets/images/digitizing/vector-logo/4.webp"><i
+                                                                    href="/assets/images/digitizing/vector-logo/4.webp"><i
                                                                         className="fas fa-eye"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-xl-3 col-lg-3">
                                                         <div className="tp-case-thumb p-relative fix mb-20">
-                                                            <img src="assets/images/digitizing/vector-logo/5.webp"
+                                                            <img src="/assets/images/digitizing/vector-logo/5.webp"
                                                                 alt="" />
                                                             <div className="case-icon">
                                                                 <a className="popup-image"
-                                                                    href="assets/images/digitizing/vector-logo/5.webp"><i
+                                                                    href="/assets/images/digitizing/vector-logo/5.webp"><i
                                                                         className="fas fa-eye"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-xl-3 col-lg-3">
                                                         <div className="tp-case-thumb p-relative fix mb-20">
-                                                            <img src="assets/images/digitizing/vector-logo/10.webp"
+                                                            <img src="/assets/images/digitizing/vector-logo/10.webp"
                                                                 alt="" />
                                                             <div className="case-icon">
                                                                 <a className="popup-image"
-                                                                    href="assets/images/digitizing/vector-logo/10.webp"><i
+                                                                    href="/assets/images/digitizing/vector-logo/10.webp"><i
                                                                         className="fas fa-eye"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-xl-3 col-lg-3">
                                                         <div className="tp-case-thumb p-relative fix mb-20">
-                                                            <img src="assets/images/digitizing/vector-logo/11.webp"
+                                                            <img src="/assets/images/digitizing/vector-logo/11.webp"
                                                                 alt="" />
                                                             <div className="case-icon">
                                                                 <a className="popup-image"
-                                                                    href="assets/images/digitizing/vector-logo/11.webp"><i
+                                                                    href="/assets/images/digitizing/vector-logo/11.webp"><i
                                                                         className="fas fa-eye"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                         <div className="col-xl-3 col-lg-3">
                                                             <div className="tp-case-thumb p-relative fix mb-20">
-                                                                <img src="assets/images/digitizing/logo/4.webp" alt="" />
+                                                                <img src="/assets/images/digitizing/logo/4.webp" alt="" />
                                                                 <div className="case-icon">
                                                                     <a className="popup-image"
-                                                                        href="assets/images/digitizing/logo/4.webp"><i
+                                                                        href="/assets/images/digitizing/logo/4.webp"><i
                                                                             className="fas fa-eye"></i></a>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <div className="col-xl-3 col-lg-3">
                                                             <div className="tp-case-thumb p-relative fix mb-20">
-                                                                <img src="assets/images/digitizing/logo/5.webp" alt="" />
+                                                                <img src="/assets/images/digitizing/logo/5.webp" alt="" />
                                                                 <div className="case-icon">
                                                                     <a className="popup-image"
-                                                                        href="assets/images/digitizing/logo/5.webp"><i
+                                                                        href="/assets/images/digitizing/logo/5.webp"><i
                                                                             className="fas fa-eye"></i></a>
                                                                 </div>
                                                             </div>

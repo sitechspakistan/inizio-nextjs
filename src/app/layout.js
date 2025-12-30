@@ -4,7 +4,8 @@ import Script from "next/script";
 import '../styles/bootstrap.min.css';
 import '../styles/animate.css';
 import '../styles/custom-animation.css';
-// import '../styles/flaticon.css';
+import '../styles/flaticon.css';
+import '../styles/font-awesome-pro.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import '../styles/meanmenu.css';
@@ -42,7 +43,13 @@ export default function RootLayout({ children }) {
         <Footer />
         <Script src="/assets/js/jquery.js"></Script>
         <Script src="/assets/js/waypoints.js"></Script>
+        <Script src="/assets/js/wow.js"></Script>
+        <Script src="/assets/js/magnific-popup.js"></Script>
+        <Script src="/assets/js/counterup.js"></Script>
+        <Script src="/assets/js/nice-select.js"></Script>
         <Script src="/assets/js/bootstrap.bundle.min.js"></Script>
+        <Script src="/assets/js/isotope-pkgd.js"></Script>
+        <Script src="/assets/js/imagesloaded-pkgd.js"></Script>
         <Script src="/assets/js/meanmenu.js"></Script>
         <Script src="/assets/js/main.js"></Script>
 
