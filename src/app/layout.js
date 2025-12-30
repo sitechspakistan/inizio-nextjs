@@ -27,8 +27,14 @@ import Footer from "./includes/Footer";
 // });
 
 export const metadata = {
-  title: "Inizio Solutions",
-  description: "Expert Embroidery Digitizing, Vector Art & Premium Custom Patches in the USA. Fast turnaround, High-quality, print-ready files. Get a FREE Quote Now",
+  title: "Inizio Solutions | Embroidery Digitizing & Vector Art",
+  description: "Inizio Solutions is a full-service digital agency helping startups and enterprises build AI automations, SaaS platforms, and high-performing websites. We also craft logos and branding that power business growth.",
+  alternates: {
+    canonical: "https://iniziosolutions.com",
+  },
+  icons: {
+    icon: "/assets/images/inizo-logo.webp",
+  },
 };
 
 export default function RootLayout({ children }) {

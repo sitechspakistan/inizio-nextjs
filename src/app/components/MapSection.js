@@ -20,41 +20,41 @@ export default function MapSection() {
                      <div className="tp-about-global">
 
                         <div className="tp-map-icon kissimmee">
-                           <Link href="/template">
+                           <Link href="/cities/kissimmee">
                               <i className="far fa-dot-circle"></i>
                               <p>Kissimmee, Florida</p>
                            </Link>
                         </div>
 
                         <div className="tp-map-icon sunrise">
-                           <Link href="/template">
+                           <Link href="/cities/sunrise">
                               <i className="far fa-dot-circle"></i>
                               <p>Sunrise, Floride</p>
                            </Link>
                         </div>
 
                         <div className="tp-map-icon okeechobee">
-                           <Link href="/template">
+                           <Link href="/cities/okeechobee">
                               <i className="far fa-dot-circle"></i>
                               <p>Okeechobee, Florida</p>
                            </Link>
                         </div>
 
                         <div className="tp-map-icon new-york">
-                           <Link href="/template">
+                           <Link href="/cities/new-york">
                               <i className="far fa-dot-circle"></i>
                               <p>New York City, NY</p>
                            </Link>
                         </div>
 
                         <div className="tp-map-icon buffalo">
-                           <Link href="/template">
+                           <Link href="/cities/buffalo">
                               <i className="far fa-dot-circle"></i>
                               <p>Buffalo, NY</p>
                            </Link>
                         </div>
                         <div className="tp-map-icon phoenix">
-                           <Link href="/template">
+                           <Link href="/cities/phoenix">
                               <i className="far fa-dot-circle"></i>
                               <p>Phoenix, A rizona</p>
                            </Link>

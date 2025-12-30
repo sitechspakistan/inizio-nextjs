@@ -28,8 +28,7 @@ export default function OrderForm() {
 
 
                                                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                                                        <input type="tel" placeholder="Your Phone" inputMode="numeric" pattern="[0-9]*"
-                                                            oninput="this.value = this.value.replace(/[^0-9]/g, '')" name="phone" required />
+                                                        <input type="tel" placeholder="Your Phone" name="phone" required />
                                                     </div>
                                                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                                                         <select className="form-select form-select-lg mb-3 w-100 mt-5" name="care_of"
