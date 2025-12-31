@@ -72,7 +72,6 @@ export async function POST(req) {
     });
 
   } catch (error) {
-    console.log(error);
     console.error("ORDER API ERROR:", error);
     return new Response("Order submission failed", { status: 500 });
   }

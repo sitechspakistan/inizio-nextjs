@@ -40,10 +40,21 @@ export async function POST(req) {
 
     return new Response(JSON.stringify({ success: true }), { status: 200 });
 
-  } catch (error) {
-    console.error(error);
+} catch (error) {
+    console.error("NODEMAILER ERROR FULL:", {
+      message: error.message,
+      code: error.code,
+      command: error.command,
+      response: error.response,
+      responseCode: error.responseCode,
+      stack: error.stack,
+    });
+  
     return new Response(
-      JSON.stringify({ error: "Email failed" }),
+      JSON.stringify({
+        error: error.message,
+        code: error.code,
+      }),
       { status: 500 }
     );
   }
