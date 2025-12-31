@@ -61,7 +61,7 @@ export default function Clients() {
         >
           <div className="brand-item">
             <div className="tp-brand-icon">
-              <img src="assets/images/logo/10.webp" alt="" />
+              <img src="/assets/images/logo/10.webp" alt="" />
             </div>
           </div>
 
@@ -71,7 +71,7 @@ export default function Clients() {
             data-wow-delay=".3s"
           >
             <div className="tp-brand-icon">
-              <img src="assets/images/logo/03.webp" alt="" />
+              <img src="/assets/images/logo/03.webp" alt="" />
             </div>
           </div>
 
@@ -81,7 +81,7 @@ export default function Clients() {
             data-wow-delay=".5s"
           >
             <div className="tp-brand-icon">
-              <img src="assets/images/logo/04.webp" alt="" />
+              <img src="/assets/images/logo/04.webp" alt="" />
             </div>
           </div>
 
@@ -91,7 +91,7 @@ export default function Clients() {
             data-wow-delay=".7s"
           >
             <div className="tp-brand-icon">
-              <img src="assets/images/logo/07.webp" alt="" />
+              <img src="/assets/images/logo/07.webp" alt="" />
             </div>
           </div>
 
@@ -101,7 +101,7 @@ export default function Clients() {
             data-wow-delay=".9s"
           >
             <div className="tp-brand-icon">
-              <img src="assets/images/logo/09.webp" alt="" />
+              <img src="/assets/images/logo/09.webp" alt="" />
             </div>
           </div>
 
@@ -111,7 +111,7 @@ export default function Clients() {
             data-wow-delay=".9s"
           >
             <div className="tp-brand-icon">
-              <img src="assets/images/logo/01.webp" alt="" />
+              <img src="/assets/images/logo/01.webp" alt="" />
             </div>
           </div>
 
@@ -121,7 +121,7 @@ export default function Clients() {
             data-wow-delay="1s"
           >
             <div className="tp-brand-icon">
-              <img src="assets/images/logo/06.webp" alt="" />
+              <img src="/assets/images/logo/06.webp" alt="" />
             </div>
           </div>
 
@@ -131,7 +131,7 @@ export default function Clients() {
             data-wow-delay="1s"
           >
             <div className="tp-brand-icon">
-              <img src="assets/images/logo/05.webp" alt="" />
+              <img src="/assets/images/logo/05.webp" alt="" />
             </div>
           </div>
         </Slider>

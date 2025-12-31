@@ -14,13 +14,13 @@ export default function ContentThree() {
                             }}>
                             <div className="tp-ab-wrapper p-relative">
                                 <div className="tp-ab-shape-one z-index-3">
-                                    <img src="assets/img/about/about-shape-1.png" alt="" />
+                                    <img src="/assets/img/about/about-shape-1.png" alt="" />
                                 </div>
                                 <div className="tp-ab-shape-two z-index-3">
-                                    <img src="assets/img/about/about-circle-shape.png" alt="" />
+                                    <img src="/assets/img/about/about-circle-shape.png" alt="" />
                                 </div>
                                 <div className="tp-about-thumb">
-                                    <img src="assets/img/about/about-img.jpg" alt="" />
+                                    <img src="/assets/img/about/about-img.jpg" alt="" />
                                 </div>
                             </div>
                         </div>

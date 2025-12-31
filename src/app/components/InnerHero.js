@@ -55,7 +55,7 @@ export default function InnerHero({ subheading, headingone, headingtwo, paragrap
                                                     </select>
                                                 </div>
                                                 <div className="col-lg-12 w-100">
-                                                    <Link href="/placeanorder"><button className="hero-btn">Get a
+                                                    <Link href="/place-an-order"><button className="hero-btn">Get a
                                                         free Quote</button></Link>
                                                 </div>
                                             </div>

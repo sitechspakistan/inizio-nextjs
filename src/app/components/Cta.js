@@ -12,7 +12,7 @@ return(
                 </p>
 
 
-                <button className="btn btn-primary d-flex justify-content-center mx-auto"><Link href="/placeanorder">Get A
+                <button className="btn btn-primary d-flex justify-content-center mx-auto"><Link href="/place-an-order">Get A
                         Free Quote</Link></button>
 
             </div>

@@ -1,7 +1,7 @@
 export default function ThirdHero() {
     return (
         <section>
-            <div className="tp-hero-area hero-grideant-bg" data-background="assets/images/slider-grident-bg.png"
+            <div className="tp-hero-area hero-grideant-bg" data-background="/assets/images/slider-grident-bg.png"
                 style={{ backgroundImage: "url(/assets/images/slider-grident-bg.png)" }}>
                 <div className="container pt-80 pb-80">
                     <div className="row align-items-center hero-space">
@@ -42,16 +42,16 @@ export default function ThirdHero() {
                         <div className="col-xl-6 col-lg-6">
                             <div className="tp-hero__wrapper-thumb p-relative">
                                 <div className="tp-hero-shape-one">
-                                    <img src="assets/img/slider/hero-star-shape.png " alt="" />
+                                    <img src="/assets/img/slider/hero-star-shape.png " alt="" />
                                 </div>
                                 <div className="tp-hero-shape-two">
-                                    <img src="assets/img/slider/hero-circle-shape.png " alt="" />
+                                    <img src="/assets/img/slider/hero-circle-shape.png " alt="" />
                                 </div>
                                 <div className="tp-hero-shape-three">
-                                    <img src="assets/img/slider/hero-angel-shape.png " alt="" />
+                                    <img src="/assets/img/slider/hero-angel-shape.png " alt="" />
                                 </div>
                                 <div className="tp-hero-shape-four">
-                                    <img src="assets/img/slider/hero-star-sm-shape.png" alt="" />
+                                    <img src="/assets/img/slider/hero-star-sm-shape.png" alt="" />
                                 </div>
                                 <div className="tp-hero__thumb text-start text-lg-end wow tpfadeRight pt-20"
                                     data-wow-duration=".9s" data-wow-delay="1.2s"
@@ -61,7 +61,7 @@ export default function ThirdHero() {
                                             animationDelay: "0.6s",
                                             animationName: "tpfadeUp",
                                         }}>
-                                    <img src="assets/img/slider/hero-1.png" alt="" />
+                                    <img src="/assets/img/slider/hero-1.png" alt="" />
                                 </div>
                             </div>
                         </div>

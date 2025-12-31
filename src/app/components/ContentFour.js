@@ -17,7 +17,7 @@ export default function ContentFour() {
                             <div className="tp-ab-section-title-box">
                                 <h2 className="tp-section-title">Over 12 Years of Excellence in Embroidery Digitizing in [City Name]</h2>
                                 <p>Inizio Solutions is not just a service provider; we are a dynamic team of creative designers and digitizing experts. With nearly 12+ years of industry experience, we have helped businesses in [City Name] achieve flawless branding through precision-driven embroidery digitizing. Our mission is to provide local businesses with machine-ready files that ensure smooth production and high-quality results every time.</p>
-                                <Link className="tp-btn" href="/digitizing">Read More</Link>
+                                <Link className="tp-btn" href="/services/digitizing">Read More</Link>
                             </div>
                         </div>
                         <div className="col-xl-5 col-lg-5 wow tpfadeRight" data-wow-duration=".7s" data-wow-delay=".5s"
@@ -29,7 +29,7 @@ export default function ContentFour() {
                             }}>
                             <div className="tp-ab-wrapper p-relative">
                                 <div className="tp-about-thumb">
-                                    <img src="assets/images/template/digitizing.jpg"
+                                    <img src="/assets/images/template/digitizing.jpg"
                                         className="bg-transparent" alt="" />
                                 </div>
                             </div>

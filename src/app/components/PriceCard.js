@@ -11,7 +11,7 @@ export default function PriceCard() {
                             <div className="tp-price__title">
                                 <div className="tp-price__content d-flex align-items-center">
                                     <div className="tp-price__content-circle">
-                                        <img src="assets/images/pricing/1.webp" alt="" />
+                                        <img src="/assets/images/pricing/1.webp" alt="" />
                                         <span></span>
                                     </div>
                                     <div className="tp-price__content-text">
@@ -48,7 +48,7 @@ export default function PriceCard() {
                         <div className="tp-price price-grey-bg-1">
                             <div className="tp-price__content d-flex align-items-center">
                                 <div className="tp-price__content-circle">
-                                    <img src="assets/images/pricing/06.webp" alt="" />
+                                    <img src="/assets/images/pricing/06.webp" alt="" />
                                     <span></span>
                                 </div>
                                 <div className="tp-price__content-text">
@@ -71,7 +71,7 @@ export default function PriceCard() {
                                 </ul>
                             </div>
                             <div className="tp-price__button d-flex justify-content-center mx-auto">
-                                <Link className="tp-btn-radius " href="/placeanorder">Order Now</Link>
+                                <Link className="tp-btn-radius " href="/place-an-order">Order Now</Link>
 
                             </div>
 
@@ -82,7 +82,7 @@ export default function PriceCard() {
                         <div className="tp-price price-grey-bg-1">
                             <div className="tp-price__content d-flex align-items-center">
                                 <div className="tp-price__content-circle">
-                                    <img src="assets/images/pricing/07.webp" alt="" />
+                                    <img src="/assets/images/pricing/07.webp" alt="" />
                                     <span></span>
                                 </div>
                                 <div className="tp-price__content-text">
@@ -106,7 +106,7 @@ export default function PriceCard() {
                                 </ul>
                             </div>
                             <div className="tp-price__button d-flex justify-content-center mx-auto">
-                                <Link className="tp-btn-radius" href="/placeanorder">Order Now</Link>
+                                <Link className="tp-btn-radius" href="/place-an-order">Order Now</Link>
 
                             </div>
 
@@ -116,7 +116,7 @@ export default function PriceCard() {
                         <div className="tp-price price-grey-bg-1">
                             <div className="tp-price__content d-flex align-items-center">
                                 <div className="tp-price__content-circle">
-                                    <img src="assets/images/pricing/09.webp" alt="" />
+                                    <img src="/assets/images/pricing/09.webp" alt="" />
                                     <span></span>
                                 </div>
                                 <div className="tp-price__content-text">
@@ -142,7 +142,7 @@ export default function PriceCard() {
                                 </ul>
                             </div>
                             <div className="tp-price__button d-flex justify-content-center mx-auto">
-                                <Link className="tp-btn-radius" href="/placeanorder">Order Now</Link>
+                                <Link className="tp-btn-radius" href="/place-an-order">Order Now</Link>
 
                             </div>
                         </div>

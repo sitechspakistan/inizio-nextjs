@@ -111,7 +111,7 @@ export default function Hero({ heading, headingone, paragraph }) {
                           </select>
                         </div>
                         <div className="col-lg-12 w-100">
-                          <Link href="/placeanorder"><button className="hero-btn">Get a free Quote</button></Link>
+                          <Link href="/place-an-order"><button className="hero-btn">Get a free Quote</button></Link>
                         </div>
                       </div>
                     </form>

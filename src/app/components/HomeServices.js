@@ -76,7 +76,7 @@ export default function HomeServices() {
                                     </h3>
                                  </div>
                                  <div className="tp-service-item__button-link">
-                                    <Link href="/vector">
+                                    <Link href="/services/vector">
                                        <span>
                                           <svg width="34" height="16" viewBox="0 0 34 16" fill="none"
                                              xmlns="http://www.w3.org/2000/svg">
@@ -106,7 +106,7 @@ export default function HomeServices() {
                                     </h3>
                                  </div>
                                  <div className="tp-service-item__button-link">
-                                    <Link href="/custom">
+                                    <Link href="/services/custom">
                                        <span>
                                           <svg width="34" height="16" viewBox="0 0 34 16" fill="none"
                                              xmlns="http://www.w3.org/2000/svg">
