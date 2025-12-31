@@ -37,7 +37,7 @@ export default function Header() {
                                         </ul>
                                     </li>
                                     <li><Link target='_blank' href="https://www.etsy.com/shop/iniziosolutionsshop/?etsrc=sdt">Shop</Link></li>
-                                    <li><Link href="/blogs">Blogs</Link></li>
+                                    {/* <li><Link href="/blogs">Blogs</Link></li> */}
                                 </ul>
                             </nav>
                         </div>
