@@ -144,7 +144,7 @@
     font-size: 16px;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    border: 2px dashed var(--tp-border-5);
+    border: 2px solid var(--tp-border-5);
     border-radius: 110px;
 }
 
@@ -180,7 +180,7 @@
 
 .tp-btn-border:hover {
     color: var(--tp-common-white);
-    border: 2px dashed var(--tp-common-sky);
+    border: 2px solid var(--tp-common-sky);
     background-color: var(--tp-common-sky);
 }
 
@@ -328,7 +328,7 @@
 .contact-info-item {
     margin-bottom: 10px;
     border: 1px solid #e1e1e1;
-    padding: 18px;
+    padding: 12px;
     border-radius: 20px;
     margin-right: 120px;
 }
@@ -478,15 +478,20 @@ footer .footer-font #linkedin:hover {
 }
 
 .tp-footer-widget__social1 .img1 {
-    width: 230px;
+    width: 80px;
 }
 
 .tp-footer-widget__social1 .img-2 {
-    width: 190px;
+    width: 80px;
 }
 
 .tp-footer-widget__social1 img {
-    width: 100px;
+    width: 71px;
+}
+
+.borderTop{
+    border-bottom: 2px solid white;
+    
 }
 
 .tp-price.price-grey-bg-1 {
@@ -1181,7 +1186,7 @@ footer .footer-font #linkedin:hover {
 }
 
 .tp-testimonial-three__content .read-more {
-    color: blue;
+    color: #29bff2;
 }
 
 .tp-testimonial-three__content .read-more:hover {
@@ -1254,9 +1259,9 @@ footer .footer-font #linkedin:hover {
     color: var(--tp-common-white);
     margin-left: 0px;
     background-color: var(--tp-common-green);
-    padding: 1px 5px 2px 5px;
+    padding: 1px 4px 3px 4px;
     border-radius: 4px;
-    margin-right: 0px;
+    margin-right: 3px;
 }
 
 .tp-testimonial-item__ratting span i {
@@ -1339,7 +1344,7 @@ footer .footer-font #linkedin:hover {
     font-weight: 600;
     font-size: 18px;
     line-height: 34px;
-    color: var(--tp-common-black);
+    color: var(--tp-text-body);
     padding-bottom: 0px;
     margin: 0;
 }
@@ -1474,6 +1479,14 @@ footer .footer-font #linkedin:hover {
     /* text-transform: uppercase; */
     -webkit-text-stroke: 1px var(--tp-common-sky) !important;
 
+}
+.tpcontact__form input {
+   
+    border: 1px solid #cdcdcd;
+}
+.tpcontact__form textarea {
+    
+    border: 1px solid #cdcdcd;
 }
 
 .tpcontact__form input:focus {

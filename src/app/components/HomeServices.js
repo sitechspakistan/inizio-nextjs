@@ -1,8 +1,8 @@
 import Link from "next/link";
 
 export default function HomeServices() {
-    return (
-        <section>
+   return (
+      <section>
          <div className="tp-service-area service-space-bottom pt-40 pb-60 ">
             <div className="container">
                <div className="row">
@@ -10,20 +10,20 @@ export default function HomeServices() {
                      data-wow-delay=".5s">
                      <div className="service-section-wrapper ">
                         <div className="tp-service-section-title-box">
-                           <span className="tp-section-subtitle tp-yellow-color text-capitalize ">Elevate Your Brand with
+                           {/* <span className="tp-section-subtitle tp-yellow-color text-capitalize ">Elevate Your Brand with
                               Our
-                              Expertise</span>
+                              Expertise</span> */}
                            <h2 className="pb-3 text-capitalize">your trusted partner for digital branding excellence.</h2>
                            <p className="mb-24">Welcome to <strong className="content-color text-capitalize">Inizio
-                                 Solutions</strong>, your trusted
+                              Solutions</strong>, your trusted
                               partner for
                               premium Apparel Branding Services in
                               the USA. Our mission is to transform your creative
                               ideas from logos to complex
                               illustrations into stunning, production-ready digital artwork. Since 2015, we've
                               specialized in providing expert <strong
-                                 className="content-color text-capitalize">Digitizing</strong> and
-                              <strong className="content-color text-capitalize">Vector Art Conversion</strong> for brands,
+                                 className="content-color text-capitalize"><Link href="/services/embroidery-digitizing">embroidery Digitizing</Link></strong> and
+                              <strong className="content-color text-capitalize"><Link href="/services/vector-art"> Vector Art Conversion</Link></strong> for brands,
                               ensuring
                               every stitch-out and print job is flawless. When you choose us, you are guaranteed fast
                               turnaround and the highest digital service
@@ -43,11 +43,11 @@ export default function HomeServices() {
                            <div className="tp-service-item mb-20">
                               <div className="d-flex justify-content-between ">
                                  <div className="tp-service-item__content">
-                                    <h3 className="tp-service-sm-title"><Link href="/services/digitizing">Embroidery Digitizing</Link>
+                                    <h3 className="tp-service-sm-title"><Link href="/services/embroidery-digitizing">Embroidery Digitizing</Link>
                                     </h3>
                                  </div>
                                  <div className="tp-service-item__button-link">
-                                    <Link href="/services/digitizing">
+                                    <Link href="/services/embroidery-digitizing">
                                        <span>
                                           <svg width="34" height="16" viewBox="0 0 34 16" fill="none"
                                              xmlns="http://www.w3.org/2000/svg">
@@ -72,11 +72,11 @@ export default function HomeServices() {
                            <div className="tp-service-item sv-color-blue-one mb-20">
                               <div className="d-flex justify-content-between ">
                                  <div className="tp-service-item__content">
-                                    <h3 className="tp-service-sm-title"><Link href="/services/vector">Vector Art Conversion</Link>
+                                    <h3 className="tp-service-sm-title"><Link href="/services/vector-art">Vector Art Conversion</Link>
                                     </h3>
                                  </div>
                                  <div className="tp-service-item__button-link">
-                                    <Link href="/services/vector">
+                                    <Link href="/services/vector-art">
                                        <span>
                                           <svg width="34" height="16" viewBox="0 0 34 16" fill="none"
                                              xmlns="http://www.w3.org/2000/svg">
@@ -101,12 +101,12 @@ export default function HomeServices() {
                            <div className="tp-service-item sv-color-blue-two mb-20">
                               <div className="d-flex justify-content-between ">
                                  <div className="tp-service-item__content">
-                                    <h3 className="tp-service-sm-title"><Link href="/services/custom">Premium Custom
-                                          Patches</Link>
+                                    <h3 className="tp-service-sm-title"><Link href="/services/custom-patches">Premium Custom
+                                       Patches</Link>
                                     </h3>
                                  </div>
                                  <div className="tp-service-item__button-link">
-                                    <Link href="/services/custom">
+                                    <Link href="/services/custom-patches">
                                        <span>
                                           <svg width="34" height="16" viewBox="0 0 34 16" fill="none"
                                              xmlns="http://www.w3.org/2000/svg">
@@ -133,5 +133,5 @@ export default function HomeServices() {
             </div>
          </div>
       </section>
-    )
+   )
 }

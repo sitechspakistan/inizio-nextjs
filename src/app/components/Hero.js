@@ -86,7 +86,7 @@ export default function Hero({ heading, headingone, paragraph }) {
                 <div className="text-start text-lg-end wow tpfadeRight" data-wow-duration=".9s"
                   data-wow-delay="1.2s">
                   <div className="tp-ab-section-title-box-2">
-                    <h2 className="tp-section-title-2 text-center text-uppercase">Get A Custom Quote
+                    <h2 className="tp-section-title-2 text-center text-uppercase">Place an Order
                     </h2>
                     <form action="/place-an-order" method="GET" className="form-top">
                       <div className="row">
@@ -112,7 +112,7 @@ export default function Hero({ heading, headingone, paragraph }) {
                           </select>
                         </div>
                         <div className="col-lg-12 w-100">
-                          <button type="submit" className="hero-btn">Get a free Quote</button>
+                          <button type="submit" className="hero-btn">Place an Order</button>
                         </div>
                       </div>
                     </form>

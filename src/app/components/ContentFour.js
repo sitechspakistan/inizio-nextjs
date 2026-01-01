@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function ContentFour() {
+export default function ContentFour({heading, headingone, para}) {
     return (
         <section>
             <div className="tp-about-area ab-area-sapce pt-120 pb-120">
@@ -15,8 +15,8 @@ export default function ContentFour() {
                                 animationName: "tpfadeRight",
                             }}>
                             <div className="tp-ab-section-title-box">
-                                <h2 className="tp-section-title">Over 12 Years of Excellence in Embroidery Digitizing in [City Name]</h2>
-                                <p>Inizio Solutions is not just a service provider; we are a dynamic team of creative designers and digitizing experts. With nearly 12+ years of industry experience, we have helped businesses in [City Name] achieve flawless branding through precision-driven embroidery digitizing. Our mission is to provide local businesses with machine-ready files that ensure smooth production and high-quality results every time.</p>
+                                <h2 className="tp-section-title">{heading} <span className="content-color"> {headingone} </span></h2>
+                                <p>{para}</p>
                                 <Link className="tp-btn" href="/services/digitizing">Read More</Link>
                             </div>
                         </div>

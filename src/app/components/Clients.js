@@ -42,12 +42,12 @@ export default function Clients() {
   };
 
   return (
-    <div className="tp-brand-area brand-space-bottom pb-110">
+    <div className="tp-brand-area brand-space-bottom">
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <div className="tp-brand-title-box pb-60">
-              <h4 className="tp-brand-title text-center pt-50">
+            <div className="tp-brand-title-box pb-20">
+              <h4 className="tp-brand-title text-center pt-60">
                 <span className="content-color">Over 250+</span> business growing
                 with us
               </h4>
@@ -57,7 +57,7 @@ export default function Clients() {
 
         <Slider
           {...settings}
-          className="brand-slider-active d-flex align-items-center"
+          className="brand-slider-active d-flex align-items-center pb-40"
         >
           <div className="brand-item">
             <div className="tp-brand-icon">

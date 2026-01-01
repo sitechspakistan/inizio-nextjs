@@ -7,6 +7,13 @@ import Faqs from "@/app/components/Faqs";
 import ContactForm from "@/app/components/ContactForm";
 
 
+export const metadata = {
+    title: "Expert Vector Art Conversion Service | Inizio Solutions, LLC",
+    description: "Get 💯 flawless vector art conversion & image tracing for print-ready files. Perfect for screen printing, DTF, and large format printing. ⚡ 4-5 Hours Turnaround!",
+    alternates: {
+        canonical: "https://iniziosolutions.com/services/vector-art",
+    },
+};
 
 export default function vector() {
 

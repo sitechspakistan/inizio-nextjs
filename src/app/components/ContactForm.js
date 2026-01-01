@@ -47,7 +47,7 @@ export default function ContactForm() {
                             <div className="contact-info">
                                 <div className="contact-info-item d-flex align-items-center">
                                 <div className="contact-icon">
-                                    <img src="/assets/images/contact/contact-1.png" alt="" />
+                                    <img src="/assets/images/contact/location.png" alt="" height="30" width="25" />
                                 </div>
                                 <div className="contact-loaction">
                                     <a href="https://www.google.com.bd/maps/place/United+States/@37.2756214,-104.656551,5z/data=!3m1!4b1!4m5!3m4!1s0x54eab584e432360b:0x1c3bb99243deb742!8m2!3d37.09024!4d-95.712891"
@@ -66,7 +66,7 @@ export default function ContactForm() {
                                 </div>
                                 <div className="contact-info-item d-flex align-items-center">
                                     <div className="contact-icon">
-                                        <img src="/assets/images/contact/contact-3.png" alt="" />
+                                        <img src="/assets/images/contact/phone.png" alt="" height="35" width="30" />
                                     </div>
                                     <div className="contact-loaction">
                                         <a href="tel:08778886664)">+1 (302) 779-1338</a>
@@ -105,7 +105,7 @@ export default function ContactForm() {
                                             </div>
                                         </div>
                                         <button className="tp-btn-1" type="submit" disabled={loading}>
-                                            {loading ? "Submitting..." : "Let’s Talk"}
+                                            {loading ? "Submitting..." : "Get a Free Quote"}
                                         </button>
 
                                         {success && (

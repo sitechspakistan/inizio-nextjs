@@ -9,6 +9,15 @@ import MapSection from "./components/MapSection";
 import Clients from "./components/Clients";
 import ContactForm from "./components/ContactForm";
 
+
+export const metadata = {
+    title: "Embroidery Digitizing & Vector Art in USA | Inizio Solutions",
+    description: "Expert Embroidery Digitizing, Vector Art & Premium Custom Patches in the USA. Fast turnaround, High-quality, print-ready files. Get a FREE Quote Now!",
+    alternates: {
+        canonical: "https://iniziosolutions.com/",
+    },
+};
+
 export default function Home() {
   return (
     <>

@@ -8,7 +8,7 @@ export default function Header() {
                 <div className="container">
                     <div className="row g-0 align-items-center">
                     <div className="col-xl-2 col-lg-2 col-md-4 col-6">
-                        <div className="tp-logo mt-5">
+                        <div className="tp-logo">
                             <Link href="/">
                                 <img src="/assets/images/inizo-logo-removebg-preview.png" alt="" />
                             </Link>
@@ -20,9 +20,9 @@ export default function Header() {
                                 <ul>                
                                     <li><Link href="/services">Services <i className="fas fa-caret-down"></i></Link>
                                         <ul className="submenu">
-                                            <li><Link href="/services/digitizing">Embroidery Digitizing</Link></li>
-                                            <li><Link href="/services/vector">Vector Art Conversion</Link></li>
-                                            <li><Link href="/services/custom">Custom Patches</Link></li>
+                                            <li><Link href="/services/embroidery-digitizing">Embroidery Digitizing</Link></li>
+                                            <li><Link href="/services/vector-art">Vector Art Conversion</Link></li>
+                                            <li><Link href="/services/custom-patches">Custom Patches</Link></li>
                                         </ul>
                                     </li>
                                     <li><Link href="/pricing">Pricing</Link></li>                            
@@ -43,7 +43,7 @@ export default function Header() {
                         </div>
                         <div className="col-xl-3 col-lg-12 col-md-12 col-10 d-flex justify-content-end">
                             <div
-                                className="header-right-two d-flex align-items-center justify-content-end ml-10 mt-5 mt-sm-0 pt-sm-0 pt-5">
+                                className="header-right-two d-flex align-items-center justify-content-end ml-10 mt-sm-0 pt-sm-0 pt-5">
 
                                 <Link className="tp-btn-border d-none d-xl-block" href="/place-an-order">Place an
                                 Order</Link>

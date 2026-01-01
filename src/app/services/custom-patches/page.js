@@ -4,6 +4,15 @@ import Boxes from "@/app/components/Boxes";
 import FaqsCustom from "@/app/components/faqs/FaqsCustom";
 import ContactForm from "@/app/components/ContactForm";
 
+export const metadata = {
+    title: "Custom Patches Manufacturer | Inizio Solutions, LLC",
+    description: "Design high-quality embroidered, PVC, or woven custom patches. Get vibrant colors, expert design support, and fast delivery guaranteed. Start your order now!",
+    alternates: {
+        canonical: "https://iniziosolutions.com/services/custom-patches",
+    },
+};
+
+
 export default function custom() {
     return (
         <>

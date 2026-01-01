@@ -6,6 +6,14 @@ import ServiceBoxes from "../components/ServiceBoxes";
 import ServiceContent from "../components/ServiceContent";
 
 
+export const metadata = {
+    title: "Embroidery Digitizing, Vector Art & Custom Patch Services",
+    description: "Get expert Embroidery Digitizing, Vector Art conversion, and Custom Patches. Premium quality graphic and apparel services with fast turnaround.",
+    alternates: {
+        canonical: "https://iniziosolutions.com/services",
+    },
+};
+
 export default function services() {
     return (
         <>

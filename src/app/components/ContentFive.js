@@ -1,4 +1,4 @@
-export default function ContentFive() {
+export default function ContentFive({heading,headingone,para}) {
     return (
         <section>
             <div className="tp-about-area ab-area-sapce pt-120 pb-120 bg-dark">
@@ -13,8 +13,8 @@ export default function ContentFive() {
                                 animationName: "tpfadeRight",
                             }}>
                             <div className="tp-ab-section-title-box">
-                                <h2 className="tp-section-title text-white">Flawless Stitching & Machine-Ready Files Tailored for [City Name].</h2>
-                                <p>We go beyond basic conversion by creating production-ready embroidery files that reduce thread breaks and improve machine speed. With local support in [City Name], we expertly handle 3D Puff, delicate fabrics, and complex jacket backs. Our industry-leading digitizing helps [City Name] businesses reduce downtime and deliver premium-quality embroidery consistently.</p>
+                                <h2 className="tp-section-title text-white">{heading} <span className="content-color">{headingone}.</span></h2>
+                                <p>{para}</p>
                             </div>
                         </div>
                         <div className="col-xl-5 col-lg-5 wow tpfadeRight" data-wow-duration=".7s" data-wow-delay=".5s"
