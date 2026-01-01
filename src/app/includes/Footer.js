@@ -6,7 +6,7 @@ export default function Footer() {
             <footer>
                 <div className="tp-footer-area footer-bg pt-60 pb-60">
                     <div className="container">
-                        <div className="row borderTop">
+                        <div className="row borderbottom">
                             <div className="col-xl-2 col-lg-2 col-md-3 col-6 mb-30">
                                 <div className="tp-footer-widget z-index-3">
                                     <div className="tp-footer-widget__title">
@@ -72,98 +72,25 @@ export default function Footer() {
 
                                         <img src="/assets/images/footer/payment-footer.png" />
 
-                                        {/* <div className="tp-payment">
-                                            <div className="tp-footer-widget__social1 mb-10">
-                                                <a href="#">
-                                                    <div>
-                                                        <img src="/assets/images/payment/visa.webp" alt="" />
-                                                    </div>
-
-                                                </a>
-                                            </div>
-                                            <div className="tp-footer-widget__social1 mb-10">
-                                                <a href="#">
-                                                    <div>
-                                                        <img src="/assets/images/payment/discover.webp" alt="" />
-                                                    </div>
-
-                                                </a>
-                                            </div>
-                                            <div className="tp-footer-widget__social1 mb-10">
-                                                <a href="#">
-                                                    <div>
-                                                        <img src="/assets/images/payment/amex.webp" alt="" />
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <div className="tp-footer-widget__social1 mb-10">
-                                                <a href="#">
-                                                    <div>
-                                                        <img src="/assets/images/payment/master-card.webp" alt="" />
-                                                    </div>
-                                                </a>
-                                            </div>
-
-                                            <div className="tp-footer-widget__social1 mb-10">
-                                                <a href="#">
-                                                    <div>
-                                                        <img src="/assets/images/payment/paypal-01.webp" alt="" />
-                                                    </div>
-
-                                                </a>
-                                            </div>
-                                            <div className="tp-footer-widget__social1 mb-10">
-                                                <a href="#">
-                                                    <div>
-                                                        <img src="/assets/images/payment/SSL-02.webp" alt="" />
-                                                    </div>
-
-                                                </a>
-                                            </div>
-                                            <div className="tp-footer-widget__social1 mb-10">
-                                                <a href="#">
-                                                    <div>
-                                                        <img src="/assets/images/payment/Applypay-03.webp" alt="" />
-                                                    </div>
-
-                                                </a>
-                                            </div>
-                                            <div className="tp-footer-widget__social1 mb-10">
-                                                <a href="#">
-                                                    <div>
-                                                        <img src="/assets/images/payment/norton.webp" alt="" width="100"
-                                                            height="62" />
-                                                    </div>
-
-                                                </a>
-                                            </div>
-                                            <div className="tp-footer-widget__social1 mb-10">
-                                                <a href="#">
-                                                    <div>
-                                                        <img src="/assets/images/payment/paypal.webp" alt="" />
-                                                    </div>
-
-                                                </a>
-                                            </div>
-                                        </div> */}
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        
                         <div className="row ">
                             <div className="z-index-3">
                                 <div className="row">
                                     <div className="col-xl-6 col-lg-6 col-12">
                                         <div className="copyright-left text-lg-start mb-0">
-                                            <p className="mb-0">© Inizio Solutions 2026. All Rights Reserved.</p>
+                                            <p className="pt-2 mb-0">© Inizio Solutions 2026. All Rights Reserved. Designed & Developed by <a href="https://sitechs.co" target="_blank"><span className="content-color">Sitechs</span></a>.</p>
                                         </div>
                                     </div>
                                     <div className="col-xl-6 col-lg-6 col-12">
                                         <div className="copyright-right-side text-lg-end">
                                             <div className="footer-font">
-                                                <span><Link href="https://www.facebook.com/iniziosolutionsllc/"><i className="fab fa-facebook" id="facebook"></i></Link></span>
-                                                <span><i className="fab fa-instagram" id="instagram"></i></span>
-                                                <span><i className="fab fa-linkedin" id="linkedin"></i></span>
+                                                <span><a href="https://www.facebook.com/iniziosolutionsllc/" target="blank"><i className="fab fa-facebook" id="facebook"></i></a></span>
+                                                <span><a href="https://www.instagram.com/iniziosolutions/" target="blank"><i className="fab fa-instagram" id="instagram"></i></a></span>
+                                                <span><a href="https://www.linkedin.com/company/iniziosolutions/" target="blank"><i className="fab fa-linkedin" id="linkedin"></i></a ></span>
 
                                             </div>
                                         </div>

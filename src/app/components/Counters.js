@@ -14,7 +14,7 @@ export default function Counters() {
                   <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 mb-30 wow tpfadeUp" data-wow-duration=".7s"
                      data-wow-delay=".7s">
                      <div className="counter-item text-center">
-                        <h4><span className="counter">10</span>K</h4>
+                        <h4><span className="counter">10</span>K+</h4>
                         <h3>Projects</h3>
                      </div>
                   </div>
