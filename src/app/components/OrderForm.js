@@ -1,4 +1,12 @@
+"use client"
+import { useSearchParams } from "next/navigation";
+
 export default function OrderForm() {
+    const searchParams = useSearchParams();
+    const type = searchParams.get("type") || "Select Order Type";
+    const name = searchParams.get("name") || "";
+    const phone = searchParams.get("phone") || "";
+    const email = searchParams.get("email") || "";
     return (
         <div className="tp-contact-area grey-bg pt-50 pb-50 ">
             <div className="container">
@@ -20,20 +28,20 @@ export default function OrderForm() {
                                             <form action="/api/order" method="POST" encType="multipart/form-data">
                                                 <div className="row">
                                                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                                                        <input type="text" placeholder="Your name" name="name" required />
+                                                        <input type="text" placeholder="Your name" name="name" required defaultValue={name} />
                                                     </div>
                                                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                                                        <input type="email" placeholder="Your Email Address" name="email" required />
+                                                        <input type="email" placeholder="Your Email Address" name="email" required defaultValue={email} />
                                                     </div>
 
 
                                                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                                                        <input type="tel" placeholder="Your Phone" name="phone" required />
+                                                        <input type="tel" placeholder="Your Phone" name="phone" required defaultValue={phone} />
                                                     </div>
                                                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                                                         <select className="form-select form-select-lg mb-3 w-100 mt-5" name="care_of"
-                                                            aria-label="Default select example" required defaultValue="Select Care of">
-                                                            <option selected="">Care of</option>
+                                                            aria-label="Default select example" required defaultValue="Care of">
+                                                            <option value="Care of">Care of</option>
                                                             <option value="Muhammad">Muhammad</option>
                                                             <option value="Sam Miller">Sam Miller</option>
                                                             <option value="James baldwin">James baldwin</option>
@@ -47,7 +55,7 @@ export default function OrderForm() {
                                                 </div>
                                                 <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                                     <select className="form-select form-select-lg mb-3 w-100 mt-5" name="order_type"
-                                                        aria-label="Default select example" required defaultValue="Select Order Type">
+                                                        aria-label="Default select example" required defaultValue={type}>
                                                         <option selected="">Select Order Type</option>
                                                         <option value="Digitizing">Digitizing</option>
                                                         <option value="Vector Art">Vector Art</option>

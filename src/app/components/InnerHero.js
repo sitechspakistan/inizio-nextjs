@@ -31,32 +31,30 @@ export default function InnerHero({ subheading, headingone, headingtwo, paragrap
                                         <h2 className="tp-section-title-2 text-center text-uppercase">Get A Custom
                                             Quote
                                         </h2>
-                                        <form action="place-order.html" className="form-top">
+                                        <form action="/place-an-order" method="GET" className="form-top">
                                             <div className="row">
                                                 <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                                                     <input type="text" id="name" name="name" className="form-control mb-10"
-                                                        placeholder="Your Name*" />
+                                                        placeholder="Your Name*" required />
                                                 </div>
                                                 <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                                                     <input type="email" id="email" name="email"
-                                                        className="form-control mb-10" placeholder="Type your Email*" />
+                                                        className="form-control mb-10" placeholder="Type your Email*" required />
                                                 </div>
                                                 <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                                                     <input type="text" id="phone" name="phone"
-                                                        className="form-control mb-10 " placeholder="Your Phone Number*" />
+                                                        className="form-control mb-10 " placeholder="Your Phone Number*" required />
                                                 </div>
                                                 <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                                                    <select className="form-select mb-3 " name="order_type" defaultValue="Select Order Type">
-                                                        <option className="text-end w-100">Select Order
-                                                            Type</option>
-                                                        <option value="Digitizing or Vector">Digitizing or
-                                                            Vector</option>
+                                                    <select className="form-select mb-3 " name="type" defaultValue="Select Order Type" required>
+                                                        <option className=" w-100">Select Order Type</option>
+                                                        <option value="Digitizing">Digitizing</option>
                                                         <option value="Vector Art">Vector Art</option>
+                                                        <option value="Custom Patches">Custom Patches</option>
                                                     </select>
                                                 </div>
                                                 <div className="col-lg-12 w-100">
-                                                    <Link href="/place-an-order"><button className="hero-btn">Get a
-                                                        free Quote</button></Link>
+                                                    <button className="hero-btn">Place an Order</button>
                                                 </div>
                                             </div>
                                         </form>

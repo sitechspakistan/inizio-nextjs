@@ -88,7 +88,7 @@ export default function Hero({ heading, headingone, paragraph }) {
                   <div className="tp-ab-section-title-box-2">
                     <h2 className="tp-section-title-2 text-center text-uppercase">Get A Custom Quote
                     </h2>
-                    <form action="place-order.html" className="form-top">
+                    <form action="/place-an-order" method="GET" className="form-top">
                       <div className="row">
                         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                           <input type="text" id="name" name="name" className="form-control mb-10"
@@ -104,14 +104,15 @@ export default function Hero({ heading, headingone, paragraph }) {
                         </div>
 
                         <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                          <select className="form-select mb-3 " defaultValue="Select Order Type" name="order_type">
+                          <select className="form-select mb-3 " defaultValue="Select Order Type" name="type">
                             <option value="Select Order Type" >Select Order Type</option>
-                            <option value="Digitizing or Vector">Digitizing or Vector</option>
+                            <option value="Digitizing">Digitizing</option>
                             <option value="Vector Art">Vector Art</option>
+                            <option value="Custom Patches">Custom Patches</option>
                           </select>
                         </div>
                         <div className="col-lg-12 w-100">
-                          <Link href="/place-an-order"><button className="hero-btn">Get a free Quote</button></Link>
+                          <button type="submit" className="hero-btn">Get a free Quote</button>
                         </div>
                       </div>
                     </form>
