@@ -1,5 +1,6 @@
 import SecondHero from "../components/SecondHero"
 import OrderForm from "../components/OrderForm"
+import { Suspense } from "react"
 
 export default function placeanorder(){
     return(
