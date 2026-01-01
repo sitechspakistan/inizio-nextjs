@@ -67,7 +67,7 @@ export default function Footer() {
                                 </div>
                             </div>
                             <div className="col-xl-4 col-lg-4 col-md-3 col-12 mb-30">
-                                <div className="tp-footer-widget z-index-3">
+                                <div className="tp-footer-widget z-index-3 d-flex justify-content-center mx-auto mt-45">
                                     <div className="row g-20">
 
                                         <img src="/assets/images/footer/payment-footer.png" />
@@ -160,11 +160,11 @@ export default function Footer() {
                                     </div>
                                     <div className="col-xl-6 col-lg-6 col-12">
                                         <div className="copyright-right-side text-lg-end">
-                                            <div className="footer-font"><a href="">
-                                                <span><i className="fas fa-facebook" id="facebook"></i></span>
-                                                <span><i className="fas fa-instagram" id="instagram"></i></span>
-                                                <span><i className="fas fa-linkedin" id="linkedin"></i></span>
-                                            </a>
+                                            <div className="footer-font">
+                                                <span><Link href="https://www.facebook.com/iniziosolutionsllc/"><i className="fab fa-facebook" id="facebook"></i></Link></span>
+                                                <span><i className="fab fa-instagram" id="instagram"></i></span>
+                                                <span><i className="fab fa-linkedin" id="linkedin"></i></span>
+
                                             </div>
                                         </div>
                                     </div>
