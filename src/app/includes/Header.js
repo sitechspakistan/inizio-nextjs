@@ -61,9 +61,9 @@ export default function Header() {
                     <button className="close-btn text-dark"><i className="fal fa-times"></i></button>
                 </div>
                 <div className="tpoffcanvas__logo pt-30">
-                    <a href="index.html">
+                    <Link href="/">
                     <img src="/assets/images/inizo-logo-removebg-preview.png" alt="" />
-                    </a>
+                    </Link>
                 </div>
                 <div className="tpoffcanvas__text">
                     <p>Suspendisse interdum consectetur libero id. Fermentum leo vel orci porta non. Euismod viverra nibh cras
@@ -74,40 +74,38 @@ export default function Header() {
                     <h3 className="offcanva-title">Get In Touch</h3>
                     <div className="tp-info-wrapper mb-20 d-flex align-items-center">
                     <div className="tpoffcanvas__info-icon">
-                        <a href="#"><i className="fal fa-envelope"></i></a>
+                        <Link href="#"><i className="fal fa-envelope"></i></Link>
                     </div>
                     <div className="tpoffcanvas__info-address">
                         <span>Email</span>
-                        <a href="maito:hello@yourmail.com"><span className="__cf_email__"
-                                data-cfemail="adc5c8c1c1c2edd4c2d8dfc0ccc4c183cec2c0">[email&#160;protected]</span></a>
+                        <Link href="maito:hello@yourmail.com"><span className="__cf_email__"
+                                data-cfemail="adc5c8c1c1c2edd4c2d8dfc0ccc4c183cec2c0">orders@iniziosolutions.com</span></Link>
                     </div>
                     </div>
                     <div className="tp-info-wrapper mb-20 d-flex align-items-center">
                     <div className="tpoffcanvas__info-icon">
-                        <a href="#"><i className="fal fa-phone-alt"></i></a>
+                        <Link href="#"><i className="fal fa-phone-alt"></i></Link>
                     </div>
                     <div className="tpoffcanvas__info-address">
                         <span>Phone</span>
-                        <a href="tel:(00)45611227890">(00) 456 1122 7890</a>
+                        <Link href="tel:(00)45611227890">+1 (302) 779-1338</Link>
                     </div>
                     </div>
                     <div className="tp-info-wrapper mb-20 d-flex align-items-center">
                     <div className="tpoffcanvas__info-icon">
-                        <a href="#"><i className="fas fa-map-marker-alt"></i></a>
+                        <Link href="#"><i className="fas fa-map-marker-alt"></i></Link>
                     </div>
                     <div className="tpoffcanvas__info-address">
                         <span>Location</span>
-                        <a href="https://www.google.com/maps/@37.4801311,22.8928877,3z" target="_blank">Riverside 255, San
-                            Francisco, USA </a>
+                        <Link href="https://www.google.com/maps/@37.4801311,22.8928877,3z" target="_blank">131 Continental Dr Ste 305, Newark, DE 19713, USA </Link>
                     </div>
                     </div>
                 </div>
                 <div className="tpoffcanvas__social">
                     <div className="social-icon">
-                    <a href="#"><i className="fab fa-twitter"></i></a>
                     <a href="#"><i className="fab fa-instagram"></i></a>
                     <a href="#"><i className="fab fa-facebook-square"></i></a>
-                    <a href="#"><i className="fab fa-dribbble"></i></a>
+                    <a href="#"><i className="fab fa-linkedln"></i></a>
                     </div>
                 </div>
             </div>

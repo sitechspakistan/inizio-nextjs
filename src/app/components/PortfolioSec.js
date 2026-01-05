@@ -10,7 +10,7 @@ export default function PortfolioSec({subheading, heading}) {
     autoplay: false,
     arrows: false,
     infinite: true,
-    slidesToShow: 4,
+    slidesToShow: 6,
     slidesToScroll: 1, // 🔑 REQUIRED
   
     responsive: [
@@ -37,6 +37,8 @@ export default function PortfolioSec({subheading, heading}) {
     "13.webp",
     "14.webp",
     "15.webp",
+    "20.webp",
+    "25.webp",
   ];
 
   return (
@@ -60,12 +62,12 @@ export default function PortfolioSec({subheading, heading}) {
                     className="tp-case-item text-center p-relative mb-30"
                   >
                     <div className="tp-case-item__thumb fix">
-                      <Link href="/portfolio">
+                      {/* <Link href="/portfolio"> */}
                         <img
                           src={`/assets/images/digitizing/logo/${img}`}
                           alt="Portfolio item"
                         />
-                      </Link>
+                      {/* </Link> */}
                     </div>
                   </div>
                 ))}

@@ -1305,7 +1305,7 @@ footer .footer-font #linkedin:hover {
     width: 100%;
     border-radius: 20px;
     transition: 0.9s;
-    height: 400px;
+    height: 360px;
 }
 
 .tp-section-title-sm {
@@ -1655,7 +1655,7 @@ footer .footer-font #linkedin:hover {
     .tpoffcanvas {
         width: 100%;
         padding: 40px 35px;
-        overflow: hidden;
+        /* overflow: hidden; */
     }
 
     #multiple-items {
