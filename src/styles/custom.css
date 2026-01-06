@@ -1670,7 +1670,7 @@ footer .footer-font #linkedin:hover {
     .tpoffcanvas {
         width: 100%;
         padding: 40px 35px;
-        /* overflow: hidden; */
+        overflow: none;
     }
 
     #multiple-items {
