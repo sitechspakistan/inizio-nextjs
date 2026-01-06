@@ -1,6 +1,7 @@
 import SecondHero from "../components/SecondHero"
 import Portfolio from "../components/Portfolio"
 import ContactForm from "../components/ContactForm"
+import Cta from "../components/Cta"
 
 export const metadata = {
     title: "Our Portfolio | Inizio Solutions",
@@ -14,13 +15,13 @@ export default function portfolio() {
     return (
         <>
             <SecondHero subheading="Our Portfolio"
-            headingone={"Our"}
+                headingone={"Our"}
                 heading="Portfolio"
                 description="Explore our portfolio highlighting exceptional services and innovative solutions, along with the custom promotional products we’ve crafted for clients across industries." />
 
 
-            <Portfolio />
-
+            <Portfolio type="digitizing" />
+            <Cta />
             <ContactForm />
         </>
     )

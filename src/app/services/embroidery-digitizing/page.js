@@ -30,7 +30,7 @@ export default function Digitizing() {
 
 
 
-            <PortfolioSec subheading="Best Solution We Offer you" heading="Our Embroidery Digitizing Work" />
+            <PortfolioSec subheading="Best Solution We Offer you" heading="Our Embroidery Digitizing Work" type="digitizing"/>
             <CTA />
             <Boxes />
             <ContentTwo />

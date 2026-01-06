@@ -28,7 +28,7 @@ export default function Home() {
                           turnaround in the industry.`}/>
       <HomeServices />
       <Counters />
-      <PortfolioSec subheading="Our Portfolio"  heading="work we're proud to share." />
+      <PortfolioSec subheading="Our Portfolio"  heading="work we're proud to share." type="mix-img" />
       <MarqueeText />
       <Boxes />
       <Testimonials />

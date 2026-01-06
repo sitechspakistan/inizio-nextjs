@@ -395,14 +395,21 @@
     line-height: 25px;
 }
 
+.contact-icon span i{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--tp-common-sky);
+    padding-top: 5px;
+}
+
 .content-color {
     color: #29bff2;
     text-transform: uppercase;
 }
 
-.copyright-right-side {
+/* .copyright-right-side {
     margin: 0 80px 0 0;
-}
+} */
 
 footer .footer-font i {
     font-size: 24px;
@@ -1073,6 +1080,14 @@ footer .footer-font #linkedin:hover {
     padding-top: 70px;
 }
 
+#additional-information .tp-case-thumb img {
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    transition: all .7s;
+}
+
 .tp-cta p {
     color: gray;
 }
@@ -1080,7 +1095,7 @@ footer .footer-font #linkedin:hover {
  .tp-contact-area .form-select {
     display: block;
     width: 100%;
-    padding: 15px 2px 0px 16px;
+    padding: 2px 2px 0px 16px;
     -moz-padding-start: calc(0.75rem - 3px);
     font-size: 15px;
     font-weight: 400;

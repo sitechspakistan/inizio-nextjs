@@ -3,7 +3,7 @@
 import Slider from "react-slick";
 import Link from "next/link";
 
-export default function PortfolioSec({subheading, heading}) {
+export default function PortfolioSec({ subheading, heading, type }) {
 
   const settings = {
     fade: false,
@@ -11,8 +11,11 @@ export default function PortfolioSec({subheading, heading}) {
     arrows: false,
     infinite: true,
     slidesToShow: 6,
-    slidesToScroll: 1, // 🔑 REQUIRED
-  
+    infinite: true,
+    rtl: true,
+    slidesToScroll: 4,
+    cssEase: "ease", // 🔑 REQUIRED
+
     responsive: [
       {
         breakpoint: 1024, // tablets
@@ -30,16 +33,48 @@ export default function PortfolioSec({subheading, heading}) {
       },
     ],
   };
+ 
+ 
+  let portfolioImages = [];
 
-  const portfolioImages = [
-    "11.webp",
-    "12.webp",
-    "13.webp",
-    "14.webp",
-    "15.webp",
-    "20.webp",
-    "25.webp",
-  ];
+  if (type === 'digitizing') {
+    portfolioImages = [
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp",
+      "20.webp",
+      "25.webp",
+    ];
+  }
+  else if (type === 'vector-art') {
+    portfolioImages = [
+      "11.jpg",
+      "12.jpg",
+      "13.jpg",
+      "14.jpg",
+      "15.jpg",
+      "20.jpg",
+      "25.jpg",
+    ];
+  }
+  else {
+    // home / mix
+    portfolioImages = [
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "20.webp",
+      "25.webp",
+      "23.webp",
+      "24.webp",
+    ];
+  }
+
+
+
 
   return (
     <section>
@@ -63,10 +98,10 @@ export default function PortfolioSec({subheading, heading}) {
                   >
                     <div className="tp-case-item__thumb fix">
                       {/* <Link href="/portfolio"> */}
-                        <img
-                          src={`/assets/images/digitizing/logo/${img}`}
-                          alt="Portfolio item"
-                        />
+                      <img
+                        src={`/assets/images/portfolio/${type}/${img}`}
+                        alt={`${type} | Inizio Solutions`}
+                      />
                       {/* </Link> */}
                     </div>
                   </div>

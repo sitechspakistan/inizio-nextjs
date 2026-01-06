@@ -43,11 +43,11 @@ export default function Header() {
                         </div>
                         <div className="col-xl-3 col-lg-12 col-md-12 col-10 d-flex justify-content-end">
                             <div
-                                className="header-right-two d-flex align-items-center justify-content-end ml-10 mt-sm-0 pt-sm-0 pt-5">
+                                className="header-right-two d-flex align-items-center justify-content-end ml-10 mt-sm-0 pt-sm-0 pt-0">
 
                                 <Link className="tp-btn-border d-none d-xl-block" href="/place-an-order">Place an
                                 Order</Link>
-                                <a className="bars d-xl-none tp-menu-bar " href="javascript:void(0)"><i className="fa fa-bars"></i></a>
+                                <Link className="bars d-xl-none tp-menu-bar " href="javascript:void(0)"><i className="fa fa-bars"></i></Link>
                             </div>
                         </div>
                     </div>
@@ -103,9 +103,9 @@ export default function Header() {
                 </div>
                 <div className="tpoffcanvas__social">
                     <div className="social-icon">
-                    <a href="#"><i className="fab fa-instagram"></i></a>
-                    <a href="#"><i className="fab fa-facebook-square"></i></a>
-                    <a href="#"><i className="fab fa-linkedln"></i></a>
+                    <a href="https://www.facebook.com/iniziosolutionsllc/" target="blank"><i className="fab fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/iniziosolutions/" target="blank"><i className="fab fa-facebook-square"></i></a>
+                    <a href="https://www.linkedin.com/company/iniziosolutions/" target="blank"><i className="fab fa-linkedin"></i></a>
                     </div>
                 </div>
             </div>

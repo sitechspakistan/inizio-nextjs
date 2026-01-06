@@ -31,7 +31,7 @@ export default function Footer() {
                                     </div>
                                     <div className="tp-footer-widget__list">
                                         <ul>
-                                            <li><Link href="/services/embroidery-digitizing">Digitizing</Link></li>
+                                            <li><Link href="/services/embroidery-digitizing">Embroidery Digitizing</Link></li>
                                             <li><Link href="/services/vector-art">Verctor Art</Link></li>
                                             <li><Link href="/services/custom-patches">Custom Patches</Link></li>
                                             <li><Link href="/tshirt">Shirts</Link></li>

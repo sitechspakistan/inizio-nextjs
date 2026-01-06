@@ -35,7 +35,7 @@ export default function vector() {
                 }
             />
 
-            <PortfolioSec subheading={"Best solution we offer you"} heading={"Our Vector Art Work."} />
+            <PortfolioSec subheading={"Best solution we offer you"} heading={"Our Vector Art Work."} type="vector-art" />
             <Cta />
             <Boxes />
             <Faqs />
