@@ -29,7 +29,7 @@ export default function MapSection() {
                         <div className="tp-map-icon sunrise">
                            <Link href="/cities/sunrise">
                               <i className="far fa-dot-circle"></i>
-                              <p>Sunrise, Floride</p>
+                              <p>Sunrise, Florida</p>
                            </Link>
                         </div>
 
@@ -56,7 +56,7 @@ export default function MapSection() {
                         <div className="tp-map-icon phoenix">
                            <Link href="/cities/phoenix">
                               <i className="far fa-dot-circle"></i>
-                              <p>Phoenix, A rizona</p>
+                              <p>Phoenix, Arizona</p>
                            </Link>
                         </div>
 

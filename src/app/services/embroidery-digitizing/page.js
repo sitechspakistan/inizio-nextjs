@@ -26,11 +26,12 @@ export default function Digitizing() {
 
             <ContentOne subheading={"Best solution we offer you"} headingone={"Premium"} headingtwo={"Embroidery Digitizing"} headingthree={"Services - Accurate, Clean & Production-Ready"}
                 paraone={"Our professional embroidery digitizing services ensure your artwork is converted into clean, precise, and production-ready stitch files. We focus on smooth pathing, balanced density, and flawless stitch flow to reduce thread breaks and ensure perfect results on every fabric type - whether it’s hats, jackets, shirts, or specialty garments."}
-                paratwo={"From logos and monograms to complex illustrations, our team ensures accuracy, fast turnaround, and top-tier quality. Whether you’re a small business, apparel brand, or large embroidery shop, we provide reliable digitizing that enhances stitch quality, reduces production time, and ensures a professional embroidered finish every single time."} />
+                paratwo={"From logos and monograms to complex illustrations, our team ensures accuracy, fast turnaround, and top-tier quality. Whether you’re a small business, apparel brand, or large embroidery shop, we provide reliable digitizing that enhances stitch quality, reduces production time, and ensures a professional embroidered finish every single time."}
+                imgpath={"/assets/images/portfolio/machine.jpg"} />
 
 
 
-            <PortfolioSec subheading="Best Solution We Offer you" heading="Our Embroidery Digitizing Work" type="digitizing"/>
+            <PortfolioSec subheading="Best Solution We Offer you" heading="Our Embroidery Digitizing Work" type="digitizing" />
             <CTA />
             <Boxes />
             <ContentTwo />

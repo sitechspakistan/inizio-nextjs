@@ -31,6 +31,7 @@ export default function custom() {
                         Whether you’re outfitting a team, launching a clothing line, or promoting your business, we offer complete freedom in size, shape, and design to match your exact vision. With fast delivery across the United States and reliable manufacturing quality, our custom patches help your brand stand out while maintaining durability and long-lasting professional appeal.
                     </>
                 }
+                imgpath={"/assets/images/portfolio/custom-patch/5.jpg"}
             />
             <Boxes/>
             <FaqsCustom/>

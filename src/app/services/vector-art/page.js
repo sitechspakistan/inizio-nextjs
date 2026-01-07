@@ -33,6 +33,7 @@ export default function vector() {
                         We deliver production-ready files in {" "}<strong>EPS, AI, PDF, SVG, JPEG, and PNG </strong>{" "} formats to fit seamlessly into your workflow. Our team focuses on maintaining design accuracy while improving sharpness, balance, and print quality. Ideal for apparel brands, print shops, marketing teams, and custom merchandise businesses, our vector art ensures consistent, high-quality results every time even from low-resolution or blurry source images.
                     </>
                 }
+                imgpath={"/assets/images/portfolio/two-vector.png"}
             />
 
             <PortfolioSec subheading={"Best solution we offer you"} heading={"Our Vector Art Work."} type="vector-art" />

@@ -7,9 +7,11 @@
     min-height: 500px;
     width: 100%;
 }
-.grey-bg-1{
-  background: #F2F5F680;
+
+.grey-bg-1 {
+    background: #F2F5F680;
 }
+
 .tp-btn-map {
     display: inline-block;
     color: var(--tp-common-white);
@@ -395,7 +397,7 @@
     line-height: 25px;
 }
 
-.contact-icon span i{
+.contact-icon span i {
     font-size: 20px;
     font-weight: bold;
     color: var(--tp-common-sky);
@@ -501,7 +503,7 @@ footer .footer-font #linkedin:hover {
     color: white;
     
 } */
- .footer-bg:after {
+.footer-bg:after {
     /* content: "none"; */
     width: 100%;
     height: 100%;
@@ -509,7 +511,8 @@ footer .footer-font #linkedin:hover {
     top: 0;
     left: 0;
 }
-.borderbottom{
+
+.borderbottom {
     border-bottom: 3px solid #fff;
     margin-bottom: 15px;
 }
@@ -1092,7 +1095,7 @@ footer .footer-font #linkedin:hover {
     color: gray;
 }
 
- .tp-contact-area .form-select {
+.tp-contact-area .form-select {
     display: block;
     width: 100%;
     padding: 2px 2px 0px 16px;
@@ -1114,6 +1117,7 @@ footer .footer-font #linkedin:hover {
     appearance: none;
     height: 55px;
 }
+
 .tp-contact-area .form-select:focus {
     border: 1px solid var(--tp-common-green) !important;
     box-shadow: none !important;
@@ -1510,12 +1514,14 @@ footer .footer-font #linkedin:hover {
     -webkit-text-stroke: 1px var(--tp-common-sky) !important;
 
 }
+
 .tpcontact__form input {
-   
+
     border: 1px solid #cdcdcd;
 }
+
 .tpcontact__form textarea {
-    
+
     border: 1px solid #cdcdcd;
 }
 
@@ -1622,6 +1628,12 @@ footer .footer-font #linkedin:hover {
 .tp-custom-accordio .accordion-body {
     padding: 10px 45px;
     font-weight: 600;
+}
+
+.ab-inner-img img {
+    border-radius: 24px;
+    width: 90%;
+    height: 380px;
 }
 
 /* mobile responsive CSS*/

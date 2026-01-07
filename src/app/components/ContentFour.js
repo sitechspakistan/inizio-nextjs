@@ -17,7 +17,7 @@ export default function ContentFour({heading, headingone, para}) {
                             <div className="tp-ab-section-title-box">
                                 <h2 className="tp-section-title">{heading} <span className="content-color"> {headingone} </span></h2>
                                 <p>{para}</p>
-                                <Link className="tp-btn" href="/services/digitizing">Read More</Link>
+                                <Link className="tp-btn" href="/services/embroidery-digitizing">Read More</Link>
                             </div>
                         </div>
                         <div className="col-xl-5 col-lg-5 wow tpfadeRight" data-wow-duration=".7s" data-wow-delay=".5s"
