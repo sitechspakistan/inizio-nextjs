@@ -406,7 +406,7 @@
 
 .content-color {
     color: #29bff2;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 /* .copyright-right-side {
@@ -1635,6 +1635,13 @@ footer .footer-font #linkedin:hover {
     width: 90%;
     height: 380px;
 }
+.tpoffcanvas__social .social-icon a:hover{
+    background-color: white;
+    color: black;
+}
+.tpoffcanvas__info-icon a{
+    background-color: var(--tp-common-sky);
+}
 
 /* mobile responsive CSS*/
 
@@ -1737,6 +1744,7 @@ footer .footer-font #linkedin:hover {
     .tp-service-item__button-link {
         position: absolute;
         bottom: 10px;
+        display: none;
     }
 
     .tp-service-item__button-link a {
@@ -2004,7 +2012,7 @@ footer .footer-font #linkedin:hover {
     }
 
     .tp-contact-wrapper {
-        padding: 20px 0px;
+        padding: 25px 10px;
     }
 
     .contact-info-item {
@@ -2059,6 +2067,7 @@ footer .footer-font #linkedin:hover {
         font-size: 35px !important;
         padding-bottom: 0;
         margin-bottom: 0;
+        line-height: 38px;
     }
 
     #tp-detail-col1 h2,

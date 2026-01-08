@@ -50,7 +50,7 @@ export default function ContactForm() {
                                     <span><i className="fal fa-map-marker-alt"></i></span>
                                 </div>
                                 <div className="contact-loaction">
-                                    <a href="https://www.google.com.bd/maps/place/United+States/@37.2756214,-104.656551,5z/data=!3m1!4b1!4m5!3m4!1s0x54eab584e432360b:0x1c3bb99243deb742!8m2!3d37.09024!4d-95.712891"
+                                    <a href="https://maps.app.goo.gl/m5ZVT8chR1iBS3fj8"
                                         target="_blank">131 Continental Dr Ste 305, Newark, DE 19713, USA</a>
                                 </div>
                                 </div>
@@ -60,7 +60,7 @@ export default function ContactForm() {
                                     </div>
                                     <div className="contact-loaction">
                                         <a
-                                            href="/cdn-cgi/l/email-protection#03707673736c717743656a646e622d606c6e">orders@iniziosolutions.com</a>
+                                            href="mailto:orders@iniziosolutions.com">orders@iniziosolutions.com</a>
                                     </div>
                                 </div>
                                 <div className="contact-info-item d-flex align-items-center">
@@ -68,7 +68,7 @@ export default function ContactForm() {
                                         <span><i className="fal fa-phone-alt "></i></span>
                                     </div>
                                     <div className="contact-loaction">
-                                        <a href="tel:08778886664)">+1 (302) 779-1338</a>
+                                        <a href="tel:+1 (302) 779-1338)">+1 (302) 779-1338</a>
                                     </div>
                                 </div>
                             </div>

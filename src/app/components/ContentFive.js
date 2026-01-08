@@ -1,4 +1,4 @@
-export default function ContentFive({heading,headingone,para}) {
+export default function ContentFive({heading,headingone,para, imgCity}) {
     return (
         <section>
             <div className="tp-about-area ab-area-sapce pt-120 pb-120 bg-dark">
@@ -26,7 +26,7 @@ export default function ContentFive({heading,headingone,para}) {
                             }}>
                             <div className="tp-ab-wrapper p-relative">
                                 <div className="tp-about-thumb">
-                                    <img src="https://zenkoders.com/wp-content/uploads/2024/11/houston-development-mockup-2.webp"
+                                    <img src={`/assets/images/cities/${imgCity}.png`}
                                         className="bg-transparent" alt="" />
                                 </div>
                             </div>

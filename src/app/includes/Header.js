@@ -78,7 +78,7 @@ export default function Header() {
                     </div>
                     <div className="tpoffcanvas__info-address">
                         <span>Email</span>
-                        <Link href="maito:hello@yourmail.com"><span className="__cf_email__"
+                        <Link href="mailto:orders@iniziosolutions.com"><span className="__cf_email__"
                                 data-cfemail="adc5c8c1c1c2edd4c2d8dfc0ccc4c183cec2c0">orders@iniziosolutions.com</span></Link>
                     </div>
                     </div>
@@ -88,7 +88,7 @@ export default function Header() {
                     </div>
                     <div className="tpoffcanvas__info-address">
                         <span>Phone</span>
-                        <Link href="tel:(00)45611227890">+1 (302) 779-1338</Link>
+                        <Link href="tel:+1 (302) 779-1338">+1 (302) 779-1338</Link>
                     </div>
                     </div>
                     <div className="tp-info-wrapper mb-20 d-flex align-items-center">
@@ -97,14 +97,14 @@ export default function Header() {
                     </div>
                     <div className="tpoffcanvas__info-address">
                         <span>Location</span>
-                        <Link href="https://www.google.com/maps/@37.4801311,22.8928877,3z" target="_blank">131 Continental Dr Ste 305, Newark, DE 19713, USA </Link>
+                        <Link href="https://maps.app.goo.gl/m5ZVT8chR1iBS3fj8" target="_blank">131 Continental Dr Ste 305, Newark, DE 19713, USA </Link>
                     </div>
                     </div>
                 </div>
                 <div className="tpoffcanvas__social">
                     <div className="social-icon">
-                    <a href="https://www.facebook.com/iniziosolutionsllc/" target="blank"><i className="fab fa-instagram"></i></a>
-                    <a href="https://www.instagram.com/iniziosolutions/" target="blank"><i className="fab fa-facebook-square"></i></a>
+                    <a href="https://www.instagram.com/iniziosolutions/" target="blank"><i className="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/iniziosolutionsllc/" target="blank"><i className="fab fa-facebook-square"></i></a>
                     <a href="https://www.linkedin.com/company/iniziosolutions/" target="blank"><i className="fab fa-linkedin"></i></a>
                     </div>
                 </div>

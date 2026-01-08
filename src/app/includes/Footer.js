@@ -47,17 +47,17 @@ export default function Footer() {
                                     </div>
                                     <div className="tp-footer-widget__list">
                                         <ul className="footer-position">
-                                            <li><a href="https://www.google.com/maps/@38.4999525,-103.0632285,6.46z" target="_blank">
+                                            <li><a href="https://maps.app.goo.gl/m5ZVT8chR1iBS3fj8" target="_blank">
                                                 <span><i className="fal fa-map-marker-alt"></i></span>
                                                 131 Continental Dr Ste 305, Newark, DE 19713, USA
                                             </a>
                                             </li>
-                                            <li><a href="/cdn-cgi/l/email-protection#3c4f494c4c534e487c5a555b515d">
+                                            <li><a href="mailto:orders@iniziosolutions.com">
                                                 <span><i className="fal fa-envelope"></i></span>
                                                 orders@iniziosolutions.com
                                             </a>
                                             </li>
-                                            <li className="mt-16"><a href="tel:778886664">
+                                            <li className="mt-16"><a href="tel:+1 (302) 779-1338">
                                                 <span><i className="fal fa-phone-alt "></i></span>
                                                 +1 (302) 779-1338</a>
                                             </li>
@@ -81,12 +81,12 @@ export default function Footer() {
                             <div className="z-index-3">
                                 <div className="row">
                                     <div className="col-xl-6 col-lg-6 col-12">
-                                        <div className="copyright-left text-lg-start mb-0">
+                                        <div className="copyright-left text-xl-start text-center mb-0">
                                             <p className="pt-2 mb-0">© Inizio Solutions 2026. All Rights Reserved. Designed & Developed by <a href="https://sitechs.co" target="_blank"><span className="content-color">Sitechs</span></a>.</p>
                                         </div>
                                     </div>
                                     <div className="col-xl-6 col-lg-6 col-12">
-                                        <div className="copyright-right-side text-lg-end">
+                                        <div className="copyright-right-side text-xl-end text-center">
                                             <div className="footer-font">
                                                 <span><a href="https://www.facebook.com/iniziosolutionsllc/" target="blank"><i className="fab fa-facebook" id="facebook"></i></a></span>
                                                 <span><a href="https://www.instagram.com/iniziosolutions/" target="blank"><i className="fab fa-instagram" id="instagram"></i></a></span>
