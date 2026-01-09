@@ -171,12 +171,12 @@
 }
 
 .tp-main-menu ul li a {
-    font-weight: 700;
-    font-size: 14px;
-    letter-spacing: 0.14em;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.10em;
     text-transform: capitalize;
     display: inline-block;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arimo, sans-serif;
     color: #0b0b0b;
 }
 
@@ -1635,12 +1635,18 @@ footer .footer-font #linkedin:hover {
     width: 90%;
     height: 380px;
 }
-.tpoffcanvas__social .social-icon a:hover{
+
+.tpoffcanvas__social .social-icon a:hover {
     background-color: white;
     color: black;
 }
-.tpoffcanvas__info-icon a{
+
+.tpoffcanvas__info-icon a {
     background-color: var(--tp-common-sky);
+}
+
+.mean-container .mean-nav ul li a.mean-expand.mean-clicked i {
+    color: var(--tp-common-black);
 }
 
 /* mobile responsive CSS*/
@@ -2004,6 +2010,18 @@ footer .footer-font #linkedin:hover {
 
     .tp-info .tp-ab-section-title-box h2 {
         font-size: 30px !important;
+    }
+
+    /* .tp-ab-section-title-box .tp-section-title {
+        padding-top: 0px;
+    } */
+    .ab-area-sapce{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .tp-about-thumb img {
+        margin-top: 30px;
     }
 
     footer .footer-font i {

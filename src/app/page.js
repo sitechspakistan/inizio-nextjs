@@ -21,7 +21,7 @@ export const metadata = {
 export default function Home() {
   return (
     <>
-      <Hero heading={`Expert Embroidery Digitizing & Vector Art`} headingone={` IN THE USA.`} paragraph={`Inizio Solutions is your
+      <Hero heading={`Expert Embroidery Digitizing & Vector Art in the`} headingone={` USA.`} paragraph={`Inizio Solutions is your
                           trusted partner for professional apparel branding services in the U.S. We specialize in
                           converting your designs into high-quality embroidery digitizing files, scalable vector
                           art, and manufacturing premium custom patches. Get guaranteed quality and the fastest

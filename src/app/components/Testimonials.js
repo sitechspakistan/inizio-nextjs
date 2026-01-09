@@ -144,7 +144,7 @@ export default function Testimonials() {
                            <div className="tp-testimonial-three__content-text">
                               <p>I've been having our designs digitized and vectorized by Inizio for 2+ years. They
                                  have always done great works... <a
-                                    href="https://www.trustpilot.com/reviews/68d6baa79ca20af1c5e02e14" className="read-more"
+                                    href="https://www.trustpilot.com/users/6139e3d48b60e500121584a1" className="read-more"
                                     target="_blank">Read More</a></p>
                            </div>
                         </div>
@@ -173,7 +173,7 @@ export default function Testimonials() {
                            <div className="tp-testimonial-three__content-text">
                               <p>Missouri Cotton Exchange is very happy with the digitizing and customer service that
                                  we receive from Inizio... <a
-                                    href="https://www.trustpilot.com/reviews/68d6baa79ca20af1c5e02e14" className="read-more"
+                                    href="https://www.trustpilot.com/users/63fe1cf8db7efe0012b11447" className="read-more"
                                     target="_blank">Read More</a></p>
                            </div>
                         </div>
