@@ -86,7 +86,7 @@ export default function Hero({ heading, headingone, paragraph }) {
                 <div className="text-start text-lg-end wow tpfadeRight" data-wow-duration=".9s"
                   data-wow-delay="1.2s">
                   <div className="tp-ab-section-title-box-2">
-                    <h2 className="tp-section-title-2 text-center text-uppercase">Get a Free Quote.
+                    <h2 className="tp-section-title-2 text-center text-uppercase">Get a Free Quote
                     </h2>
                     <form action="/place-an-order" method="GET" className="form-top">
                       <div className="row">
