@@ -17,7 +17,7 @@ export default function Footer() {
                                             <li><Link href="/services">Services</Link></li>
                                             <li><Link href="/pricing">Our Pricing</Link></li>
                                             <li><Link href="https://www.etsy.com/shop/iniziosolutionsshop/?etsrc=sdt">Shop</Link></li>
-                                            <li><Link href="/portfolio">Portfolio</Link></li>
+                                            <li><a href="https://www.behance.net/iniziosolutionsllc" target="_blank">Portfolio</a></li>
                                             <li><Link href="#">Privacy Policy</Link></li>
                                             <li><Link href="#">Terms of Use</Link></li>
                                         </ul>

@@ -113,9 +113,9 @@ export default function PortfolioSec({ subheading, heading, type }) {
           {/* BUTTON */}
           <div className="row">
             <div className="case-button mt-30 text-center">
-              <Link className="tp-btn text-capitalize" href="/portfolio">
+              <a className="tp-btn text-capitalize" href="https://www.behance.net/iniziosolutionsllc" target="_blank">
                 View Full Portfolio
-              </Link>
+              </a>
             </div>
           </div>
 

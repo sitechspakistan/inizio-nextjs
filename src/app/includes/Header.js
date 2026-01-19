@@ -26,7 +26,7 @@ export default function Header() {
                                         </ul>
                                     </li>
                                     <li><Link href="/pricing">Pricing</Link></li>                            
-                                    <li><Link href="/portfolio">Portfolio</Link></li>
+                                    <li><a href="https://www.behance.net/iniziosolutionsllc" target="_blank">Portfolio</a></li>
                                     <li className="d-block d-xl-none">
                                         <Link href="/place-an-order">Place An Order</Link>
                                     </li>
