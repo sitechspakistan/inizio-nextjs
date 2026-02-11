@@ -1653,6 +1653,11 @@ footer .footer-font #linkedin:hover {
 
 
 @media (max-width: 767px) {
+
+    .tp-case-item__thumb img {
+        width: 100%;
+    }
+
     .tp-map-icon p {
         margin-top: 0px;
         font-size: 10px;
@@ -2015,7 +2020,7 @@ footer .footer-font #linkedin:hover {
     /* .tp-ab-section-title-box .tp-section-title {
         padding-top: 0px;
     } */
-    .ab-area-sapce{
+    .ab-area-sapce {
         padding-top: 40px;
         padding-bottom: 40px;
     }
@@ -2202,4 +2207,30 @@ footer .footer-font #linkedin:hover {
 .sec-sub-span {
     font-size: 20px;
     font-weight: bold;
+}
+
+.policy p {
+    font-size: 16px;
+    line-height: 24px;
+    /* padding-top: 15px; */
+    margin-bottom: 0px;
+
+}
+
+.policy h1 {
+    font-size: 40px;
+    margin-bottom: 45px;
+}
+
+.policy h3 {
+    font-size: 22px;
+    margin: 16px 0 16px 0;
+}
+
+.policy ul {
+    padding: 8px 25px;
+}
+
+.policy ul li {
+    list-style-type: disc;
 }

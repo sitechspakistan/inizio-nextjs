@@ -10,6 +10,21 @@ export const metadata = {
     alternates: {
         canonical: "https://iniziosolutions.com/services/custom-patches",
     },
+    openGraph: {
+        title: "Custom Patches Manufacturer | Inizio Solutions, LLC",
+        description: "Design high-quality embroidered, PVC, or woven custom patches. Get vibrant colors, expert design support, and fast delivery guaranteed. Start your order now!",
+        url: "https://iniziosolutions.com/services/custom-patches",
+        siteName: "Inizio Solutions",
+        images: [
+            {
+                url: "https://iniziosolutions.com/assets/images/inizo-logo.webp",
+                width: 1200,
+                height: 630,
+                alt: "Inizio Solutions Logo",
+            },
+        ],
+        type: "website",
+    },
 };
 
 
@@ -33,9 +48,9 @@ export default function custom() {
                 }
                 imgpath={"/assets/images/portfolio/custom-patch/5.jpg"}
             />
-            <Boxes/>
-            <FaqsCustom/>
-            <ContactForm/>
+            <Boxes />
+            <FaqsCustom />
+            <ContactForm />
 
         </>
     )

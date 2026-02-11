@@ -1,40 +1,26 @@
 "use client";
 
 import Slider from "react-slick";
-import Link from "next/link";
 
 export default function PortfolioSec({ subheading, heading, type }) {
-
   const settings = {
     fade: false,
     autoplay: false,
     arrows: false,
     infinite: true,
     slidesToShow: 6,
-    infinite: true,
     rtl: true,
     slidesToScroll: 4,
-    cssEase: "ease", // 🔑 REQUIRED
-
+    cssEase: "ease",
     responsive: [
-      {
-        breakpoint: 1024, // tablets
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 768, // phones
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
+      { breakpoint: 1024, settings: { slidesToShow: 2, slidesToScroll: 1 } },
+      { breakpoint: 767, settings: { slidesToShow: 1, slidesToScroll: 1 } },
+      // { breakpoint: 468, settings: { slidesToShow: 1, slidesToScroll: 1 } },
     ],
   };
- 
- 
+
+
+
   let portfolioImages = [];
 
   if (type === 'digitizing') {

@@ -13,6 +13,21 @@ export const metadata = {
     alternates: {
         canonical: "https://iniziosolutions.com/services/vector-art",
     },
+    openGraph: {
+        title: "Expert Vector Art Conversion Service | Inizio Solutions, LLC",
+        description: "Get 💯 flawless vector art conversion & image tracing for print-ready files. Perfect for screen printing, DTF, and large format printing. ⚡ 4-5 Hours Turnaround!",
+        url: "https://iniziosolutions.com/services/vector-art",
+        siteName: "Inizio Solutions",
+        images: [
+            {
+                url: "https://iniziosolutions.com/assets/images/inizo-logo.webp",
+                width: 1200,
+                height: 630,
+                alt: "Inizio Solutions Logo",
+            },
+        ],
+        type: "website",
+    },
 };
 
 export default function vector() {

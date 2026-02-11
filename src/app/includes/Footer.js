@@ -18,8 +18,8 @@ export default function Footer() {
                                             <li><Link href="/pricing">Our Pricing</Link></li>
                                             <li><Link href="https://www.etsy.com/shop/iniziosolutionsshop/?etsrc=sdt">Shop</Link></li>
                                             <li><a href="https://www.behance.net/iniziosolutionsllc" target="_blank">Portfolio</a></li>
-                                            <li><Link href="#">Privacy Policy</Link></li>
-                                            <li><Link href="#">Terms of Use</Link></li>
+                                            <li><Link href="/privacy-policy">Privacy Policy</Link></li>
+                                            <li><Link href="/terms-conditions">Terms of Use</Link></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -76,7 +76,7 @@ export default function Footer() {
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div className="row ">
                             <div className="z-index-3">
                                 <div className="row">

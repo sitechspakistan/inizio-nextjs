@@ -14,6 +14,21 @@ export const metadata = {
     alternates: {
         canonical: "https://iniziosolutions.com/services/embroidery-digitizing",
     },
+    openGraph: {
+        title: "Embroidery Digitizing Service | Inizio Solutions, LLC",
+        description: "Need Professional embroidery digitizing? Get perfect stitch flow, balanced density, and high-quality results for caps, patches, and jackets. Order 24/7!",
+        url: "https://iniziosolutions.com/services/embroidery-digitizing",
+        siteName: "Inizio Solutions",
+        images: [
+            {
+                url: "https://iniziosolutions.com/assets/images/inizo-logo.webp",
+                width: 1200,
+                height: 630,
+                alt: "Inizio Solutions Logo",
+            },
+        ],
+        type: "website",
+    },
 };
 
 export default function Digitizing() {

@@ -7,6 +7,11 @@ export default function robots() {
         disallow: [
           '/api/',
           '/thank-you/',
+          '/*?',
+          '/*.htm',
+          '/*.html',
+          '/*.shtml',
+          '/shopdetail/',
         ],
       },
     ],

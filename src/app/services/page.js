@@ -12,6 +12,21 @@ export const metadata = {
     alternates: {
         canonical: "https://iniziosolutions.com/services",
     },
+    openGraph: {
+        title: "Embroidery Digitizing, Vector Art & Custom Patch Services",
+        description: "Get expert Embroidery Digitizing, Vector Art conversion, and Custom Patches. Premium quality graphic and apparel services with fast turnaround.",
+        url: "https://iniziosolutions.com/services",
+        siteName: "Inizio Solutions",
+        images: [
+            {
+                url: "https://iniziosolutions.com/assets/images/inizo-logo.webp",
+                width: 1200,
+                height: 630,
+                alt: "Inizio Solutions Logo",
+            },
+        ],
+        type: "website",
+    },
 };
 
 export default function services() {

@@ -9,52 +9,52 @@
 //         btn.innerText = "Read More";
 //     }
 // }
-$(document).ready(function () {
-    $('#multiple-items').slick({
-        dots: false,
-        infinite: true,
-        arrows: false, 
-        
-        slidesToShow: 5,
-        slidesToScroll: 1,
+$(document).Ready(function () {
+  $('#multiple-items').slick({
+    dots: false,
+    infinite: true,
+    arrows: false,
 
-        autoplay: true,
-        autoplaySpeed: 0,
-        speed: 6000,
-        pauseOnHover: false,
-        pauseOnFocus: false,
+    slidesToShow: 5,
+    slidesToScroll: 1,
 
-        cssEase: 'linear',
-        responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        // dots: true
+    autoplay: true,
+    autoplaySpeed: 0,
+    speed: 6000,
+    pauseOnHover: false,
+    pauseOnFocus: false,
+
+    cssEase: 'linear',
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          // dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
       }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-    }); 
-}); 
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
+  });
+});
 $('#digitizing-items').slick({
   arrows: true,
   infinite: false,
@@ -97,12 +97,12 @@ $('#brand-items').slick({
   slidesToShow: 3,
   slidesToScroll: 2,
   autoplay: true,
-        autoplaySpeed: 0,
-        speed: 9000,
-        pauseOnHover: false,
-        pauseOnFocus: false,
+  autoplaySpeed: 0,
+  speed: 9000,
+  pauseOnHover: false,
+  pauseOnFocus: false,
 
-        cssEase: 'linear',
+  cssEase: 'linear',
   responsive: [
     {
       breakpoint: 1024,
