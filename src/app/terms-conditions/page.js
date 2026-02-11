@@ -18,8 +18,8 @@ export default function TermConditons() {
 
         <>
             <Suspense fallback={<div>Loading...</div>}>
-                <SecondHero subheading="Term & Conditions"
-                    headingone={"Term & Conditions"}
+                <SecondHero subheading="Terms & Conditions"
+                    headingone={"Terms & Conditions"}
                     heading=""
                     description=""
 
