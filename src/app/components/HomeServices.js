@@ -13,7 +13,8 @@ export default function HomeServices() {
                            {/* <span className="tp-section-subtitle tp-yellow-color text-capitalize ">Elevate Your Brand with
                               Our
                               Expertise</span> */}
-                           <h2 className="pb-3 text-capitalize">your trusted partner for digital branding excellence.</h2>
+                           <h2 className="pb-3 text-capitalize">your trusted partner for Embroidery digitizing and Vector arts.
+                           </h2>
                            <p className="mb-24">Welcome to <strong className="content-color text-capitalize">Inizio
                               Solutions</strong>, your trusted
                               partner for
