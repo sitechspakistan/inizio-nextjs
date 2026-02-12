@@ -20,7 +20,7 @@ export const metadata = {
         siteName: "Inizio Solutions",
         images: [
             {
-                url: "https://iniziosolutions.com/assets/images/open-graph.png",
+                url: "https://iniziosolutions.com/assets/images/open-graph.jpg",
                 width: 1200,
                 height: 630,
                 alt: "Inizio Solutions Logo",

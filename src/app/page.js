@@ -26,9 +26,10 @@ export const metadata = {
     description: "Inizio Solutions is a full-service digital agency helping startups and enterprises build AI automations, SaaS platforms, and high-performing websites. We also craft logos and branding that power business growth.",
     url: "https://iniziosolutions.com",
     siteName: "Inizio Solutions",
+
     images: [
       {
-        url: "https://iniziosolutions.com/assets/images/open-graph.png",
+        url: "https://iniziosolutions.com/assets/images/open-graph.jpg",
         width: 1200,
         height: 630,
         alt: "Inizio Solutions Logo",
