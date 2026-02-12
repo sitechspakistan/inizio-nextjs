@@ -20,7 +20,7 @@ export const metadata = {
         siteName: "Inizio Solutions",
         images: [
             {
-                url: "https://iniziosolutions.com/assets/images/inizo-logo.webp",
+                url: "https://iniziosolutions.com/assets/images/open-graph.png",
                 width: 1200,
                 height: 630,
                 alt: "Inizio Solutions Logo",
@@ -30,11 +30,91 @@ export const metadata = {
     },
 };
 
+const vectorSchema =
+{
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Vector Art Conversion",
+    "description": "Professional vector art conversion, raster to vector tracing, and print-ready vector file preparation for screen printing, DTG/DTF, signage, vinyl cutting and large format printing.",
+    "provider": {
+        "@type": "Organization",
+        "name": "Inizio Solutions",
+        "url": "https://iniziosolutions.com",
+        "logo": "https://iniziosolutions.com/assets_frontend/logo.png",
+        "sameAs": [
+            "https://www.facebook.com/iniziosolutionsllc",
+            "https://www.instagram.com/iniziosolutions"
+        ]
+    },
+    "serviceType": "Vector Art & Raster to Vector Conversion",
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.6", "reviewCount": "23", "bestRating": "5" },
+
+    "areaServed": ["US", "GB", "CA", "AU", "150"],
+    "offers": {
+        "@type": "Offer",
+        "url": "https://iniziosolutions.com/services/vector-art",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "eligibleRegion": ["US", "GB", "CA", "AU", "150"]
+    }
+}
+
+const faqsSchema = {
+    "@context": "https://schema.org/",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "What are the acceptable file formats should I provide to ensure the highest-quality digitizing results?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You can send us your artwork in a variety of formats, including .jpg, .jpeg, .gif, .bmp, .tif, .ai, and .eps. For faster uploading and smaller file sizes, .jpeg and .gif are usually the most convenient options.\n"
+            }
+        },
+        {
+            "@type": "Question",
+            "name": " Do you provide digitized embroidery files in specialized or custom formats if needed?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, we can provide your digitized embroidery files in any specialized or custom format you need. DST is our standard delivery format, we can supply any file format based on your  machine’s specific requirements."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": " What is the turnaround time for embroidery digitizing or other services?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The turnaround time is based on the complexity of the image you send us. We offer a super-fast turnaround time of 4 to 5 hours. If you let us know your emergency, top priority will be given to your job."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Do you offer free revisions with your embroidery digitizing or other services?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, InizioSolutions offers unlimited free revisions to ensure you get exactly the result you want. Your satisfaction is our top priority."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Can I use vector art services for screen printing and embroidery?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, absolutely, our vector files are embroidery and print-ready, making them perfect for screen printing, sublimation, and even for embroidery."
+            }
+        }
+    ]
+
+}
+
 export default function vector() {
 
 
     return (
         <>
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(vectorSchema), }} />
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqsSchema), }} />
+
             <InnerHero subheading="Vector Art Conversion" headingone={"Vector Art"} headingtwo="conversion" paragraph="Convert any low-resolution image into a crisp,
              scalable vector file. Our manual raster-to-vector conversion ensures print-ready artwork (AI, EPS, PDF) for all your 
              printing and engraving needs."/>

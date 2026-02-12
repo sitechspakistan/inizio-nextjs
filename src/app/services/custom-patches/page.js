@@ -17,7 +17,7 @@ export const metadata = {
         siteName: "Inizio Solutions",
         images: [
             {
-                url: "https://iniziosolutions.com/assets/images/inizo-logo.webp",
+                url: "https://iniziosolutions.com/assets/images/open-graph.png",
                 width: 1200,
                 height: 630,
                 alt: "Inizio Solutions Logo",
@@ -27,10 +27,95 @@ export const metadata = {
     },
 };
 
+const customSchema =
+{
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Custom Patches",
+    "description": "Premium custom patches including embroidered, PVC, chenille, woven and leather patches designed for durability and branding.",
+    "provider": {
+        "@type": "Organization",
+        "name": "Inizio Solutions",
+        "url": "https://iniziosolutions.com",
+        "logo": "https://iniziosolutions.com/assets_frontend/logo.png",
+        "sameAs": [
+            "https://www.facebook.com/iniziosolutionsllc",
+            "https://www.instagram.com/iniziosolutions"
+        ]
+    },
+    "serviceType": "Custom Patches - Embroidered, PVC, Chenille, Woven Leather & More ",
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.6", "reviewCount": "23", "bestRating": "5" },
+    "areaServed": ["US", "GB", "CA", "AU", "150"],
+    "offers": {
+        "@type": "Offer",
+        "url": "https://iniziosolutions.com/services/custom-patches",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "eligibleRegion": ["US", "GB", "CA", "AU", "150"]
+    }
+}
+
+const faqsSchema = {
+    "@context": "https://schema.org/",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "What exactly are these embroidered custom patches?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Embroidered custom patches are small, stitched designs created on cotton twill using high-quality thread. They’re used to represent brands, events, teams, and causes with a polished, durable look. These patches can be sewn or applied to clothing, bags, uniforms, or used creatively in crafts making them a versatile way to showcase identity and style."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Can I mix different designs in one order?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Each design counts as a separate item. So, if you want 50 of one design and 50 of another, it would be priced as 100 separate items."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What's the minimum and maximum number of patches I can order at a time?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We welcome all order sizes big or small. Our skilled team can handle high-volume production, including 100,000+ patches, while maintaining top quality. Please note, our minimum order quantity starts at 50 patches."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How long does it take to make them?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Once the order details and invoice are finalized, we submit the order. You'll get a soft sample of the patch within 1-2 days for review. After approval, we usually ship them out within 7-10 days."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Do you offer revisions for quality assurance?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. If there are any issues with the patches design, please let us know, and we will work with you until it is perfect."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Can you replicate a patch that I already have?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Get an identical copy of your patch with ease. Take a photo and share it with us. We’ll create a replica and return your original item to you. Trust us to create a perfect match."
+            }
+        }
+    ]
+}
+
 
 export default function custom() {
     return (
         <>
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(customSchema), }} />
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqsSchema), }} />
             <InnerHero subheading="Custom Patches"
                 headingone={"Custom "}
                 headingtwo="Patches"

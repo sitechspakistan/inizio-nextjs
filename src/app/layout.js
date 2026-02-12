@@ -18,33 +18,33 @@ import Header from "./includes/Header";
 import Footer from "./includes/Footer";
 
 
-export const metadata = {
-  title: "Inizio Solutions | Embroidery Digitizing & Vector Art",
-  description: "Inizio Solutions is a full-service digital agency helping startups and enterprises build AI automations, SaaS platforms, and high-performing websites. We also craft logos and branding that power business growth.",
-  alternates: {
-    canonical: "https://iniziosolutions.com",
-  },
-  icons: {
-    icon: "/assets/images/inizo-logo.webp",
-  },
-  metadataBase: new URL("https://iniziosolutions.com"),
+// export const metadata = {
+//   title: "Inizio Solutions | Embroidery Digitizing & Vector Art",
+//   description: "Inizio Solutions is a full-service digital agency helping startups and enterprises build AI automations, SaaS platforms, and high-performing websites. We also craft logos and branding that power business growth.",
+//   alternates: {
+//     canonical: "https://iniziosolutions.com",
+//   },
+//   icons: {
+//     icon: "/assets/images/inizo-logo.webp",
+//   },
+//   metadataBase: new URL("https://iniziosolutions.com"),
 
-  openGraph: {
-    title: "Inizio Solutions | Embroidery Digitizing & Vector Art",
-    description: "Inizio Solutions is a full-service digital agency helping startups and enterprises build AI automations, SaaS platforms, and high-performing websites. We also craft logos and branding that power business growth.",
-    url: "https://iniziosolutions.com",
-    siteName: "Inizio Solutions",
-    images: [
-      {
-        url: "https://iniziosolutions.com/assets/images/inizo-logo.webp",
-        width: 1200,
-        height: 630,
-        alt: "Inizio Solutions Logo",
-      },
-    ],
-    type: "website",
-  },
-};
+//   openGraph: {
+//     title: "Inizio Solutions | Embroidery Digitizing & Vector Art",
+//     description: "Inizio Solutions is a full-service digital agency helping startups and enterprises build AI automations, SaaS platforms, and high-performing websites. We also craft logos and branding that power business growth.",
+//     url: "https://iniziosolutions.com",
+//     siteName: "Inizio Solutions",
+//     images: [
+//       {
+//         url: "https://iniziosolutions.com/assets/images/open-graph.png",
+//         width: 1200,
+//         height: 630,
+//         alt: "Inizio Solutions Logo",
+//       },
+//     ],
+//     type: "website",
+//   },
+// };
 
 export default function RootLayout({ children }) {
   return (

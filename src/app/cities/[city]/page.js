@@ -29,7 +29,7 @@ export async function generateMetadata({ params }) {
       siteName: "Inizio Solutions",
       images: [
         {
-          url: "https://iniziosolutions.com/assets/images/inizo-logo.webp",
+          url: "https://iniziosolutions.com/assets/images/open-graph.png",
           width: 1200,
           height: 630,
           alt: "Inizio Solutions Logo",
@@ -45,12 +45,66 @@ export async function generateMetadata({ params }) {
 export default async function CityPage({ params }) {
 
   const { city } = await params
-  const cityName = city
-    .split('-')
+  const cityName = city.
+    split('-')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
     .join(' ');
+
+  const citySchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": `Embroidery Digitizing & Vector Art Services in ${cityName}`,
+    "description": `Professional embroidery digitizing and vector art services available in ${cityName}`,
+    "provider": {
+      "@type": "Organization",
+      "name": "Inizio Solutions",
+      "url": "https://iniziosolutions.com"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Inizio Solutions Service Catalog",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Embroidery Digitizing"
+          }
+        },
+
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Vector Art Conversion"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Custom Patches"
+          }
+        }
+      ]
+    },
+    "areaServed": {
+      "@type": "Country",
+      "name": "United States"
+    },
+
+    "url": `https://iniziosolutions.com/cities/${cityName}`
+
+
+  }
+
+
+
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(citySchema), }} />
+
       <Hero heading={`Top-Rated Embroidery Digitizing Experts in`} headingone={` ${cityName}`}
         paragraph={`Join hundreds of satisfied clients in ${cityName} who trust Inizio Solutions for their embroidery digitizing 
             needs.Our expert team ensures your designs are perfectly optimized for any fabric, ensuring a smooth machine-ready files 
