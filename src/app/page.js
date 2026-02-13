@@ -11,8 +11,8 @@ import ContactForm from "./components/ContactForm";
 
 
 export const metadata = {
-  title: "Inizio Solutions | Embroidery Digitizing & Vector Art",
-  description: "Inizio Solutions is a full-service digital agency helping startups and enterprises build AI automations, SaaS platforms, and high-performing websites. We also craft logos and branding that power business growth.",
+  title: "Embroidery Digitizing & Vector Art in USA | Inizio Solutions",
+  description: "Expert Embroidery Digitizing, Vector Art & Premium Custom Patches in the USA. Fast turnaround, High-quality, print-ready files. Get a FREE Quote Now!",
   alternates: {
     canonical: "https://iniziosolutions.com",
   },
@@ -22,8 +22,8 @@ export const metadata = {
   metadataBase: new URL("https://iniziosolutions.com"),
 
   openGraph: {
-    title: "Inizio Solutions | Embroidery Digitizing & Vector Art",
-    description: "Inizio Solutions is a full-service digital agency helping startups and enterprises build AI automations, SaaS platforms, and high-performing websites. We also craft logos and branding that power business growth.",
+    title: "Embroidery Digitizing & Vector Art in USA | Inizio Solutions",
+    description: "Expert Embroidery Digitizing, Vector Art & Premium Custom Patches in the USA. Fast turnaround, High-quality, print-ready files. Get a FREE Quote Now!",
     url: "https://iniziosolutions.com",
     siteName: "Inizio Solutions",
 

@@ -29,6 +29,11 @@ const nextConfig = {
         permanent: true, // 301
       },
       {
+        source: '/digitizing',
+        destination: '/services/embroidery-digitizing',
+        permanent: true, // 301
+      },
+      {
         source: '/index',
         destination: '/',
         permanent: true, // 301
