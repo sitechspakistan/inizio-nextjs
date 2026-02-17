@@ -49,7 +49,16 @@ import Footer from "./includes/Footer";
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Script async src={`https://www.googletagmanager.com/gtag/js?id=G-QZLZ17ENJT`}></Script>
+      <Script>
+        {`window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QZLZ17ENJT') ;`}
+      </Script>
       <body>
+
         <Header />
         <div className="body-overlay"></div>
         <main>{children}</main>
@@ -70,6 +79,6 @@ export default function RootLayout({ children }) {
 
       </body>
 
-    </html>
+    </html >
   );
 }
