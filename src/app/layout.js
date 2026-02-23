@@ -13,9 +13,14 @@ import '../styles/magnific-popup.css';
 import '../styles/spacing.css';
 import '../styles/style.css';
 import '../styles/custom.css';
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+/>
 
 import Header from "./includes/Header";
 import Footer from "./includes/Footer";
+import WhatsAppButton from "./components/WhatsappBtn";
 
 
 // export const metadata = {
@@ -49,14 +54,23 @@ import Footer from "./includes/Footer";
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Script async src={`https://www.googletagmanager.com/gtag/js?id=G-QZLZ17ENJT`}></Script>
-      <Script>
-        {`window.dataLayer = window.dataLayer || [];
+      <head><link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-p+o8+5msqZ5qfNczL0V7Kc6+OniBkM+ZPqMw+uvQJp8AwOKQvQ8xR5ZXEm9f6Rg7Bcl7Gp+/xYbE7e6D+g7rAw=="
+        crossOrigin="anonymous"
+        referrerPolicy="no-referrer"
+      />
+        <Script async src={`https://www.googletagmanager.com/gtag/js?id=G-QZLZ17ENJT`}></Script>
+        <Script>
+          {`window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-QZLZ17ENJT') ;`}
-      </Script>
+        </Script>
+      </head>
+
       <body>
 
         <Header />
@@ -65,6 +79,7 @@ export default function RootLayout({ children }) {
 
 
         <Footer />
+        <WhatsAppButton />
         <Script src="/assets/js/jquery.js"></Script>
         <Script src="/assets/js/waypoints.js"></Script>
         <Script src="/assets/js/wow.js"></Script>
