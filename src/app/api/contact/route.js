@@ -40,7 +40,7 @@ export async function POST(req) {
 
     return new Response(JSON.stringify({ success: true }), { status: 200 });
 
-} catch (error) {
+  } catch (error) {
     console.error("NODEMAILER ERROR FULL:", {
       message: error.message,
       code: error.code,
@@ -49,7 +49,7 @@ export async function POST(req) {
       responseCode: error.responseCode,
       stack: error.stack,
     });
-  
+
     return new Response(
       JSON.stringify({
         error: error.message,

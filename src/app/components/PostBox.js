@@ -1,7 +1,7 @@
 import Link from "next/link";
 
-export default function PostBox(){
-    return(
+export default function PostBox({ title, summary, imageUrl, btndetail }) {
+    return (
         <div className="postbox__area pt-120 pb-120">
             <div className="container">
                 <div className="row">
@@ -9,95 +9,29 @@ export default function PostBox(){
                         <div className="postbox__wrapper pr-20">
                             <article className="postbox__item format-image mb-50 transition-3">
                                 <div className="postbox__thumb w-img">
-                                    <Link href="/blogs/detail"> 
-                                        <img src="assets/img/blog/blog-details.jpg" alt="" />
-                                    </Link>
-                                </div>
-                                <div className="postbox__content">
-                                    <div className="postbox__meta">
-                                        <span><Link href="#"><i className="fal fa-user-circle"></i> Alextina </Link></span>
-                                        <span><Link href="#"><i className="fal fa-clock"></i> Dec 28, 2022</Link></span>
-                                        <span><Link href="#"><i className="fal fa-comment-alt-lines"></i>(04)
-                                                Coments</Link></span>
-                                    </div>
-                                    <h2 className="postbox__title">
-                                        <Link href="/blogs/detail">Building A Retro Draggable Web Component With Lit ar
-                                            not working</Link>
-                                    </h2>
-                                    <div className="postbox__text">
-                                        <p>In today’s article, Andrico Karoulla explains how to create Link cool draggable
-                                            effect by listening to the drag events and writing some custom logic inside
-                                            the handlers.</p>
-                                    </div>
-                                    <div className="post__button">
-                                        <Link className="tp-btn-sm" href="/blogs/detail"> READ MORE</Link>
-                                    </div>
-                                </div>
-                            </article>
-                            <article className="postbox__item format-image mb-50 transition-3 fix">
-                                <div className="blog-wrapper">
-                                    <div className="blog-post-slider-active">
-                                        <div className="blog-slider-item">
-                                            <img src="assets/img/blog/blog-details-2.jpg" alt="" />
-                                        </div>
-                                        <div className="blog-slider-item">
-                                            <img src="assets/img/blog/blog-details-3.jpg" alt="" />
-                                        </div>
-                                        <div className="blog-slider-item">
-                                            <img src="assets/img/blog/blog-details.jpg" alt="" />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="postbox__content">
-                                    <div className="postbox__meta">
-                                        <span><Link href="#"><i className="fal fa-user-circle"></i> Alextina </Link></span>
-                                        <span><Link href="#"><i className="fal fa-clock"></i> Dec 28, 2022</Link></span>
-                                        <span><Link href="#"><i className="fal fa-comment-alt-lines"></i>(04)
-                                                Coments</Link></span>
-                                    </div>
-                                    <h2 className="postbox__title">
-                                        <Link href="/blogs/detail">Meet Smart Interface Design Patterns Checklists
-                                            (With 166 Cards)</Link>
-                                    </h2>
-                                    <div className="postbox__text">
-                                        <p>In today’s article, Andrico Karoulla explains how to create Link cool draggable
-                                            effect by listening to the drag events and writing some custom logic inside
-                                            the handlers.</p>
-                                    </div>
-                                    <div className="post__button">
-                                        <Link className="tp-btn-sm" href="/blogs/detail"> READ MORE</Link>
-                                    </div>
-                                </div>
-                            </article>
-                            <article className="postbox__item format-video mb-50 transition-3">
-                                <div className="postbox__thumb postbox__video w-img p-relative">
                                     <Link href="/blogs/detail">
-                                        <img src="assets/img/blog/blog-details-3.jpg" alt="" />
+                                        <img src={imageUrl} alt="" />
                                     </Link>
-                                    <Link href="https://youtu.be/-WRZI63emjs" className="play-btn pulse-btn popup-video"><i
-                                            className="fas fa-play"></i></Link>
                                 </div>
                                 <div className="postbox__content">
                                     <div className="postbox__meta">
                                         <span><Link href="#"><i className="fal fa-user-circle"></i> Alextina </Link></span>
                                         <span><Link href="#"><i className="fal fa-clock"></i> Dec 28, 2022</Link></span>
                                         <span><Link href="#"><i className="fal fa-comment-alt-lines"></i>(04)
-                                                Coments</Link></span>
+                                            Coments</Link></span>
                                     </div>
                                     <h2 className="postbox__title">
-                                        <Link href="/blogs/detail">Boost Your Skills Online,
-                                            On Front-End & Design Basics</Link>
+                                        <Link href="/blogs/detail">{title}</Link>
                                     </h2>
                                     <div className="postbox__text">
-                                        <p>In today’s article, Andrico Karoulla explains how to create Link cool draggable
-                                            effect by listening to the drag events and writing some custom logic inside
-                                            the handlers.</p>
+                                        <p>{summary}</p>
                                     </div>
                                     <div className="post__button">
-                                        <Link className="tp-btn-sm" href="/blogs/detail"> READ MORE</Link>
+                                        <Link className="tp-btn-sm" href={`/blog/${btndetail}`}> READ MORE</Link>
                                     </div>
                                 </div>
                             </article>
+
                             <div className="basic-pagination">
                                 <nav>
                                     <ul>
@@ -147,7 +81,7 @@ export default function PostBox(){
                                         <div className="rc__post mb-20 d-flex">
                                             <div className="rc__post-thumb mr-20">
                                                 <Link href="/blogs/detail"><img src="assets/img/blog/blog-sm-1.jpg"
-                                                        alt="" /></Link>
+                                                    alt="" /></Link>
                                             </div>
                                             <div className="rc__post-content">
                                                 <div className="rc__meta">
@@ -161,7 +95,7 @@ export default function PostBox(){
                                         <div className="rc__post mb-20 d-flex">
                                             <div className="rc__post-thumb mr-20">
                                                 <Link href="/blogs/detail"><img src="assets/img/blog/blog-sm-2.jpg"
-                                                        alt="" /></Link>
+                                                    alt="" /></Link>
                                             </div>
                                             <div className="rc__post-content">
                                                 <div className="rc__meta">
@@ -175,7 +109,7 @@ export default function PostBox(){
                                         <div className="rc__post mb-20 d-flex">
                                             <div className="rc__post-thumb mr-20">
                                                 <Link href="/blogs/detail"><img src="assets/img/blog/blog-sm-3.jpg"
-                                                        alt="" /></Link>
+                                                    alt="" /></Link>
                                             </div>
                                             <div className="rc__post-content">
                                                 <div className="rc__meta">
@@ -189,7 +123,7 @@ export default function PostBox(){
                                         <div className="rc__post mb-20 d-flex">
                                             <div className="rc__post-thumb mr-20">
                                                 <Link href="/blogs/detail"><img src="assets/img/blog/blog-sm-4.jpg"
-                                                        alt="" /></Link>
+                                                    alt="" /></Link>
                                             </div>
                                             <div className="rc__post-content">
                                                 <div className="rc__meta">
@@ -208,17 +142,17 @@ export default function PostBox(){
                                 <div className="sidebar__widget-content">
                                     <ul>
                                         <li><Link href="blog.html">Web Design<span><i
-                                                        className="fal fa-angle-right"></i></span></Link></li>
+                                            className="fal fa-angle-right"></i></span></Link></li>
                                         <li><Link href="blog.html">Branding Design<span><i
-                                                        className="fal fa-angle-right"></i></span></Link></li>
+                                            className="fal fa-angle-right"></i></span></Link></li>
                                         <li><Link href="blog.html">Photography <span><i
-                                                        className="fal fa-angle-right"></i></span></Link></li>
+                                            className="fal fa-angle-right"></i></span></Link></li>
                                         <li><Link href="blog.html">Business Statergy<span><i
-                                                        className="fal fa-angle-right"></i></span></Link></li>
+                                            className="fal fa-angle-right"></i></span></Link></li>
                                         <li><Link href="blog.html">UI/UX Deisgn<span><i
-                                                        className="fal fa-angle-right"></i></span></Link></li>
+                                            className="fal fa-angle-right"></i></span></Link></li>
                                         <li><Link href="blog.html">Web Development<span><i
-                                                        className="fal fa-angle-right"></i></span></Link></li>
+                                            className="fal fa-angle-right"></i></span></Link></li>
                                     </ul>
                                 </div>
                             </div>
