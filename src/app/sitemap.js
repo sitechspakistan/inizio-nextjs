@@ -22,7 +22,7 @@ export default function sitemap() {
   ].map(city => ({
     url: `${baseUrl}/cities/${city}`,
     lastModified: currentDate,
-    priority: 0.6,
+    priority: 0.8,
   }))
 
   // 3. Blog Pages (Yahan aap naye blog slugs add karte jayenge)
