@@ -1755,6 +1755,44 @@ footer .footer-font #linkedin:hover {
     line-height: 1.3;
 }
 
+.postbox__text {
+    margin-bottom: 20px;
+    padding-right: 30px;
+}
+
+.postbox__text p {
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: #464545;
+}
+
+.postbox__text ul {
+    padding: 0 30px;
+}
+
+.postbox__text ul li {
+    list-style: disc !important;
+    /* padding: 0; */
+}
+
+.postbox__text strong {
+    color: #000;
+    font-weight: bold;
+}
+
+.postbox__text h2,
+h3 {
+    padding-top: 10px;
+}
+
+.postbox__text a {
+    color: var(--tp-common-sky);
+}
+
+.blog_heading {
+    font-size: 34px;
+    line-height: 0;
+}
 
 
 
@@ -2338,38 +2376,4 @@ footer .footer-font #linkedin:hover {
         width: 100%;
         background-size: cover;
     }
-}
-
-.postbox__text p {
-    margin-bottom: 10px;
-    font-size: 17px;
-    color: #464545;
-}
-
-.postbox__text ul {
-    padding: 0 30px;
-}
-
-.postbox__text ul li {
-    list-style: disc !important;
-    /* padding: 0; */
-}
-
-.postbox__text strong {
-    color: #000;
-    font-weight: bold;
-}
-
-.postbox__text h2,
-h3 {
-    padding-top: 10px;
-}
-
-.postbox__text a {
-    color: var(--tp-common-sky);
-}
-
-.blog_heading {
-    font-size: 34px;
-    line-height: 0;
 }
