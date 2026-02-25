@@ -22,7 +22,6 @@ export default function blogs() {
                 heading={"Blogs"}
                 description={"Stay ahead with the latest insights on our services, promotional products, emerging branding trends, and effective marketing strategies. Our industry experts provide curated articles, tips, and case studies to help you grow your business and elevate your brand."} />
 
-
             <section>
                 <div className="postbox__area pt-60 pb-60">
                     <div className="container">
@@ -31,17 +30,13 @@ export default function blogs() {
                                 <div className="postbox__wrapper pr-20">
                                     {blog.map((post) => (
                                         <div key={post.slug}>
-
                                             <article className="postbox__item format-image mb-50 transition-3">
                                                 <div className="postbox__thumb w-img">
                                                     <Link href={`/blog/${post.slug}`}>
                                                         <img src={post.image} alt="" />
                                                     </Link>
                                                     <div className="postbox__meta">
-                                                        {/* <span><i className="fal fa-user-circle"></i> {post.author}</span> */}
                                                         <span><i className="fal fa-clock"></i> {post.date}</span>
-                                                        {/* <span><Link href="#"><i className="fal fa-comment-alt-lines"></i>(04)
-                                                        Coments</Link></span> */}
                                                     </div>
                                                 </div>
                                                 <div className="postbox__content">
@@ -92,9 +87,9 @@ export default function blogs() {
                             </div>
                             <div className="col-xxl-4 col-xl-4 col-lg-4">
                                 <div className="sidebar__wrapper">
-                                    {/* <> */}
-                                    <SideBar />
-                                    {/* </> */}
+                                    <>
+                                        <SideBar />
+                                    </>
                                 </div>
                             </div>
                         </div>
@@ -105,10 +100,3 @@ export default function blogs() {
         </>
     )
 }
-// description={stripHtml(post.content).slice(0, 200) + '...'}
-//  <div>
-//                 {/* <h1>All Blogs</h1> */}
-// function stripHtml(html) {
-//     if (!html) return "";
-//     return html.replace(/<[^>]+>/g, "");
-// }

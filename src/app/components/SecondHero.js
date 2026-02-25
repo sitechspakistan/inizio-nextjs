@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function SecondHero({ fontsize, height, subheading, headingone, heading, description }) {
+export default function SecondHero({ subheading, headingone, heading, description }) {
     return (
         <section className="breadcrumb__area breadcrumb-height include-bg p-relative"
             data-background="/assets/images/slider-grident-bg.png" style={{ backgroundImage: "url(/assets/images/slider-grident-bg.png)" }}>
@@ -13,7 +13,7 @@ export default function SecondHero({ fontsize, height, subheading, headingone, h
                                 <span className="dvdr"><i className="fa fa-angle-right"></i></span>
                                 <span> {subheading}</span>
                             </div>
-                            <h3 className="breadcrumb__title wow tpfadeUp" data-wow-duration=".7s" data-wow-delay=".5s" style={{ fontSize: fontsize, lineHeight: height }}>{headingone}
+                            <h3 className="breadcrumb__title wow tpfadeUp" data-wow-duration=".7s" data-wow-delay=".5s">{headingone}
                                 <span className="content-color text-capitalize"> {heading}</span>
                             </h3>
 
