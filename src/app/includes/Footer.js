@@ -35,8 +35,8 @@ export default function Footer() {
                                             <li><Link href="/services/embroidery-digitizing">Embroidery Digitizing</Link></li>
                                             <li><Link href="/services/vector-art">Verctor Art</Link></li>
                                             <li><Link href="/services/custom-patches">Custom Patches</Link></li>
-                                            <li><Link href="/tshirt">Shirts</Link></li>
-                                            <li><Link href="/caps">Caps</Link></li>
+                                            <li><Link href="/coming-soon">Shirts</Link></li>
+                                            <li><Link href="/coming-soon">Caps</Link></li>
                                         </ul>
                                     </div>
                                 </div>

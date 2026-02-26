@@ -1,8 +1,8 @@
 import Link from "next/link";
 
-export default function ServiceBoxes(){
-    return(
-         <div className="tp-service-area pt-120 pb-100">
+export default function ServiceBoxes() {
+    return (
+        <div className="tp-service-area pt-120 pb-100">
             <div className=" container">
                 <div className="row">
                     <div className="col-xl-4 col-lg-4 mb-30  wow tpfadeUp" data-wow-duration=".7s" data-wow-delay=".3s">
@@ -12,7 +12,7 @@ export default function ServiceBoxes(){
                             </div>
                             <div className="service-item-three__content">
                                 <h4 className="tp-service-sm-title"><Link href="/services/embroidery-digitizing">Embroidery <br />
-                                        Digitizing</Link>
+                                    Digitizing</Link>
                                 </h4>
                                 <p>Get flawless, machine-ready digitized files for all fabrics. High-quality DST/EXP
                                     formats with guaranteed stitch results.</p>
@@ -39,7 +39,7 @@ export default function ServiceBoxes(){
                             </div>
                             <div className="service-item-three__content">
                                 <h4 className="tp-service-sm-title"><Link href="/services/vector-art">Vector Art <br />
-                                        Conversion</Link></h4>
+                                    Conversion</Link></h4>
                                 <p>Convert any logo or raster image into clean, scalable vector format (AI/EPS/SVG) for
                                     printing and apparel.</p>
                             </div>
@@ -65,7 +65,7 @@ export default function ServiceBoxes(){
                             </div>
                             <div className="service-item-three__content">
                                 <h4 className="tp-service-sm-title"><Link href="services/custom-patches">Custom<br />
-                                        Patches</Link></h4>
+                                    Patches</Link></h4>
                                 <p>We design and deliver premium embroidered, PVC, and Woven patches for businesses and
                                     personal use with Fast turnaround.</p>
                             </div>

@@ -1661,6 +1661,18 @@ footer .footer-font #linkedin:hover {
     height: 380px;
 }
 
+.tpoffcanvas__social .social-icon a {
+    color: var(--tp-common-sky);
+    font-size: 32px;
+
+}
+
+/* .mean-container .mean-nav ul li a:hover {
+    color: var(--tp-common-sky) !important;
+} */
+
+
+
 .tpoffcanvas__social .social-icon a:hover {
     background-color: white;
     color: black;
@@ -2283,7 +2295,7 @@ footer .footer-font #linkedin:hover {
     .breadcrumb__title {
         font-size: 35px !important;
         padding-bottom: 0;
-        margin-bottom: 0;
+        margin-bottom: 16px;
         line-height: 38px;
     }
 
@@ -2335,6 +2347,15 @@ footer .footer-font #linkedin:hover {
 
     .blogdetail__area {
         padding-top: 0px;
+    }
+
+    .tp-main-menu ul li a:hover {
+        color: var(--tp-common-sky) !important;
+    }
+
+    .tp-service-area {
+        padding: 0;
+        margin: 20px 0;
     }
 }
 

@@ -12,6 +12,7 @@ export default function robots() {
           '/*.html',
           '/*.shtml',
           '/shopdetail/',
+          '/coming-soon/',
         ],
       },
     ],
