@@ -1,25 +1,50 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Slider from "react-slick";
 
 export default function PortfolioSec({ subheading, heading, type }) {
+  const [mounted, setMounted] = useState(false);
+  const [windowWidth, setWindowWidth] = useState(0);
+
+  useEffect(() => {
+    setWindowWidth(window.innerWidth);
+    setMounted(true);
+
+    const handleResize = () => setWindowWidth(window.innerWidth);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  if (!mounted) return null;
+
+  // Width ke hisaab se slidesToShow decide karo
+  const getSlidesToShow = () => {
+    if (windowWidth < 576) return 1;
+    if (windowWidth < 767) return 2;
+    if (windowWidth < 1024) return 3;
+    if (windowWidth < 1200) return 4;
+    return 6;
+  };
+
   const settings = {
     fade: false,
     autoplay: false,
     arrows: false,
     infinite: true,
-    slidesToShow: 6,
+    slidesToShow: getSlidesToShow(),
+    slidesToScroll: 1,
     rtl: true,
-    slidesToScroll: 4,
     cssEase: "ease",
     responsive: [
-      { breakpoint: 1024, settings: { slidesToShow: 2, slidesToScroll: 1 } },
-      { breakpoint: 767, settings: { slidesToShow: 1, slidesToScroll: 1 } },
-      // { breakpoint: 468, settings: { slidesToShow: 1, slidesToScroll: 1 } },
-    ],
+      { breakpoint: 1200, settings: { slidesToShow: 4, slidesToScroll: 1 } },
+      { breakpoint: 1024, settings: { slidesToShow: 3, slidesToScroll: 1 } },
+      { breakpoint: 767, settings: { slidesToShow: 2, slidesToScroll: 1 } },
+      { breakpoint: 576, settings: { slidesToShow: 1, slidesToScroll: 1 } }
+    ]
   };
 
-
+  // ...rest of your code
 
   let portfolioImages = [];
 
@@ -58,6 +83,16 @@ export default function PortfolioSec({ subheading, heading, type }) {
       "24.webp",
     ];
   }
+  // let portfolioImages = [
+  //   "1.webp",
+  //   "2.webp",
+  //   "3.webp",
+  //   "4.webp",
+  //   "20.webp",
+  //   "25.webp",
+  //   "23.webp",
+  //   "24.webp",
+  // ];
 
 
 

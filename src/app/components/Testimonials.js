@@ -1,85 +1,94 @@
 'use client';
 
 import Slider from "react-slick";
+import { useEffect, useState } from "react";
+
 
 export default function Testimonials() {
-  const settings = {
-    fade: false,
-    autoplay: false,
-    slidesToShow: 5,
-    arrows: false,
-    responsive: [
-      {
-        breakpoint: 1600,
-        settings: { slidesToShow: 4 }
-      },
-      {
-        breakpoint: 1400,
-        settings: { slidesToShow: 4 }
-      },
-      {
-        breakpoint: 1200,
-        settings: { slidesToShow: 3 }
-      },
-      {
-        breakpoint: 992,
-        settings: { slidesToShow: 2 }
-      },
-      {
-        breakpoint: 768,
-        settings: { slidesToShow: 1 }
-      },
-      {
-        breakpoint: 480,
-        settings: { slidesToShow: 1 }
-      }
-    ]
-  };
+   const [mounted, setMounted] = useState(false);
+   const [windowWidth, setWindowWidth] = useState(0);
 
-  return (
-    <section>
-      <div className="tp-testimonial-area grey-bg pt-60 pb-60 fix">
-        <div className="container-fluid">
-          <div className="row g-0 justify-content-center">
-            <div
-              className="col-xl-4 wow tpfadeUp"
-              data-wow-duration=".7s"
-              data-wow-delay=".5s"
-            >
-              <div className="tp-testtimonial-title-box mb-60 text-center">
-                <div className="trustpilot-btn">
-                  <a
-                    href="https://www.trustpilot.com/review/www.iniziosolutions.com"
-                    target="_blank"
+   useEffect(() => {
+      setWindowWidth(window.innerWidth);
+      setMounted(true);
+
+      const handleResize = () => setWindowWidth(window.innerWidth);
+      window.addEventListener("resize", handleResize);
+      return () => window.removeEventListener("resize", handleResize);
+   }, []);
+
+   if (!mounted) return null;
+
+   // Width ke hisaab se slidesToShow decide karo
+   const getSlidesToShow = () => {
+      if (windowWidth < 576) return 1;
+      if (windowWidth < 768) return 2;
+      if (windowWidth < 1024) return 3;
+      if (windowWidth < 1200) return 4;
+      return 5;
+   };
+
+   const settings = {
+      fade: false,
+      autoplay: false,
+      arrows: false,
+      infinite: true,
+      slidesToShow: getSlidesToShow(),
+      slidesToScroll: 1,
+      rtl: true,
+      cssEase: "ease",
+      responsive: [
+         { breakpoint: 1200, settings: { slidesToShow: 4, slidesToScroll: 1 } },
+         { breakpoint: 1024, settings: { slidesToShow: 3, slidesToScroll: 1 } },
+         { breakpoint: 768, settings: { slidesToShow: 2, slidesToScroll: 1 } },
+         { breakpoint: 576, settings: { slidesToShow: 1, slidesToScroll: 1 } }
+      ]
+   };
+
+   return (
+      <section>
+         <div className="tp-testimonial-area grey-bg pt-60 pb-60 fix">
+            <div className="container-fluid">
+               <div className="row g-0 justify-content-center">
+                  <div
+                     className="col-xl-4 wow tpfadeUp"
+                     data-wow-duration=".7s"
+                     data-wow-delay=".5s"
                   >
-                    <button className="trust-btn">
-                      Review us on{" "}
-                      <span>
-                        <img
-                          src="/assets/images/testimonials/trustpilot-logo.png"
-                          alt="" />
-                      </span>
-                    </button>
-                  </a>
-                </div>
-                <h2>
-                  <span className="content-color">Testimonials</span>
-                </h2>
-                <p className="fs-4">
-                  What People Say About
-                  <br />
-                  Our Company
-                </p>
-              </div>
-            </div>
-          </div>
+                     <div className="tp-testtimonial-title-box mb-60 text-center">
+                        <div className="trustpilot-btn">
+                           <a
+                              href="https://www.trustpilot.com/review/www.iniziosolutions.com"
+                              target="_blank"
+                           >
+                              <button className="trust-btn">
+                                 Review us on{" "}
+                                 <span>
+                                    <img
+                                       src="/assets/images/testimonials/trustpilot-logo.png"
+                                       alt="" />
+                                 </span>
+                              </button>
+                           </a>
+                        </div>
+                        <h2>
+                           <span className="content-color">Testimonials</span>
+                        </h2>
+                        <p className="fs-4">
+                           What People Say About
+                           <br />
+                           Our Company
+                        </p>
+                     </div>
+                  </div>
+               </div>
 
-          <div className="testimonial-slide-wrapper">
-            <Slider
-              {...settings}
-              className="testimonial-active-three"
-            >
-                <div className="tp-testimonial-three text-center wow tpfadeUp" data-wow-duration=".7s"
+               <div className="testimonial-slide-wrapper">
+                  <Slider
+                     {...settings}
+                     className="testimonial-active-three"
+                  >
+                     <div className="tp-testimonial-three text-center wow tpfadeUp" data-wow-duration=".7s"
                         data-wow-delay=".6s">
                         <div className="tp-testimonial-three__content">
                            <div className="tp-testimonial-three__content-icon">
@@ -249,10 +258,10 @@ export default function Testimonials() {
                            </div>
                         </div>
                      </div>
-            </Slider>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
+                  </Slider>
+               </div>
+            </div>
+         </div>
+      </section>
+   );
 }
