@@ -23,6 +23,8 @@ import '../styles/custom.css';
 import Header from "./includes/Header";
 import Footer from "./includes/Footer";
 import WhatsAppButton from "./components/WhatsappBtn";
+import Chatwidget from "./components/ChatWidget";
+import ChatBox from "./components/ChatWidget";
 
 
 // export const metadata = {
@@ -82,6 +84,7 @@ export default function RootLayout({ children }) {
 
         <Footer />
         <WhatsAppButton />
+        <ChatBox />
         <Script src="/assets/js/jquery.js"></Script>
         <Script src="/assets/js/waypoints.js"></Script>
         <Script src="/assets/js/wow.js"></Script>
@@ -93,6 +96,8 @@ export default function RootLayout({ children }) {
         <Script src="/assets/js/imagesloaded-pkgd.js"></Script>
         <Script src="/assets/js/meanmenu.js"></Script>
         <Script src="/assets/js/main.js"></Script>
+        <Script src="/assets/js/custom.js"></Script>
+
 
       </body>
 
