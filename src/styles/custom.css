@@ -2411,6 +2411,10 @@ footer .footer-font #linkedin:hover {
         gap: 0 !important;
     }
 
+    .postbox__text img {
+        width: 100%;
+
+    }
 
 }
 
