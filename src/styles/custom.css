@@ -1770,9 +1770,9 @@ footer .footer-font #linkedin:hover {
 }
 
 .postbox__text p {
-    margin-bottom: 24px;
+    margin-bottom: 15px;
     font-size: 17px;
-    color: #5d5d63;
+    color: rgb(26 26 26);
     /* letter-spacing: 0.5; */
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
@@ -1780,8 +1780,9 @@ footer .footer-font #linkedin:hover {
 }
 
 .postbox__text ul {
-    padding: 0 30px;
-    margin-bottom: 10px;
+    padding: 0 40px;
+    margin-bottom: 20px;
+    color: rgb(26 26 26);
 }
 
 .postbox__text ul li {
@@ -1805,17 +1806,26 @@ footer .footer-font #linkedin:hover {
 .postbox__text h2 {
     font-weight: 500;
     margin-bottom: 20px;
+    padding-top: 18px;
 }
 
 .postbox__text h3 {
     font-weight: 500;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-size: 24px;
+    padding-top: 10px;
     /* margin-top: 20px; */
 }
 
 .postbox__text a {
     color: var(--tp-common-sky);
+}
+
+.postbox__text img {
+    margin-bottom: 24px;
+    border-radius: 5px;
+    object-fit: contain;
+
 }
 
 .blog_heading {
@@ -2364,9 +2374,9 @@ footer .footer-font #linkedin:hover {
     .chat-container {
 
         bottom: 30px !important;
-        right: 70px !important;
+        right: 65px !important;
         height: 80vh;
-        width: 310px !important;
+        width: 80% !important;
         /* fixed width */
         max-width: 90%;
         /* small screens ke liye adjust */
@@ -2389,6 +2399,16 @@ footer .footer-font #linkedin:hover {
         left: 50% !important;
         transform: translateX(-50%) !important;
         right: auto !important;
+    }
+
+    .chat-input-area input {
+        flex: 0;
+
+    }
+
+    .chat-input-area {
+        justify-content: space-between !important;
+        gap: 0 !important;
     }
 
 
@@ -2812,7 +2832,7 @@ footer .footer-font #linkedin:hover {
 }
 
 .chat-bubble.typing {
-    background: #f1f0f0;
+    background: #ffffff;
     width: 60px;
     height: 24px;
     display: flex;

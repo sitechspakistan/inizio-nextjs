@@ -26,7 +26,8 @@ export default function sitemap() {
 
   const blogPosts = [
     'what-is-embroidery-digitizing-beginners-guide',
-    'top-5-embroidery-digitizing-mistakes-to-avoid'
+    'top-5-embroidery-digitizing-mistakes-to-avoid',
+    'embroidery-machine-thread-guide'
   ].map(slug => ({
     url: `${baseUrl}/blog/${slug}`,
     lastModified: currentDate,
