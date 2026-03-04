@@ -1,27 +1,14 @@
 "use client";
 import { useState, useRef, useEffect } from "react";
 
-// ---------------- Cookie Helpers ----------------
-function setCookie(name, value, days) {
-    const expires = new Date();
-    expires.setTime(expires.getTime() + days * 24 * 60 * 60 * 1000);
-    document.cookie = `${name}=${value};expires=${expires.toUTCString()};path=/`;
-}
-
-function getCookie(name) {
-    const match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
-    return match ? match[2] : null;
-}
-// ------------------------------------------------
-
 export default function ChatBox() {
 
     const [input, setInput] = useState("");
     const [view, setView] = useState("greeting");
-    const [showConfirm, setShowConfirm] = useState(false); // cancel confirmation popup
+    // const [showConfirm, setShowConfirm] = useState(false);
     const [chatStarted, setChatStarted] = useState(false);
     const [isTyping, setIsTyping] = useState(false);
-    const [hideWidget, setHideWidget] = useState(false);
+    // const [hideWidget, setHideWidget] = useState(false);
 
     const bottomRef = useRef(null);
     const [messages, setMessages] = useState([
@@ -29,16 +16,10 @@ export default function ChatBox() {
     ]);
 
     const [sessionId] = useState(() => {
-        const timestamp = Date.now(); // milliseconds since 1970
-        const random = Math.random().toString(36).substring(2, 8); // 6 chars random
+        const timestamp = Date.now();
+        const random = Math.random().toString(36).substring(2, 8);
         return `s_${timestamp}_${random}`;
     });
-
-    useEffect(() => {
-        if (getCookie('chatCancelled') === 'true') {
-            setHideWidget(true); // hide whole chat widget
-        }
-    }, []);
 
     async function sendMessage() {
         if (!input.trim()) return;
@@ -89,35 +70,30 @@ export default function ChatBox() {
         }
     }
 
-    function handleCancel() {
-        setShowConfirm(true); // show confirmation popup
-    }
+    // function handleCancel() {
+    //     setShowConfirm(true); // show confirmation popup
+    // }
 
-    function confirmCancel() {
-        // Hide widget for 1 day
+    // function confirmCancel() {
+    //     // Hide widget for 1 day
 
-        // reset states
-        setMessages([{ text: "Hello 👋", sender: "bot" }]);
-        setView("greeting");
-        setShowConfirm(false);
-        setChatStarted(false);
-        setIsTyping(false);
-        setInput("");
-    }
+    //     // reset states
+    //     setMessages([{ text: "Hello 👋", sender: "bot" }]);
+    //     setView("greeting");
+    //     setShowConfirm(false);
+    //     setChatStarted(false);
+    //     setIsTyping(false);
+    //     setInput("");
+    // }
 
-    function handleGreetingClose() {
-        setCookie('chatCancelled', 'true', 1);
-        setHideWidget(true);
-
-    }
     function handleClose() {
         setView("closed");
     }
     function handleOpen() {
         if (chatStarted) {
-            setView("chat"); // ✅ chat shuru ho chuki hai to chat dikhao
+            setView("chat");
         } else {
-            setView("greeting"); // ✅ pehli baar greeting dikhao
+            setView("greeting");
         }
     }
 
@@ -131,7 +107,6 @@ export default function ChatBox() {
 
 
         return text.replace(urlRegex, (rawUrl) => {
-            // 🔥 trailing punctuation alag karo
             const match = rawUrl.match(/^(.*?)([.,!?)]*)$/);
             const url = match[1];
             const trailing = match[2];
@@ -141,7 +116,7 @@ export default function ChatBox() {
             return `<a class="botLink-color" href="${href}" target="_blank" rel="noopener noreferrer">${url}</a>${trailing}`;
         });
     }
-    if (hideWidget) return null;
+
     return (
         <>
             {/* Avatar / Pill */}
@@ -154,7 +129,7 @@ export default function ChatBox() {
                             <path d="M22 2L15 22l-4-9-9-4 20-7z" />
                         </svg>
                     </div>
-                    <span className="pill-label">Continue Chat</span>
+                    {chatStarted === true ? <span className="pill-label">Continue Chat</span> : <span className="pill-label">Start Chat</span>}
                 </div>
             )}
 
@@ -162,7 +137,7 @@ export default function ChatBox() {
             {view === "greeting" && (
                 <div className="chat-greeting">
                     <div className="greet-header">
-                        <button className="close-btn" onClick={handleGreetingClose}>✖</button>
+                        <button className="close-btn" onClick={handleClose}>✖</button>
                         <div className="label">Chat with</div>
                         <div className="bot-name">Helper</div>
                         <div className="greeting-text">Hello there! 👋 If you have any questions, I'm here to help.</div>
@@ -177,14 +152,14 @@ export default function ChatBox() {
                         />
                         <span className="send-icon" onClick={sendMessage}>➤</span>
                     </div>
-                    <div className="chat-dots"><span /><span /></div>
+
                 </div>
             )}
 
             {/* Full Chat */}
             {view === "chat" && (
                 <div className="chat-container">
-                    {showConfirm && (
+                    {/* {showConfirm && (
                         <div className="confirm-overlay">
                             <div className="confirm-box">
                                 <p>Are you sure you want to cancel the chat?</p>
@@ -206,12 +181,12 @@ export default function ChatBox() {
                                 </div>
                             </div>
                         </div>
-                    )}
+                    )} */}
                     <div className="chat-header">
                         <span>Messages</span>
                         <div className="chat-actions">
                             <button className="fw-bold" onClick={handleClose}>━</button>
-                            <button onClick={handleCancel}>✖</button>
+
                         </div>
                     </div>
                     <div className="chat-messages">
