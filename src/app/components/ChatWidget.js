@@ -8,7 +8,35 @@ export default function ChatBox() {
     // const [showConfirm, setShowConfirm] = useState(false);
     const [chatStarted, setChatStarted] = useState(false);
     const [isTyping, setIsTyping] = useState(false);
+    const [hideOnFooter, setHideOnFooter] = useState(false);
     // const [hideWidget, setHideWidget] = useState(false);
+    useEffect(() => {
+
+
+        const footer = document.querySelector("footer");
+        if (!footer) return;
+
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry) => {
+                    if (window.innerWidth <= 768) {
+                        setHideOnFooter(entry.isIntersecting);
+                    }
+                    // if (window.innerWidth >= 1200) { // Only hide on mobile
+                    //     setHideOnFooter(entry.isIntersecting);
+                    // }
+
+                });
+            },
+            { threshold: 0.1 }
+        );
+
+        observer.observe(footer);
+
+        return () => {
+            observer.disconnect();
+        };
+    }, []);
 
     const bottomRef = useRef(null);
     const [messages, setMessages] = useState([
@@ -120,7 +148,7 @@ export default function ChatBox() {
     return (
         <>
             {/* Avatar / Pill */}
-            {view === "closed" && (
+            {!hideOnFooter && view === "closed" && (
 
                 <div className="chat-pill" onClick={handleOpen}>
                     <div className="pill-send-icon">
@@ -134,7 +162,7 @@ export default function ChatBox() {
             )}
 
             {/* Greeting Card */}
-            {view === "greeting" && (
+            {!hideOnFooter && view === "greeting" && (
                 <div className="chat-greeting">
                     <div className="greet-header">
                         <button className="close-btn" onClick={handleClose}>✖</button>

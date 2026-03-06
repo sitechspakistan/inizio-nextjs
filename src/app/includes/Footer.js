@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <>
             <footer>
-                <div className="tp-footer-area footer-bg pt-60 pb-60">
+                <div className="tp-footer-area footer-bg pt-60">
                     <div className="container">
                         <div className="row borderbottom">
                             <div className="col-xl-2 col-lg-2 col-md-3 col-6 mb-30">
@@ -81,13 +81,11 @@ export default function Footer() {
                         <div className="row ">
                             <div className="z-index-3">
                                 <div className="row">
-                                    <div className="col-xl-6 col-lg-6 col-12">
-                                        <div className="copyright-left text-xl-start text-center mb-0">
+                                    <div className="col-12">
+                                        <div className="copyright-left text-center mb-0">
                                             <p className="pt-2 mb-0">© Inizio Solutions 2026. All Rights Reserved. Designed & Developed by <a href="https://sitechs.co" target="_blank"><span className="content-color">Sitechs</span></a>.</p>
                                         </div>
-                                    </div>
-                                    <div className="col-xl-6 col-lg-6 col-12">
-                                        <div className="copyright-right-side text-xl-end text-center">
+                                        <div className="copyright-right-side text-center mt-3 mb-1">
                                             <div className="footer-font">
                                                 <span><a href="https://www.facebook.com/iniziosolutionsllc/" target="blank"><i className="fab fa-facebook" id="facebook"></i></a></span>
                                                 <span><a href="https://www.instagram.com/iniziosolutions/" target="blank"><i className="fab fa-instagram" id="instagram"></i></a></span>
@@ -95,7 +93,18 @@ export default function Footer() {
 
                                             </div>
                                         </div>
+
                                     </div>
+                                    {/* <div className="col-xl-6 col-lg-6 col-12"> */}
+                                    {/* <div className="copyright-right-side text-center">
+                                            <div className="footer-font">
+                                                <span><a href="https://www.facebook.com/iniziosolutionsllc/" target="blank"><i className="fab fa-facebook" id="facebook"></i></a></span>
+                                                <span><a href="https://www.instagram.com/iniziosolutions/" target="blank"><i className="fab fa-instagram" id="instagram"></i></a></span>
+                                                <span><a href="https://www.linkedin.com/company/iniziosolutions/" target="blank"><i className="fab fa-linkedin" id="linkedin"></i></a ></span>
+
+                                            </div>
+                                        </div> */}
+                                    {/* </div> */}
                                 </div>
                             </div>
                         </div>
