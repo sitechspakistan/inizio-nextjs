@@ -84,7 +84,7 @@ export default function RootLayout({ children }) {
 
         <Footer />
         <WhatsAppButton />
-        <ChatBox />
+        {/* <ChatBox /> */}
         <Script src="/assets/js/jquery.js"></Script>
         <Script src="/assets/js/waypoints.js"></Script>
         <Script src="/assets/js/wow.js"></Script>
