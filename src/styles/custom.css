@@ -1828,6 +1828,34 @@ footer .footer-font #linkedin:hover {
 
 }
 
+.postbox__text table tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    padding: 15px;
+}
+
+.postbox__text table {
+    margin: 0 auto;
+}
+
+.postbox__text table thead {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: rgba(0, 179, 255, 0.473);
+}
+
+.postbox__text table tbody {
+    color: rgb(80, 79, 79);
+    font-weight: 500;
+}
+
 .blog_heading {
     font-size: 34px;
     line-height: 0;
@@ -2017,24 +2045,9 @@ footer .footer-font #linkedin:hover {
         color: var(--tp-common-black);
     }
 
-    /* .tpoffcanvas__info-address span {
-  display: block;
-  color: var(--tp-common-white);
-  font-size: 16px;
-  font-weight: 400;
-} */
-    /* .tpoffcanvas__info-address a {
-  display: block;
-  color: var(--tp-common-white);
-  font-size: 18px;
-  font-weight: 600;
-  transition: 0.3s;
-} */
     .mean-container .mean-nav ul li a {
 
         color: black;
-
-
     }
 
     .tpoffcanvas__info .offcanva-title {
@@ -2044,7 +2057,6 @@ footer .footer-font #linkedin:hover {
     .tpoffcanvas__info-address a {
 
         color: var(--tp-common-black);
-
     }
 
     .tpoffcanvas__info-address a {
@@ -2230,9 +2242,6 @@ footer .footer-font #linkedin:hover {
         font-size: 30px !important;
     }
 
-    /* .tp-ab-section-title-box .tp-section-title {
-        padding-top: 0px;
-    } */
     .ab-area-sapce {
         padding-top: 40px;
         padding-bottom: 40px;
@@ -2414,6 +2423,24 @@ footer .footer-font #linkedin:hover {
     .postbox__text img {
         width: 100%;
 
+    }
+
+    .postbox__text table tbody,
+    td,
+    tfoot,
+    th,
+    thead,
+    tr {
+        border-color: black;
+        border-style: solid;
+        border-width: 3px;
+        padding: 5px 5px;
+    }
+
+    .postbox__text table tbody {
+        color: rgb(80, 79, 79);
+        font-size: 12px;
+        line-height: 1.1rem;
     }
 
 }
