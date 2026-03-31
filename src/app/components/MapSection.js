@@ -12,7 +12,7 @@ export default function MapSection() {
                      <div className="tp-ab-section-title-box">
                         <h2 className="tp-section-title">Your Partner for Global Growth & Innovation</h2>
                         <p>Trusted by 1,000+ clients worldwide, Inizio Solutions provides professional embroidery digitizing services across the USA and beyond. Using precision digitizing and a data-driven workflow, we help brands achieve flawless stitch quality and consistent results at scale.</p>
-                        <Link className="tp-btn-map text-capitalize" href="#contact-us">Get a Quote </Link>
+                        <Link className="tp-btn-map text-capitalize" href="/cities">View Locations </Link>
                      </div>
                   </div>
                   <div className="col-xl-7 col-lg-7 wow tpfadeRight " data-wow-duration=".7s" data-wow-delay=".5s"

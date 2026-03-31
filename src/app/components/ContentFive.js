@@ -1,4 +1,4 @@
-export default function ContentFive({heading,headingone,para, imgCity}) {
+export default function ContentFive({ heading, headingone, para, imgCity, CityName }) {
     return (
         <section>
             <div className="tp-about-area ab-area-sapce pt-120 pb-120 bg-dark">
@@ -26,7 +26,8 @@ export default function ContentFive({heading,headingone,para, imgCity}) {
                             }}>
                             <div className="tp-ab-wrapper p-relative">
                                 <div className="tp-about-thumb">
-                                    <img src={`/assets/images/cities/${imgCity}.png`}
+                                    <span className="editing">{CityName}</span>
+                                    <img src={`/assets/images/map.png`}
                                         className="bg-transparent" alt="" />
                                 </div>
                             </div>

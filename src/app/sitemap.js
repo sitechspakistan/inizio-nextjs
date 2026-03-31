@@ -1,6 +1,9 @@
+import citiesJson from '@/data/city.json';
+
 export default function sitemap() {
   const baseUrl = 'https://www.iniziosolutions.com'
   const currentDate = new Date().toISOString()
+  const allCities = Object.values(citiesJson[0]).flat();
 
   const staticPages = [
     { url: `${baseUrl}/, lastModified: currentDate, priority: 1.0 ` },
@@ -16,13 +19,11 @@ export default function sitemap() {
     { url: `${baseUrl}/blog, lastModified: currentDate, priority: 0.8 ` },
   ]
 
-  const cityPages = [
-    'kissimmee', 'sunrise', 'okeechobee', 'new-york', 'buffalo', 'phoenix'
-  ].map(city => ({
-    url: `${baseUrl}/cities/${city}`,
+  const cityPages = allCities.map(city => ({
+    url: `${baseUrl}/cities/${city.toLowerCase().replace(/\s+/g, '-').replace(/\./g, '')}`,
     lastModified: currentDate,
     priority: 0.8,
-  }))
+  }));
 
   const blogPosts = [
     'what-is-embroidery-digitizing-beginners-guide',

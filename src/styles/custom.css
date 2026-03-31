@@ -2951,3 +2951,55 @@ tr {
 
 
 /* chat-bot end here  */
+
+.country-box {
+    border: 2px solid #2c2c2c1f;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.country-box h2 {
+    font-weight: 500;
+    text-align: center;
+}
+
+.country-box .line {
+    color: #000;
+    margin-bottom: 25px;
+}
+
+.country-box .city {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.city ul {
+    padding: 0 20px;
+}
+
+.city ul li {
+    /* border: 2px solid #2c2c2c1f; */
+    /* margin-bottom: 5px; */
+    list-style: disc;
+    /* text-align: center; */
+}
+
+.city ul li:hover {
+    color: var(--tp-common-sky);
+    text-decoration: underline;
+}
+
+.tp-about-thumb .editing {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    top: 15px;
+    left: 190px;
+    text-transform: uppercase;
+}
+
+.flags {
+    border-radius: 5px;
+}
