@@ -12,7 +12,8 @@ import '../styles/meanmenu.css';
 import '../styles/magnific-popup.css';
 import '../styles/spacing.css';
 import '../styles/style.css';
-import '../styles/custom.css';
+// import '../styles/custom.css';
+import '../styles/custom.min.css'
 <link
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
