@@ -6,17 +6,17 @@ export default function sitemap() {
   const allCities = Object.values(citiesJson[0]).flat();
 
   const staticPages = [
-    { url: `${baseUrl}/, lastModified: currentDate, priority: 1.0 ` },
-    { url: `${baseUrl}/services, lastModified: currentDate, priority: 0.8 ` },
-    { url: `${baseUrl}/services/embroidery-digitizing, lastModified: currentDate, priority: 0.8 ` },
-    { url: `${baseUrl}/services/vector-art, lastModified: currentDate, priority: 0.8 ` },
-    { url: `${baseUrl}/services/custom-patches, lastModified: currentDate, priority: 0.8 ` },
-    { url: `${baseUrl}/pricing, lastModified: currentDate, priority: 0.8 ` },
-    { url: `${baseUrl}/portfolio, lastModified: currentDate, priority: 0.8 ` },
-    { url: `${baseUrl}/place-an-order, lastModified: currentDate, priority: 0.8 ` },
-    { url: `${baseUrl}/t-shirt, lastModified: currentDate, priority: 0.8 ` },
-    { url: `${baseUrl}/caps, lastModified: currentDate, priority: 0.8 ` },
-    { url: `${baseUrl}/blog, lastModified: currentDate, priority: 0.8 ` },
+    { url: `${baseUrl}/`, lastModified: currentDate, priority: 1.0 },
+    { url: `${baseUrl}/services`, lastModified: currentDate, priority: 0.8 },
+    { url: `${baseUrl}/services/embroidery-digitizing`, lastModified: currentDate, priority: 0.8 },
+    { url: `${baseUrl}/services/vector-art`, lastModified: currentDate, priority: 0.8 },
+    { url: `${baseUrl}/services/custom-patches`, lastModified: currentDate, priority: 0.8 },
+    { url: `${baseUrl}/pricing`, lastModified: currentDate, priority: 0.8 },
+    { url: `${baseUrl}/portfolio`, lastModified: currentDate, priority: 0.8 },
+    { url: `${baseUrl}/place-an-order`, lastModified: currentDate, priority: 0.8 },
+    { url: `${baseUrl}/t-shirt`, lastModified: currentDate, priority: 0.8 },
+    { url: `${baseUrl}/caps`, lastModified: currentDate, priority: 0.8 },
+    { url: `${baseUrl}/blog`, lastModified: currentDate, priority: 0.8 },
   ]
 
   const cityPages = allCities.map(city => ({
