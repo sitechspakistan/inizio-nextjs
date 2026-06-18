@@ -11,8 +11,8 @@ export default function ThankYou() {
             <Link href="/place-an-order">Place an Order</Link>
             </>
             }
-                headingone={"Thank You"}
-                heading="for placing your order!"
+                headingone={"Thank You for placing"}
+                heading="your order!"
                 description={
                     <>
                         Thank you for placing your order! Our team will review your requirements and begin the process shortly. You can expect your work to be delivered within 3 - 4 hours. We appreciate your trust in our services and look forward to delivering high-quality results.
