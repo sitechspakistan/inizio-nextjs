@@ -12,7 +12,7 @@ export default function ThankYou() {
             </>
             }
                 headingone={"Thank You"}
-                heading="for your order!"
+                heading="for placing your order!"
                 description={
                     <>
                         Thank you for placing your order! Our team will review your requirements and begin the process shortly. You can expect your work to be delivered within 3 - 4 hours. We appreciate your trust in our services and look forward to delivering high-quality results.
