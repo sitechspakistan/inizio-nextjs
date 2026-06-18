@@ -1,7 +1,7 @@
 import nodemailer from "nodemailer";
 
 
-const ALLOWED_TYPES = ["image/jpeg", "image/png", "image/webp"];
+const ALLOWED_TYPES = ["image/jpeg", "image/png", "image/webp", 'application/pdf'];
 const MAX_FILE_SIZE = 5 * 1024 * 1024; // 5MB
 
 export async function POST(req) {
@@ -21,7 +21,7 @@ export async function POST(req) {
     }
 
     if (!ALLOWED_TYPES.includes(file.type)) {
-      return new Response("Only image files allowed", { status: 400 });
+      return new Response("Only image and pdf files allowed", { status: 400 });
     }
 
     if (file.size > MAX_FILE_SIZE) {
