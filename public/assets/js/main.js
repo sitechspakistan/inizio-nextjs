@@ -21,9 +21,11 @@
 		if (scroll < 500) {
 			$('.scroll-to-target').removeClass('open');
 			$('.whatsapp-button').removeClass('open-whatsapp');
+			$('.wb-minimized').removeClass('open-wb');
 		} else {
 			$('.scroll-to-target').addClass('open');
 			$('.whatsapp-button').addClass('open-whatsapp');
+			$('.wb-minimized').addClass('open-wb');
 		}
 	});
 

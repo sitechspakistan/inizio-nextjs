@@ -1,0 +1,219 @@
+{
+    "welcome": {
+        "message": "Hi there I'm Inizio Solutions' assistant. Let's get your design ready for stitching or production — just a few quick questions!",
+        "step": "service_selection"
+    },
+    "services": [
+        {
+            "id": "digitizing",
+            "label": "Embroidery Digitizing",
+            "description": " - Convert artwork into DST/PES stitch files"
+        },
+        {
+            "id": "vector",
+            "label": "Vector Art Conversion",
+            "description": " - Clean, scalable vector from any image"
+        },
+        {
+            "id": "patches",
+            "label": "Custom Patches",
+            "description": " - Embroidered, woven & PVC patches"
+        },
+        {
+            "id": "other",
+            "label": "Other Inquiry",
+            "description": " - Tell us what you need"
+        }
+    ],
+    "flows": {
+        "digitizing": [
+            {
+                "id": "digitizing_garment",
+                "question": "What will this design be stitched on?",
+                "type": "quick_reply",
+                "options": [
+                    "Caps / Hats",
+                    "Jackets",
+                    "T-Shirts / Polos",
+                    "Bags",
+                    "Specialty Fabric",
+                    "Multiple items"
+                ]
+            },
+            {
+                "id": "digitizing_design_size",
+                "question": "Roughly how complex is your design?",
+                "type": "quick_reply",
+                "options": [
+                    "Simple text / logo",
+                    "Logo with details",
+                    "Detailed illustration",
+                    "Photo-realistic / complex",
+                    "Not sure"
+                ]
+            },
+            {
+                "id": "digitizing_format",
+                "question": "Do you know which file format you need?",
+                "type": "quick_reply",
+                "options": [
+                    "DST",
+                    "PES",
+                    "Not sure — recommend one",
+                    "Need multiple formats"
+                ]
+            },
+            {
+                "id": "digitizing_file",
+                "question": "Do you have your artwork file ready to send?",
+                "type": "quick_reply",
+                "options": [
+                    "Yes, ready to upload",
+                    "I have a rough sketch/idea",
+                    "Need a logo created first"
+                ]
+            }
+        ],
+        "vector": [
+            {
+                "id": "vector_source",
+                "question": "What are you converting to vector?",
+                "type": "quick_reply",
+                "options": [
+                    "Raster logo (JPG/PNG)",
+                    "Hand-drawn sketch",
+                    "Low-res image",
+                    "Scanned artwork",
+                    "Other"
+                ]
+            },
+            {
+                "id": "vector_purpose",
+                "question": "What's this vector file for?",
+                "type": "quick_reply",
+                "options": [
+                    "Embroidery digitizing prep",
+                    "Printing (signs, apparel)",
+                    "Laser cutting / engraving",
+                    "Branding / website use",
+                    "Not sure yet"
+                ]
+            },
+            {
+                "id": "vector_format",
+                "question": "Preferred output format?",
+                "type": "quick_reply",
+                "options": [
+                    "AI",
+                    "EPS",
+                    "SVG",
+                    "PDF",
+                    "Not sure — recommend one"
+                ]
+            }
+        ],
+        "patches": [
+            {
+                "id": "patch_type",
+                "question": "What type of patch do you need?",
+                "type": "quick_reply",
+                "options": [
+                    "Embroidered Patch",
+                    "Woven Patch",
+                    "PVC / Rubber Patch",
+                    "Leather Patch",
+                    "Not sure — need guidance"
+                ]
+            },
+            {
+                "id": "patch_backing",
+                "question": "What backing/attachment do you need?",
+                "type": "quick_reply",
+                "options": [
+                    "Iron-on",
+                    "Velcro (hook & loop)",
+                    "Sew-on",
+                    "Adhesive",
+                    "Not sure yet"
+                ]
+            },
+            {
+                "id": "patch_quantity",
+                "question": "How many patches do you need?",
+                "type": "quick_reply",
+                "options": [
+                    "1–25 (sample/small run)",
+                    "26–100",
+                    "100–500",
+                    "500+",
+                    "Not sure yet"
+                ]
+            }
+        ],
+        "other": [
+            {
+                "id": "other_topic",
+                "question": "What would you like to discuss?",
+                "type": "quick_reply",
+                "options": [
+                    "Bulk / Wholesale pricing",
+                    "Free trial order",
+                    "Turnaround time question",
+                    "Reseller / Partnership",
+                    "Something else"
+                ]
+            }
+        ]
+    },
+    "common": [
+        {
+            "id": "name",
+            "question": "What's your name?",
+            "type": "text",
+            "placeholder": "Your full name"
+        },
+        {
+            "id": "email",
+            "question": "Best email to reach you at?",
+            "type": "text",
+            "placeholder": "you@example.com"
+        },
+        {
+            "id": "phone",
+            "question": "Your phone or WhatsApp number?",
+            "type": "text",
+            "placeholder": "+1 234 567 8900"
+        },
+        {
+            "id": "budget",
+            "question": "What's your approximate budget for this order?",
+            "type": "quick_reply",
+            "options": [
+                "Under $50",
+                "$50 – $150",
+                "$150 – $500",
+                "$500 – $1,500",
+                "$1,500+",
+                "Not sure yet"
+            ]
+        },
+        {
+            "id": "timeline",
+            "question": "When do you need this completed?",
+            "type": "quick_reply",
+            "options": [
+                "Rush (24–48 hrs)",
+                "Within 3–5 days",
+                "1–2 weeks",
+                "Flexible / No rush"
+            ]
+        },
+        {
+            "id": "requirements",
+            "question": "Anything else we should know? Design links, references, special instructions? (optional)",
+            "type": "text",
+            "placeholder": "Share any details or links...",
+            "optional": true
+        }
+    ]
+}

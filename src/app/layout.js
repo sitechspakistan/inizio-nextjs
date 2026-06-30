@@ -12,7 +12,7 @@ import '../styles/meanmenu.css';
 import '../styles/magnific-popup.css';
 import '../styles/spacing.css';
 import '../styles/style.css';
-// import '../styles/custom.css';
+import '../styles/custom.css';
 import '../styles/custom.min.css'
 <link
   rel="stylesheet"
@@ -24,8 +24,7 @@ import '../styles/custom.min.css'
 import Header from "./includes/Header";
 import Footer from "./includes/Footer";
 import WhatsAppButton from "./components/WhatsappBtn";
-import Chatwidget from "./components/ChatWidget";
-import ChatBox from "./components/ChatWidget";
+import ChatBot from "./components/ChatBot";
 
 
 // export const metadata = {
@@ -85,7 +84,7 @@ export default function RootLayout({ children }) {
 
         <Footer />
         <WhatsAppButton />
-        {/* <ChatBox /> */}
+        <ChatBot />
         <Script src="/assets/js/jquery.js"></Script>
         <Script src="/assets/js/waypoints.js"></Script>
         <Script src="/assets/js/wow.js"></Script>
