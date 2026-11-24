@@ -33,7 +33,7 @@ export default async function BlogDetail({ params }) {
 
     return (
         <>
-            <section className="pt-100 pb-0">
+            <section className="pt-0 pb-0">
                 <div className="blogdetail__area pt-60">
                     <div className="container">
                         <div className="d-flex align-items-center wow tpfadeRight" data-wow-duration=".9s"

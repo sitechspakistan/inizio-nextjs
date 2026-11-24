@@ -1,13 +1,10 @@
-import Hero from "./components/Hero";
-import HomeServices from "./components/HomeServices";
-import Counters from "./components/Counters";
-import PortfolioSec from "./components/PortfolioSec";
-import MarqueeText from "./components/MarqueeText";
-import Boxes from "./components/Boxes";
-import Testimonials from "./components/Testimonials";
-import MapSection from "./components/MapSection";
-import Clients from "./components/Clients";
-import ContactForm from "./components/ContactForm";
+import HomeHero from "./components/home/HomeHero";
+import HowItWorks from "./components/home/HowItWorks";
+import ServicesTabs from "./components/home/ServicesTabs";
+import AutoVsManual from "./components/home/AutoVsManual";
+import HomeFaq from "./components/home/HomeFaq";
+import { WhyUs, HomePortfolio, Reviews, Pricing, CtaBand } from "./components/home/HomeSections";
+import { HOME_FAQS } from "./components/home/faqData";
 
 
 export const metadata = {
@@ -109,25 +106,32 @@ const homeSchema = {
 
 
 
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": HOME_FAQS.map((f) => ({
+    "@type": "Question",
+    "name": f.q,
+    "acceptedAnswer": { "@type": "Answer", "text": f.a },
+  })),
+};
+
 export default function Home() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(homeSchema), }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema), }} />
 
-      <Hero heading={`Expert Embroidery Digitizing & Vector Art in the`} headingone={` USA.`} paragraph={`Inizio Solutions is your
-                          trusted partner for professional apparel branding services in the U.S. We specialize in
-                          converting your designs into high-quality embroidery digitizing files, scalable vector
-                          art, and manufacturing premium custom patches. Get guaranteed quality and the fastest
-                          turnaround in the industry.`} />
-      <HomeServices />
-      <Counters />
-      <PortfolioSec subheading="Our Portfolio" heading="work we're proud to share." type="mix-img" />
-      <MarqueeText />
-      <Boxes />
-      <Testimonials />
-      <MapSection />
-      <Clients />
-      <ContactForm />
+      <HomeHero />
+      <HowItWorks />
+      <ServicesTabs />
+      <AutoVsManual />
+      <WhyUs />
+      <HomePortfolio />
+      <Reviews />
+      <Pricing />
+      <HomeFaq />
+      <CtaBand />
     </>
   );
 }

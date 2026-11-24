@@ -1,122 +1,65 @@
 import Link from "next/link";
 
 export default function Footer() {
-    return (
-        <>
-            <footer>
-                <div className="tp-footer-area footer-bg pt-60">
-                    <div className="container">
-                        <div className="row borderbottom">
-                            <div className="col-xl-2 col-lg-2 col-md-3 col-6 mb-30">
-                                <div className="tp-footer-widget z-index-3">
-                                    <div className="tp-footer-widget__title">
-                                        <h4 className="tp-footer-title">Quick Links</h4>
-                                    </div>
-                                    <div className="tp-footer-widget__list">
-                                        <ul>
-                                            <li><Link href="/services">Services</Link></li>
-                                            <li><Link href="/pricing">Our Pricing</Link></li>
-                                            <li><Link href="/blog">Blogs</Link></li>
-                                            <li><Link href="https://www.etsy.com/shop/iniziosolutionsshop/?etsrc=sdt">Shop</Link></li>
-                                            <li><a href="https://www.behance.net/iniziosolutionsllc" target="_blank">Portfolio</a></li>
-                                            <li><Link href="/privacy-policy">Privacy Policy</Link></li>
-                                            <li><Link href="/terms-conditions">Terms of Use</Link></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-xl-3 col-lg-2 col-md-3 col-6 mb-30">
-                                <div className="tp-footer-widget footer-space-one z-index-3">
-                                    <div className="tp-footer-widget__title">
-                                        <h4 className="tp-footer-title">Services </h4>
-                                    </div>
-                                    <div className="tp-footer-widget__list">
-                                        <ul>
-                                            <li><Link href="/services/embroidery-digitizing">Embroidery Digitizing</Link></li>
-                                            <li><Link href="/services/vector-art">Verctor Art</Link></li>
-                                            <li><Link href="/services/custom-patches">Custom Patches</Link></li>
-                                            <li><Link href="/coming-soon">Shirts</Link></li>
-                                            <li><Link href="/coming-soon">Caps</Link></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-xl-3 col-lg-4 col-md-6 col-12 mb-30">
-                                <div className="tp-footer-widget z-index-5">
-                                    <div className="tp-footer-widget__title">
-                                        <h4 className="tp-footer-title">Contact Us</h4>
-                                    </div>
-                                    <div className="tp-footer-widget__list">
-                                        <ul className="footer-position">
-                                            <li><a href="https://maps.app.goo.gl/m5ZVT8chR1iBS3fj8" target="_blank">
-                                                <span><i className="fal fa-map-marker-alt"></i></span>
-                                                131 Continental Dr Ste 305, Newark, DE 19713, USA
-                                            </a>
-                                            </li>
-                                            <li><a href="mailto:orders@iniziosolutions.com">
-                                                <span><i className="fal fa-envelope"></i></span>
-                                                orders@iniziosolutions.com
-                                            </a>
-                                            </li>
-                                            <li className="mt-16"><a href="tel:+1 (302) 779-1338">
-                                                <span><i className="fal fa-phone-alt "></i></span>
-                                                +1 (302) 779-1338</a>
-                                            </li>
-                                        </ul>
+  return (
+    <footer className="iz-root iz-footer">
+      <div className="iz-container iz-footer__inner">
+        <div className="iz-footer__cols">
+          <div className="iz-footer__brand">
+            <Link href="/" aria-label="Inizio Solutions home">
+              <img src="/assets/images/inizo-logo-removebg-preview.png" alt="Inizio Solutions" width="190" height="44" />
+            </Link>
+            <p>Embroidery digitizing, vector art and custom patches for the USA since 2015.</p>
+            <div className="iz-footer__social">
+              <a href="https://www.facebook.com/iniziosolutionsllc/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                <i className="fab fa-facebook-f" aria-hidden="true"></i>
+              </a>
+              <a href="https://www.instagram.com/iniziosolutions/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <i className="fab fa-instagram" aria-hidden="true"></i>
+              </a>
+              <a href="https://www.linkedin.com/company/iniziosolutions/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <i className="fab fa-linkedin-in" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
 
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-xl-4 col-lg-4 col-md-3 col-12 mb-30">
-                                <div className="tp-footer-widget z-index-3 d-flex justify-content-center mx-auto mt-45">
-                                    <div className="row g-20">
+          <div className="iz-footer__col">
+            <strong>Services</strong>
+            <Link href="/services/embroidery-digitizing">Embroidery Digitizing</Link>
+            <Link href="/services/vector-art">Vector Art</Link>
+            <Link href="/services/custom-patches">Custom Patches</Link>
+            <Link href="/coming-soon">Shirts &amp; Caps</Link>
+            <a href="https://www.etsy.com/shop/iniziosolutionsshop/?etsrc=sdt" target="_blank" rel="noopener noreferrer">Etsy Shop</a>
+          </div>
 
-                                        <img src="/assets/images/footer/payment-footer.png" />
+          <div className="iz-footer__col">
+            <strong>Company</strong>
+            <Link href="/pricing">Pricing</Link>
+            <a href="https://www.behance.net/iniziosolutionsllc" target="_blank" rel="noopener noreferrer">Portfolio</a>
+            <Link href="/blog">Blog</Link>
+            <Link href="/place-an-order">Place an Order</Link>
+            <Link href="/privacy-policy">Privacy Policy</Link>
+            <Link href="/terms-conditions">Terms of Use</Link>
+          </div>
 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+          <div className="iz-footer__col">
+            <strong>Contact</strong>
+            <a href="https://maps.app.goo.gl/m5ZVT8chR1iBS3fj8" target="_blank" rel="noopener noreferrer">
+              131 Continental Dr Ste 305, Newark, DE 19713, USA
+            </a>
+            <a href="mailto:orders@iniziosolutions.com">orders@iniziosolutions.com</a>
+            <a href="tel:+13027791338">+1 (302) 779-1338</a>
+          </div>
+        </div>
 
-                        <div className="row ">
-                            <div className="z-index-3">
-                                <div className="row">
-                                    <div className="col-12">
-                                        <div className="copyright-left text-center mb-0">
-                                            <p className="pt-2 mb-0">© Inizio Solutions 2026. All Rights Reserved. Designed & Developed by <a href="https://sitechs.co" target="_blank"><span className="content-color">Sitechs</span></a>.</p>
-                                        </div>
-                                        <div className="copyright-right-side text-center mt-3 mb-1">
-                                            <div className="footer-font">
-                                                <span><a href="https://www.facebook.com/iniziosolutionsllc/" target="blank"><i className="fab fa-facebook" id="facebook"></i></a></span>
-                                                <span><a href="https://www.instagram.com/iniziosolutions/" target="blank"><i className="fab fa-instagram" id="instagram"></i></a></span>
-                                                <span><a href="https://www.linkedin.com/company/iniziosolutions/" target="blank"><i className="fab fa-linkedin" id="linkedin"></i></a ></span>
-
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    {/* <div className="col-xl-6 col-lg-6 col-12"> */}
-                                    {/* <div className="copyright-right-side text-center">
-                                            <div className="footer-font">
-                                                <span><a href="https://www.facebook.com/iniziosolutionsllc/" target="blank"><i className="fab fa-facebook" id="facebook"></i></a></span>
-                                                <span><a href="https://www.instagram.com/iniziosolutions/" target="blank"><i className="fab fa-instagram" id="instagram"></i></a></span>
-                                                <span><a href="https://www.linkedin.com/company/iniziosolutions/" target="blank"><i className="fab fa-linkedin" id="linkedin"></i></a ></span>
-
-                                            </div>
-                                        </div> */}
-                                    {/* </div> */}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <button className="scroll-top scroll-to-target" data-target="html">
-                    <i className="far fa-angle-double-up"></i>
-                </button>
-
-
-            </footer>
-        </>
-    );
+        <div className="iz-footer__bottom">
+          <span>
+            © Inizio Solutions {new Date().getFullYear()}. All rights reserved. Designed &amp; Developed by{" "}
+            <a href="https://sitechs.co" target="_blank" rel="noopener noreferrer">Sitechs</a>.
+          </span>
+          <span>PayPal · Visa · Mastercard · AMEX · Apple Pay · Wire</span>
+        </div>
+      </div>
+    </footer>
+  );
 }
