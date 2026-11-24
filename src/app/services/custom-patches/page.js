@@ -2,6 +2,8 @@ import InnerHero from "@/app/components/InnerHero";
 import ContentOne from "@/app/components/ContentOne";
 import Boxes from "@/app/components/Boxes";
 import FaqsCustom from "@/app/components/faqs/FaqsCustom";
+import PortfolioSec from "../../components/PortfolioSec";
+import Cta from "../../components/Cta";
 import ContactForm from "@/app/components/ContactForm";
 
 export const metadata = {
@@ -133,6 +135,8 @@ export default function custom() {
                 }
                 imgpath={"/assets/images/portfolio/custom-patch/5.jpg"}
             />
+            <PortfolioSec subheading={"Best solution we offer you"} heading={"Our Custom Patches Work."} type="custom-patch" />
+            <Cta />
             <Boxes />
             <FaqsCustom />
             <ContactForm />

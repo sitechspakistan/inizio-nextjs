@@ -17,7 +17,7 @@ const PROMO = [
 
 const LINKS = [
   { href: "/pricing", label: "Pricing" },
-  { href: "https://www.behance.net/iniziosolutionsllc", label: "Portfolio", external: true },
+  { href: "/portfolio", label: "Portfolio" },
 ];
 
 const SHOP = { href: "https://www.etsy.com/shop/iniziosolutionsshop/?etsrc=sdt", label: "Shop", external: true };

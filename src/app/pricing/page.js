@@ -1,5 +1,8 @@
 import SecondHero from "../components/SecondHero"
 import PriceCard from "../components/PriceCard"
+import Boxes from "../components/Boxes"
+import Faqs from "../components/Faqs"
+import Cta from "../components/Cta"
 
 export default function pricing() {
     return (
@@ -11,7 +14,9 @@ export default function pricing() {
                  Here, you can view the fully detailed and competitive pricing for all Inizio Solutions services. Select the package
                   that best fits your requirements and budget without any hidden costs." />
             <PriceCard />
-
+            <Boxes />
+            <Faqs />
+            <Cta />
         </>
     )
 }

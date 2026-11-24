@@ -58,12 +58,12 @@ export default function ServicesTabs() {
 
   return (
     <section id="services" className="iz-root iz-container iz-section iz-services">
-      <div className="iz-section-head">
+      <div className="iz-section-head iz-reveal">
         <span className="iz-eyebrow">Services</span>
         <h2 className="iz-h2">One partner for stitch files, vector art and patches.</h2>
       </div>
 
-      <div role="tablist" aria-label="Services" className="iz-tabs" onKeyDown={onKeyDown}>
+      <div role="tablist" aria-label="Services" className="iz-tabs iz-reveal" style={{ "--d": 1 }} onKeyDown={onKeyDown}>
         {SERVICES.map((s, i) => (
           <button
             key={s.tab}
@@ -88,7 +88,8 @@ export default function ServicesTabs() {
           role="tabpanel"
           id={`svc-panel-${i}`}
           aria-labelledby={`svc-tab-${i}`}
-          className="iz-panel"
+          className="iz-panel iz-reveal"
+          style={{ "--d": 2 }}
           hidden={active !== i}
         >
           <div className="iz-panel__copy">

@@ -126,7 +126,7 @@ export default function AutoVsManual() {
   return (
     <section className="iz-root iz-compare">
       <div className="iz-container iz-section iz-compare__inner">
-        <div className="iz-compare__copy">
+        <div className="iz-compare__copy iz-reveal">
           <span className="iz-eyebrow">Hand-digitized, never auto-traced</span>
           <h2>Same logo. One stitches clean.</h2>
           <p>
@@ -145,7 +145,7 @@ export default function AutoVsManual() {
           </div>
         </div>
 
-        <div className="iz-compare__visual">
+        <div className="iz-compare__visual iz-reveal" style={{ "--d": 1 }}>
           <div
             ref={boxRef}
             className="iz-compare__canvas"

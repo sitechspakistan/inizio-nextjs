@@ -74,6 +74,12 @@ export default function HomeHero() {
 
   return (
     <section id="top" className="iz-root iz-hero">
+      <div className="iz-hero__bg" aria-hidden="true">
+        <span className="iz-blob iz-blob--a" />
+        <span className="iz-blob iz-blob--b" />
+        <span className="iz-blob iz-blob--c" />
+        <span className="iz-hero__stitch" />
+      </div>
       <div className="iz-container iz-hero__inner">
         <div className="iz-hero__copy">
           <a href="#reviews" className="iz-tp-pill">
@@ -128,7 +134,7 @@ export default function HomeHero() {
         >
           <div className="iz-quote__head">
             <h2>Get a free quote</h2>
-            <span className="iz-badge-yellow">Reply in minutes</span>
+            <span className="iz-badge-yellow">Instant Reply</span>
           </div>
 
           <div className="iz-fields">
@@ -146,12 +152,14 @@ export default function HomeHero() {
             </label>
             <label className="iz-field">
               Care of
-              <select name="care_of" defaultValue="Care of" className="iz-select">
+              <span className="iz-select">
+              <select name="care_of" defaultValue="Care of">
                 <option value="Care of">Select (optional)</option>
                 {CARE_OF.map((c) => (
                   <option key={c} value={c}>{c}</option>
                 ))}
               </select>
+              </span>
             </label>
           </div>
 

@@ -1,6 +1,8 @@
 import blog from "@/data/post.json"
 import Link from "next/link";
 import ContactForm from "@/app/components/ContactForm";
+import SideBar from "@/app/components/SideBar";
+import PageHero from "@/app/components/ui/PageHero";
 
 
 export async function generateMetadata({ params }) {
@@ -23,56 +25,31 @@ export async function generateMetadata({ params }) {
 
 
 export default async function BlogDetail({ params }) {
-    // Make sure params.slug exists
-
     const { slug } = await params;
-    // console.log("Params", blog);
     const post = blog.find((p) => p.slug === slug);
 
     if (!post) return <p>Post not found!</p>;
 
     return (
         <>
-            <section className="pt-0 pb-0">
-                <div className="blogdetail__area pt-60">
-                    <div className="container">
-                        <div className="d-flex align-items-center wow tpfadeRight" data-wow-duration=".9s"
-                            data-wow-delay="1.2s">
-                            <Link href="/blog">
-                                <div className="back-btn">
-                                    <i className="fal fa-arrow-left fw-bold"></i>
-                                </div>
-                            </Link>
-                            <span className="fw-bold fs-6 ms-3">{post.date}</span>
-                        </div>
-                        <h1 className="pt-10 pb-20 wow tpfadeRight" data-wow-duration=".9s"
-                            data-wow-delay="1.2s">{post.title}</h1>
-                        <div className="row">
-                            <div className="col-xxl-12 col-xl-8 col-lg-8">
-                                <div className="postbox__wrapper pr-20">
+            <PageHero className="iz-phero--post" crumb={<Link href="/blog">Blog</Link>} title={post.title}>
+                <span className="iz-post-card__date">{post.date}</span>
+            </PageHero>
 
-                                    <div key={post.slug}>
-
-                                        <article className="postbox__item format-image mb-50 transition-3">
-                                            <div className="postbox__thumb w-img wow tpfadeRight" data-wow-duration=".9s"
-                                                data-wow-delay="1.2s">
-
-                                                <img src={post.image} alt="" />
-                                            </div>
-
-                                            <div className="postbox__content wow tpfadeRight" data-wow-duration=".9s"
-                                                data-wow-delay="1.2s">
-                                                <div className="postbox__text" dangerouslySetInnerHTML={{ __html: post?.content || "" }} />
-                                            </div>
-                                        </article>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div >
-
-            </section >
+            <section className="iz-root iz-container iz-section" style={{ paddingTop: 48 }}>
+                <div className="iz-blog-layout">
+                    <article>
+                        <img className="iz-article__cover" src={post.image} alt={post.title} />
+                        <div className="iz-prose" dangerouslySetInnerHTML={{ __html: post?.content || "" }} />
+                        <p style={{ marginTop: 40 }}>
+                            <Link href="/blog" className="iz-back">← Back to all posts</Link>
+                        </p>
+                    </article>
+                    <aside>
+                        <SideBar />
+                    </aside>
+                </div>
+            </section>
             <ContactForm />
         </>
     );

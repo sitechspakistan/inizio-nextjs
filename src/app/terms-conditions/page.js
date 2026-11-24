@@ -24,8 +24,8 @@ export default function TermConditons() {
                     description=""
 
                 />
-                <section className="pt-30 pb-30">
-                    <div className="container policy">
+                <section className="iz-root iz-container iz-section" style={{ paddingTop: 56 }}>
+                    <div className="iz-prose">
                         {/* <h1 className="pt-3 text-center">Terms & Conditions – Inizio Solutions, LLC</h1> */}
                         <p>These Terms & Conditions govern your use of Inizio Solutions, LLC’s services and website. By accessing or using our Site or services, you agree to these Terms.
                         </p>

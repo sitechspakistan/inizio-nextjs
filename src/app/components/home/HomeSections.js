@@ -1,6 +1,7 @@
 // Static (server-rendered) sections of the home page.
 import Link from "next/link";
 import { REVIEWS, TRUSTPILOT, initials } from "./reviewsData";
+import BehanceBadge from "../ui/BehanceBadge";
 
 function Stars() {
   return (
@@ -27,13 +28,13 @@ const WHY = [
 export function WhyUs() {
   return (
     <section className="iz-root iz-container iz-section iz-why">
-      <div className="iz-section-head">
+      <div className="iz-section-head iz-reveal">
         <span className="iz-eyebrow">Why Inizio</span>
         <h2 className="iz-h2">Built for shops that can&apos;t afford a bad file.</h2>
       </div>
       <div className="iz-why__grid">
-        {WHY.map((w) => (
-          <div key={w.title} className="iz-why__card">
+        {WHY.map((w, i) => (
+          <div key={w.title} className="iz-why__card iz-reveal" style={{ "--d": i % 3 }}>
             <span>{w.stat}</span>
             <h3>{w.title}</h3>
             <p>{w.body}</p>
@@ -51,17 +52,18 @@ export function HomePortfolio() {
   return (
     <section id="portfolio" className="iz-root iz-container iz-section iz-portfolio" style={{ paddingTop: 0 }}>
       <div className="iz-portfolio__head">
-        <div className="iz-section-head">
+        <div className="iz-section-head iz-reveal">
           <span className="iz-eyebrow">Portfolio</span>
           <h2 className="iz-h2">Work we&apos;re proud to share.</h2>
         </div>
-        <a className="iz-btn iz-btn--outline" href="https://www.behance.net/iniziosolutionsllc" target="_blank" rel="noopener noreferrer">
-          View full portfolio →
-        </a>
+        <div className="iz-portfolio__actions">
+          <Link className="iz-btn iz-btn--outline" href="/portfolio">View full portfolio →</Link>
+          <BehanceBadge />
+        </div>
       </div>
       <div className="iz-portfolio__grid">
-        {PORTFOLIO.map((img) => (
-          <figure key={img}>
+        {PORTFOLIO.map((img, i) => (
+          <figure key={img} className="iz-reveal" style={{ "--d": i % 4 }}>
             <img src={`/assets/images/portfolio/mix-img/${img}`} alt="Embroidery digitizing and vector art sample | Inizio Solutions" loading="lazy" />
           </figure>
         ))}
@@ -75,7 +77,7 @@ export function Reviews() {
   return (
     <section id="reviews" className="iz-root iz-reviews">
       <div className="iz-container iz-section iz-reviews__inner">
-        <div className="iz-reviews__head">
+        <div className="iz-reviews__head iz-reveal">
           <h2 className="iz-h2">Don&apos;t take our word for it. Take theirs.</h2>
           <a className="iz-reviews__score" href={TRUSTPILOT.url} target="_blank" rel="noopener noreferrer">
             <strong>{TRUSTPILOT.score}</strong>
@@ -87,8 +89,8 @@ export function Reviews() {
         </div>
 
         <div className="iz-reviews__grid">
-          {REVIEWS.map((r) => (
-            <figure key={r.name} className="iz-review">
+          {REVIEWS.map((r, i) => (
+            <figure key={r.name} className="iz-review iz-reveal" style={{ "--d": i % 3 }}>
               <Stars />
               <blockquote>“{r.quote}”</blockquote>
               <figcaption>
@@ -119,12 +121,12 @@ export function Reviews() {
 export function Pricing() {
   return (
     <section id="pricing" className="iz-root iz-container iz-section iz-pricing">
-      <div className="iz-section-head">
+      <div className="iz-section-head iz-reveal">
         <span className="iz-eyebrow">Pricing</span>
         <h2 className="iz-h2">Clear prices. First order free.</h2>
       </div>
       <div className="iz-pricing__grid">
-        <div className="iz-price">
+        <div className="iz-price iz-reveal" style={{ "--d": 0 }}>
           <span className="iz-price__name">Embroidery Digitizing</span>
           <span className="iz-price__amount">
             $8<small> / design</small>
@@ -134,7 +136,7 @@ export function Pricing() {
           </span>
           <a href="#quote" className="iz-btn iz-btn--outline">Get a quote</a>
         </div>
-        <div className="iz-price iz-price--featured">
+        <div className="iz-price iz-price--featured iz-reveal" style={{ "--d": 1 }}>
           <span className="iz-price__flag">NEW CUSTOMERS</span>
           <span className="iz-price__name">Your first order</span>
           <span className="iz-price__amount">$0</span>
@@ -143,7 +145,7 @@ export function Pricing() {
           </span>
           <a href="#quote" className="iz-btn iz-btn--teal">Claim free order</a>
         </div>
-        <div className="iz-price">
+        <div className="iz-price iz-reveal" style={{ "--d": 2 }}>
           <span className="iz-price__name">Vector Art Conversion</span>
           <span className="iz-price__amount">
             $10<small> / design</small>
@@ -163,7 +165,7 @@ export function Pricing() {
 export function CtaBand() {
   return (
     <section className="iz-root iz-cta">
-      <div className="iz-cta__box">
+      <div className="iz-cta__box iz-reveal">
         <div>
           <h2>Upload a logo. Stitch it out today.</h2>
           <p>4–5 hour delivery. Your first order is free.</p>

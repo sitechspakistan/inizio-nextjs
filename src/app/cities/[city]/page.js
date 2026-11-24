@@ -2,7 +2,6 @@ import Hero from "../../components/Hero"
 import ContentFour from "../../components/ContentFour"
 import Counters from "../../components/Counters"
 import PortfolioSec from "../../components/PortfolioSec"
-import ContentFive from "../../components/ContentFive"
 import Testimonials from "../../components/Testimonials"
 import Cta from "../../components/Cta"
 import FaqsDigitizing from "../../components/faqs/FaqsDigitizing"
@@ -116,9 +115,6 @@ export default async function CityPage({ params }) {
       />
       <Counters />
       <PortfolioSec subheading={"Our Portfolio"} heading={"work we're proud to share."} type="mix-img" />
-
-      {/* <ContentFive heading={`Flawless Stitching & Machine-Ready Files Tailored for`} headingone={`${cityName}`} imgCity={city} CityName={`${cityName}`}
-        para={`We go beyond basic conversion by creating production-ready embroidery files that reduce thread breaks and improve machine speed. With local support in ${cityName}, we expertly handle 3D Puff, delicate fabrics, and complex jacket backs. Our industry-leading digitizing helps ${cityName} businesses reduce downtime and deliver premium-quality embroidery consistently.`} /> */}
       <Testimonials />
       <Cta />
       <FaqsDigitizing />

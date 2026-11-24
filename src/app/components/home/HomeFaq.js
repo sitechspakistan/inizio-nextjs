@@ -9,7 +9,7 @@ export default function HomeFaq() {
   return (
     <section id="faq" className="iz-root iz-faq">
       <div className="iz-container iz-section iz-faq__inner">
-        <div className="iz-faq__seo">
+        <div className="iz-faq__seo iz-reveal">
           <h2>Professional embroidery digitizing for USA shops and brands</h2>
           <p>
             Embroidery digitizing turns artwork into a stitch file your machine can read. The quality of that file decides everything
@@ -26,7 +26,7 @@ export default function HomeFaq() {
           {HOME_FAQS.map((f, i) => {
             const isOpen = open === i;
             return (
-              <div key={f.q} className="iz-faq__item">
+              <div key={f.q} className="iz-faq__item iz-reveal" style={{ "--d": i }}>
                 <button
                   type="button"
                   className="iz-faq__q"

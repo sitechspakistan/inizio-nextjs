@@ -15,6 +15,7 @@ import '../styles/style.css';
 import '../styles/custom.css';
 import '../styles/custom.min.css'
 import '../styles/redesign.css';
+import '../styles/redesign-pages.css';
 
 const inter = Inter({ subsets: ["latin"], weight: ["400", "500", "600", "700", "800"], variable: "--font-inter", display: "swap" });
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"], weight: ["500", "600", "700"], variable: "--font-space-grotesk", display: "swap" });
@@ -29,6 +30,7 @@ import Header from "./includes/Header";
 import Footer from "./includes/Footer";
 import WhatsAppButton from "./components/WhatsappBtn";
 import ChatBot from "./components/ChatBot";
+import SiteMotion from "./components/ui/SiteMotion";
 
 
 // export const metadata = {
@@ -87,6 +89,7 @@ export default function RootLayout({ children }) {
 
 
         <Footer />
+        <SiteMotion />
         <WhatsAppButton />
         <ChatBot />
         <Script src="/assets/js/jquery.js"></Script>

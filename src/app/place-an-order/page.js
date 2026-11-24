@@ -8,7 +8,7 @@ export default function placeanorder(){
          <SecondHero subheading="Place an Order"
                         headingone={"Place an"}
                         heading="Order"
-                        description="Explore our portfolio highlighting exceptional services and innovative solutions, along with the custom promotional products we’ve crafted for clients across industries." />
+                        description="Tell us what you need and upload your artwork. We'll send back a clean, machine-ready embroidery file, print-ready vector or patch quote fast. Your first order is free." />
         
         <OrderForm/>
         </Suspense>

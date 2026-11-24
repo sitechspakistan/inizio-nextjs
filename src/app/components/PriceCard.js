@@ -1,154 +1,103 @@
 import Link from "next/link";
 
+// Same plans and prices as before the redesign.
+const PLANS = [
+  {
+    icon: "/assets/images/pricing/1.webp",
+    tag: "New customers",
+    name: "Free first order",
+    price: "$0",
+    min: "First order under 6,000 stitches",
+    featured: true,
+    features: [
+      "Free account setup",
+      "No credit card required",
+      "Access to client dashboard panel",
+      "5 free edits within 7 days",
+      "2–6 hours delivery (extra $5 USD)",
+    ],
+    cta: "Claim free order",
+  },
+  {
+    icon: "/assets/images/pricing/06.webp",
+    tag: "For individuals",
+    name: "Left Chest + Caps",
+    price: "$8",
+    min: "$8 minimum",
+    features: ["24/7 live chat support", "Desired format(s)", "Normal turnaround (6 to 12 hours)", "Unlimited edits for 30 days"],
+    cta: "Order now",
+  },
+  {
+    icon: "/assets/images/pricing/07.webp",
+    tag: "For individuals",
+    name: "Jacket Back Logo",
+    price: "$22",
+    min: "$12 minimum",
+    features: [
+      "24/7 customer support",
+      "5 selected formats",
+      "Data aggregation",
+      "Normal turnaround (18 to 48 hours)",
+      "Free unlimited edits for 30 days",
+      "Urgent (6 to 14 hours) $10 fee",
+    ],
+    cta: "Order now",
+  },
+  {
+    icon: "/assets/images/pricing/09.webp",
+    tag: "For individuals",
+    name: "Vector Art Conversion",
+    price: "$10",
+    min: "$10 minimum",
+    features: [
+      "Simple textual logo $12",
+      "Simple 2+ color logos $15",
+      "Complex 2+ color logos $35",
+      "Hardcore 2+ color logos $75",
+      "Extremely hardcore (ask for quotation)",
+      "Turnaround time (3 to 24 hours)",
+      "Urgent (1 to 12 hours) $5 fee",
+    ],
+    cta: "Order now",
+  },
+];
+
 export default function PriceCard() {
-    return (
-        <div className="tp-price-area pt-40 pb-40">
-            <div className="container">
-                <div className="row">
-
-                    <div className="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
-                        <div className="tp-price price-grey-bg-1">
-                            <div className="tp-price__title">
-                                <div className="tp-price__content d-flex align-items-center">
-                                    <div className="tp-price__content-circle">
-                                        <img src="/assets/images/pricing/1.webp" alt="" />
-                                        <span></span>
-                                    </div>
-                                    <div className="tp-price__content-text">
-                                        <h5>Free</h5>
-                                    </div>
-                                </div>
-                                <p className="text-center">First Order Under 6000 Stitches </p>
-
-                                <p className="text-center fs-2 fw-bold"><span className=" content-color"> $0.00</span></p>
-
-
-                            </div>
-                            <div className="tp-price__title">
-                                <h4 className="text-center pt-1 pb-5 fs-5">What’s included</h4>
-                            </div>
-                            <div className="tp-price__list">
-                                <ul>
-                                    <li><i className="far fa-check"></i> Free Account Setup</li>
-                                    <li><i className="far fa-check"></i> No Credit Card Required</li>
-                                    <li><i className="far fa-check"></i> Access to Client Dashboard Panel</li>
-                                    <li><i className="far fa-check"></i> Access to Client Dashboard Panel</li>
-                                    <li><i className="far fa-check"></i> 5 Free Edit within 7 days</li>
-                                    <li><i className="far fa-check"></i> 2- 6 hours Delivery (extra $5 USD)</li>
-                                </ul>
-                            </div>
-                            <div className="tp-price__button d-flex justify-content-center mx-auto">
-                                <Link className="tp-btn-radius" href="/placeanorder">Order Now</Link>
-
-                            </div>
-                        </div>
-
-                    </div>
-                    <div className="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
-                        <div className="tp-price price-grey-bg-1">
-                            <div className="tp-price__content d-flex align-items-center">
-                                <div className="tp-price__content-circle">
-                                    <img src="/assets/images/pricing/06.webp" alt="" />
-                                    <span></span>
-                                </div>
-                                <div className="tp-price__content-text">
-                                    <span>For individuals</span>
-                                    <h5 className="half-line">Left Chest + <span className="content-color">Caps</span></h5>
-                                </div>
-                            </div>
-                            <p className="text-center">$ 8 Minimum</p>
-                            <p className="text-center fs-2 fw-bold"><span className="content-color">$8.00</span></p>
-
-                            <div className="tp-price__title">
-                                <h4 className="text-center pt-3 pb-5 fs-5">What’s included</h4>
-                            </div>
-                            <div className="tp-price__list">
-                                <ul>
-                                    <li><i className="far fa-check"></i> 24/7 Live Chat Support</li>
-                                    <li><i className="far fa-check"></i> Desired Format(s)</li>
-                                    <li><i className="far fa-check"></i> Normal Turnaround (6 to 12 hours)</li>
-                                    <li><i className="far fa-check"></i> Unlimited edits for 30 days</li>
-                                </ul>
-                            </div>
-                            <div className="tp-price__button d-flex justify-content-center mx-auto">
-                                <Link className="tp-btn-radius " href="/place-an-order">Order Now</Link>
-
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div className="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
-                        <div className="tp-price price-grey-bg-1">
-                            <div className="tp-price__content d-flex align-items-center">
-                                <div className="tp-price__content-circle">
-                                    <img src="/assets/images/pricing/07.webp" alt="" />
-                                    <span></span>
-                                </div>
-                                <div className="tp-price__content-text">
-                                    <span>For individuals</span>
-                                    <h5 className="half-line">Jacket Back <span className="content-color">Logo</span></h5>
-                                </div>
-                            </div>
-                            <p className="text-center">$ 12Minimum</p>
-                            <p className="text-center fs-2 fw-bold"><span className="content-color">$22.00</span></p>
-                            <div className="tp-price__title">
-                                <h4 className="text-center pt-3 pb-5 fs-5">What’s included</h4>
-                            </div>
-                            <div className="tp-price__list">
-                                <ul>
-                                    <li><i className="far fa-check"></i> 24/7 Customer Support</li>
-                                    <li><i className="far fa-check"></i> 5 selected Formats</li>
-                                    <li><i className="far fa-check"></i> Data Aggregation</li>
-                                    <li><i className="far fa-check"></i> Normal Turnaround (18 to 48 hours)</li>
-                                    <li><i className="far fa-check"></i> Free Unlimited Edits for 30 Days</li>
-                                    <li><i className="far fa-check"></i> Urgent (6 to 14 hours) $10 fee</li>
-                                </ul>
-                            </div>
-                            <div className="tp-price__button d-flex justify-content-center mx-auto">
-                                <Link className="tp-btn-radius" href="/place-an-order">Order Now</Link>
-
-                            </div>
-
-                        </div>
-                    </div>
-                    <div className="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
-                        <div className="tp-price price-grey-bg-1">
-                            <div className="tp-price__content d-flex align-items-center">
-                                <div className="tp-price__content-circle">
-                                    <img src="/assets/images/pricing/09.webp" alt="" />
-                                    <span></span>
-                                </div>
-                                <div className="tp-price__content-text">
-                                    <span>For individuals</span>
-                                    <h5 className="half-line">Vector Art <span className="content-color">Conversion</span></h5>
-                                </div>
-                            </div>
-                            <p className="text-center">$ 10 Minimum</p>
-                            <p className="text-center fs-2 fw-bold"><span className="content-color">$10.00</span></p>
-
-                            <div className="tp-price__title">
-                                <h4 className="text-center pt-3 pb-5 fs-5">What’s included</h4>
-                            </div>
-                            <div className="tp-price__list">
-                                <ul>
-                                    <li><i className="far fa-check"></i> Simple Textual Logo $12</li>
-                                    <li><i className="far fa-check"></i> Simple 2+ Color Logos $15</li>
-                                    <li><i className="far fa-check"></i> Complex 2+ Color Logos $35</li>
-                                    <li><i className="far fa-check"></i> Hardcore 2+ Color Logos $75</li>
-                                    <li><i className="far fa-check"></i> Extremely hardcore (ASK FOR QUOTATION)</li>
-                                    <li><i className="far fa-check"></i> Turnaround Time (3 to 24 hours)</li>
-                                    <li><i className="far fa-check"></i> Urgent (1 to 12 hours) $5 Fee</li>
-                                </ul>
-                            </div>
-                            <div className="tp-price__button d-flex justify-content-center mx-auto">
-                                <Link className="tp-btn-radius" href="/place-an-order">Order Now</Link>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    )
+  return (
+    <section className="iz-root iz-container iz-section iz-pricing">
+      <div className="iz-section-head iz-reveal">
+        <span className="iz-eyebrow">Plans</span>
+        <h2 className="iz-h2">Clear prices. No hidden costs.</h2>
+      </div>
+      <div className="iz-pricing__grid iz-pricing__grid--four">
+        {PLANS.map((p, i) => (
+          <div key={p.name} className={`iz-price iz-reveal${p.featured ? " iz-price--featured" : ""}`} style={{ "--d": i }}>
+            {p.featured && <span className="iz-price__flag">NEW CUSTOMERS</span>}
+            <span className="iz-price__icon">
+              <img src={p.icon} alt="" />
+            </span>
+            <span className="iz-price__min">{p.featured ? p.min : p.tag}</span>
+            <span className="iz-price__name">{p.name}</span>
+            <span className="iz-price__amount">
+              {p.price}
+              {!p.featured && <small> / design</small>}
+            </span>
+            {!p.featured && <span className="iz-price__min">{p.min}</span>}
+            <ul className="iz-price__list">
+              {p.features.map((f) => (
+                <li key={f}>{f}</li>
+              ))}
+            </ul>
+            <Link href="/place-an-order" className={`iz-btn ${p.featured ? "iz-btn--teal" : "iz-btn--outline"}`}>
+              {p.cta}
+            </Link>
+          </div>
+        ))}
+      </div>
+      <p className="iz-pricing__foot iz-reveal">
+        Not sure which plan fits? Quotes are free and unlimited, 24/7.{" "}
+        <Link href="/place-an-order" className="iz-link">Get a free quote →</Link>
+      </p>
+    </section>
+  );
 }

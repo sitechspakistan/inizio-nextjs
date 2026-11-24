@@ -35,7 +35,8 @@ export default function Footer() {
           <div className="iz-footer__col">
             <strong>Company</strong>
             <Link href="/pricing">Pricing</Link>
-            <a href="https://www.behance.net/iniziosolutionsllc" target="_blank" rel="noopener noreferrer">Portfolio</a>
+            <Link href="/portfolio">Portfolio</Link>
+            <a href="https://www.behance.net/iniziosolutionsllc" target="_blank" rel="noopener noreferrer">Behance</a>
             <Link href="/blog">Blog</Link>
             <Link href="/place-an-order">Place an Order</Link>
             <Link href="/privacy-policy">Privacy Policy</Link>

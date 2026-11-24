@@ -22,8 +22,8 @@ export default function PrivacyPolicy() {
                     description=""
 
                 />
-                <section className="pt-30 pb-30">
-                    <div className="container policy">
+                <section className="iz-root iz-container iz-section" style={{ paddingTop: 56 }}>
+                    <div className="iz-prose">
                         {/* <h1 className="pt-3 text-center">Privacy & Policy – Inizio Solutions, LLC</h1> */}
                         <p>Inizio Solutions, LLC is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your personal information when you visit or use our website <a href="https://www.iniziosolutions.com" target="_blank"><span className="content-color text-lowercase">www.iniziosolutions.com</span></a> (the “Site”) or place an order with us.
                             <br /> By using the Site or our services, you agree to the collection and use of information in accordance with this policy.

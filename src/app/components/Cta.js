@@ -1,20 +1,15 @@
 import Link from "next/link";
 
-export default function Cta(){
-return(
-     <div className="tp-cta pb-80">
-            <div className="bg-blue"></div>
-            <div className="container ">
-
-                <h2 className="text-center">Ready to Transform Your Artwork into a Perfect Stitch File?</h2>
-                <p className="text-center pb-25">Upload your logo and let our experts prepare a flawless embroidery file for
-                    you.
-                </p>
-
-
-                <button className="btn btn-primary d-flex justify-content-center mx-auto"><Link href="/place-an-order">Place Your Order</Link></button>
-
-            </div>
+export default function Cta() {
+  return (
+    <section className="iz-root iz-cta">
+      <div className="iz-cta__box iz-reveal">
+        <div>
+          <h2>Ready to transform your artwork into a perfect stitch file?</h2>
+          <p>Upload your logo and let our experts prepare a flawless embroidery file for you.</p>
         </div>
-)
+        <Link href="/place-an-order" className="iz-btn iz-btn--ink">Place your order →</Link>
+      </div>
+    </section>
+  );
 }
