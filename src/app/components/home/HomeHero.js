@@ -82,7 +82,7 @@ export default function HomeHero() {
       </div>
       <div className="iz-container iz-hero__inner">
         <div className="iz-hero__copy">
-          <a href="#reviews" className="iz-tp-pill">
+          <a href={TRUSTPILOT.url} target="_blank" rel="noopener noreferrer" className="iz-tp-pill">
             <Stars />
             <strong>{TRUSTPILOT.score}</strong>
             <span className="iz-muted">
@@ -91,7 +91,7 @@ export default function HomeHero() {
           </a>
 
           <h1>
-            Embroidery Digitizing &amp; Vector Art Services <mark>in the USA</mark>
+            <mark>Top Quality</mark> Embroidery Digitizing &amp; Vector Art Services
           </h1>
 
           <p className="iz-hero__lead">
