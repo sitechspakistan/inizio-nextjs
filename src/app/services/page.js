@@ -1,3 +1,4 @@
+import { buildMetadata } from "@/lib/seo";
 import Boxes from "../components/Boxes";
 import ContactForm from "../components/ContactForm";
 import MarqueeText from "../components/MarqueeText";
@@ -6,28 +7,11 @@ import ServiceBoxes from "../components/ServiceBoxes";
 import ServiceContent from "../components/ServiceContent";
 
 
-export const metadata = {
-    title: "Embroidery Digitizing, Vector Art & Custom Patch Services",
-    description: "Get expert Embroidery Digitizing, Vector Art conversion, and Custom Patches. Premium quality graphic and apparel services with fast turnaround.",
-    alternates: {
-        canonical: "https://iniziosolutions.com/services",
-    },
-    openGraph: {
-        title: "Embroidery Digitizing, Vector Art & Custom Patch Services",
-        description: "Get expert Embroidery Digitizing, Vector Art conversion, and Custom Patches. Premium quality graphic and apparel services with fast turnaround.",
-        url: "https://iniziosolutions.com/services",
-        siteName: "Inizio Solutions",
-        images: [
-            {
-                url: "https://iniziosolutions.com/assets/images/open-graph.jpg",
-                width: 1200,
-                height: 630,
-                alt: "Inizio Solutions Logo",
-            },
-        ],
-        type: "website",
-    },
-};
+export const metadata = buildMetadata({
+    title: "Top Quality Digitizing, Vector Art & Patch Services",
+    description: "One partner for embroidery digitizing, vector art conversion and custom patches. Production-ready files for shops and distributors. Free first order.",
+    canonical: "https://iniziosolutions.com/services",
+});
 
 const serviceSchema =
 {

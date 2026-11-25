@@ -1,18 +1,14 @@
+import { buildMetadata } from "@/lib/seo";
 import SecondHero from "../components/SecondHero"
 import blog from "@/data/post.json"
 import Link from "next/link";
 import SideBar from "../components/SideBar";
 
-export const metadata = {
-    title: "Blog Posts | Inizio Solutions",
-    description: "Stay ahead with the latest insights on our services, promotional products, branding trends, and effective marketing strategies.",
-    alternates: {
-        canonical: "https://www.iniziosolutions.com/blog",
-    },
-    icons: {
-        icon: "/assets/images/inizo-logo.webp",
-    },
-};
+export const metadata = buildMetadata({
+    title: "Embroidery Digitizing & Vector Art Blog | Inizio Solutions",
+    description: "Practical guides on embroidery digitizing, machine thread, vector art and patches, written by working digitizers for shops and print pros.",
+    canonical: "https://www.iniziosolutions.com/blog",
+});
 
 export default function blogs() {
 

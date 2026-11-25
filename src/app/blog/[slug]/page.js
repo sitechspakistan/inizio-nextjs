@@ -1,3 +1,4 @@
+import { buildMetadata } from "@/lib/seo";
 import blog from "@/data/post.json"
 import Link from "next/link";
 import ContactForm from "@/app/components/ContactForm";
@@ -11,16 +12,13 @@ export async function generateMetadata({ params }) {
 
     if (!post) return { title: "Post not found" };
 
-    return {
+    return buildMetadata({
         title: post.seo.title,
         description: post.seo.description,
-        alternates: {
-            canonical: post.seo.canonical, // JSON me already full URL
-        },
-        icons: {
-            icon: "/assets/images/inizo-logo.webp",
-        },
-    };
+        canonical: post.seo.canonical,
+        image: post.image,
+        type: "article",
+    });
 }
 
 

@@ -1,3 +1,4 @@
+import { buildMetadata } from "@/lib/seo";
 import InnerHero from "../../components/InnerHero";
 import ContentOne from "../../components/ContentOne";
 import PortfolioSec from "../../components/PortfolioSec";
@@ -8,28 +9,11 @@ import FaqsDigitizing from "@/app/components/faqs/FaqsDigitizing";
 import ContactForm from "../../components/ContactForm";
 
 
-export const metadata = {
-    title: "Embroidery Digitizing Service | Inizio Solutions, LLC",
-    description: "Need Professional embroidery digitizing? Get perfect stitch flow, balanced density, and high-quality results for caps, patches, and jackets. Order 24/7!",
-    alternates: {
-        canonical: "https://iniziosolutions.com/services/embroidery-digitizing",
-    },
-    openGraph: {
-        title: "Embroidery Digitizing Service | Inizio Solutions, LLC",
-        description: "Need Professional embroidery digitizing? Get perfect stitch flow, balanced density, and high-quality results for caps, patches, and jackets. Order 24/7!",
-        url: "https://iniziosolutions.com/services/embroidery-digitizing",
-        siteName: "Inizio Solutions",
-        images: [
-            {
-                url: "https://iniziosolutions.com/assets/images/open-graph.jpg",
-                width: 1200,
-                height: 630,
-                alt: "Inizio Solutions Logo",
-            },
-        ],
-        type: "website",
-    },
-};
+export const metadata = buildMetadata({
+    title: "Top Quality Embroidery Digitizing Services",
+    description: "Hand-digitized DST, PES & EXP files for caps, left chest, jackets and patches. Clean stitch-outs, free edits, rush available. First order free.",
+    canonical: "https://iniziosolutions.com/services/embroidery-digitizing",
+});
 
 const digitizingSchema = {
     "@context": "https://schema.org",

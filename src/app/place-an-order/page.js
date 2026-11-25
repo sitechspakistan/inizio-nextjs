@@ -1,6 +1,14 @@
+import { buildMetadata } from "@/lib/seo";
 import SecondHero from "../components/SecondHero"
 import OrderForm from "../components/OrderForm"
 import { Suspense } from "react"
+
+export const metadata = buildMetadata({
+    title: "Place an Order: Digitizing, Vector & Patches | Inizio",
+    description: "Upload your artwork and order embroidery digitizing, vector art or custom patches in minutes. Free quotes 24/7, and your first order is free.",
+    canonical: "https://iniziosolutions.com/place-an-order",
+});
+
 
 export default function placeanorder(){
     return(

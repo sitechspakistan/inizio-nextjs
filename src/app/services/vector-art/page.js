@@ -1,3 +1,4 @@
+import { buildMetadata } from "@/lib/seo";
 import PortfolioSec from "@/app/components/PortfolioSec";
 import ContentOne from "../../components/ContentOne";
 import InnerHero from "../../components/InnerHero";
@@ -7,28 +8,11 @@ import Faqs from "@/app/components/Faqs";
 import ContactForm from "@/app/components/ContactForm";
 
 
-export const metadata = {
-    title: "Expert Vector Art Conversion Service | Inizio Solutions, LLC",
-    description: "Get 💯 flawless vector art conversion & image tracing for print-ready files. Perfect for screen printing, DTF, and large format printing. ⚡ 4-5 Hours Turnaround!",
-    alternates: {
-        canonical: "https://iniziosolutions.com/services/vector-art",
-    },
-    openGraph: {
-        title: "Expert Vector Art Conversion Service | Inizio Solutions, LLC",
-        description: "Get 💯 flawless vector art conversion & image tracing for print-ready files. Perfect for screen printing, DTF, and large format printing. ⚡ 4-5 Hours Turnaround!",
-        url: "https://iniziosolutions.com/services/vector-art",
-        siteName: "Inizio Solutions",
-        images: [
-            {
-                url: "https://iniziosolutions.com/assets/images/open-graph.jpg",
-                width: 1200,
-                height: 630,
-                alt: "Inizio Solutions Logo",
-            },
-        ],
-        type: "website",
-    },
-};
+export const metadata = buildMetadata({
+    title: "Top Quality Vector Art Conversion Services",
+    description: "Manual raster-to-vector redraws in AI, EPS, SVG & PDF for screen printing, DTF, vinyl and engraving. Fast turnaround and your first order free.",
+    canonical: "https://iniziosolutions.com/services/vector-art",
+});
 
 const vectorSchema =
 {

@@ -1,16 +1,12 @@
+import { buildMetadata } from "@/lib/seo";
 import SecondHero from "../components/SecondHero"
 import { Suspense } from "react"
 
-export const metadata = {
-    title: "Terms & Conditions | Inizio Solutions ",
-    description: "Read the Terms & Conditions of Inizio Solutions, LLC to understand the rules, guidelines, and policies for using our website and services.",
-    alternates: {
-        canonical: "https://iniziosolutions.com/terms-conditions",
-    },
-    icons: {
-        icon: "/assets/images/inizo-logo.webp",
-    },
-};
+export const metadata = buildMetadata({
+    title: "Terms & Conditions | Inizio Solutions",
+    description: "The terms for using the Inizio Solutions website and ordering embroidery digitizing, vector art and custom patch services.",
+    canonical: "https://iniziosolutions.com/terms-conditions",
+});
 
 
 export default function TermConditons() {

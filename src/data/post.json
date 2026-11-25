@@ -72,8 +72,8 @@
         "image": "/uploads/blogs/blog4.jpg",
         "date": "March 16, 2026",
         "seo": {
-            "title": "What is Vector Art? A Complete Beginner's Guide | Inizio Solutions",
-            "description": "Learn what vector art is, how it works, and why it matters for designers and embroidery digitizers. Explore file formats, tools, trends, and expert tips in this beginner guide.",
+            "title": "What Is Vector Art? A Beginner's Guide for Designers",
+            "description": "Learn what vector art is, how it differs from raster images, and which formats (AI, EPS, SVG, PDF) printers and embroidery digitizers need.",
             "canonical": "https://www.iniziosolutions.com/blog/what-is-vector-art-beginners-guide"
         }
     },
@@ -85,8 +85,8 @@
         "image": "/uploads/blogs/blog-3-main.jpg",
         "date": "March 03, 2026",
         "seo": {
-            "title": "Embroidery Machine Thread Guide Explained",
-            "description": "Discover everything you need to know about embroidery machine thread, including types, thread weights, materials, and how to choose the right thread for perfect embroidery results.",
+            "title": "Embroidery Machine Thread Guide: Types, Weights & Tips",
+            "description": "Learn the main embroidery thread types and weights, when to use each, and expert tips for fewer thread breaks and cleaner stitch-outs.",
             "canonical": "https://www.iniziosolutions.com/blog/embroidery-machine-thread-guide"
         }
     },
@@ -98,8 +98,8 @@
         "image": "/uploads/blogs/blog-2.jpg",
         "date": "February 25, 2026",
         "seo": {
-            "title": "Top 5 Embroidery Digitizing Mistakes to Avoid | Inizio Solutions",
-            "description": "Poor embroidery ruining your brand? Discover 5 most common embroidery digitizing mistakes, and how to fix them for flawless results.",
+            "title": "5 Embroidery Digitizing Mistakes to Avoid (and Fixes)",
+            "description": "Avoid costly sew-out problems. Learn the 5 most common embroidery digitizing mistakes and how to fix them before your next production run.",
             "canonical": "https://www.iniziosolutions.com/blog/top-5-embroidery-digitizing-mistakes-to-avoid"
         }
     },
@@ -111,8 +111,8 @@
         "image": "/uploads/blogs/blog-1.jpg",
         "date": "Feburary 24, 2026",
         "seo": {
-            "title": "What is Embroidery Digitizing? A Beginner’s Guide | Inizio Solutions",
-            "description": "New to embroidery digitizing? Learn what it is, how it works, and why it matters for apparel brands. Get expert digitizing services from Inizio Solutions.",
+            "title": "What Is Embroidery Digitizing? A Beginner's Guide",
+            "description": "Learn how embroidery digitizing turns artwork into machine stitch files, what affects stitch quality, and when to hire a professional digitizer.",
             "canonical": "https://www.iniziosolutions.com/blog/what-is-embroidery-digitizing-beginners-guide"
         }
     }

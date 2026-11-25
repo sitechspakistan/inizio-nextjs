@@ -1,3 +1,4 @@
+import { buildMetadata } from "@/lib/seo";
 import HomeHero from "./components/home/HomeHero";
 import HowItWorks from "./components/home/HowItWorks";
 import ServicesTabs from "./components/home/ServicesTabs";
@@ -7,34 +8,11 @@ import { WhyUs, HomePortfolio, Reviews, Pricing, CtaBand } from "./components/ho
 import { HOME_FAQS } from "./components/home/faqData";
 
 
-export const metadata = {
-  title: "Embroidery Digitizing & Vector Art in USA | Inizio Solutions",
-  description: "Expert Embroidery Digitizing, Vector Art & Premium Custom Patches in the USA. Fast turnaround, High-quality, print-ready files. Get a FREE Quote Now!",
-  alternates: {
+export const metadata = buildMetadata({
+    title: "Top Quality Embroidery Digitizing & Vector Art Services",
+    description: "Hand-digitized embroidery files from $8, vector art and custom patches for decorators and print shops. Fast turnaround. First order free. Get a quote.",
     canonical: "https://iniziosolutions.com",
-  },
-  icons: {
-    icon: "/assets/images/inizo-logo.webp",
-  },
-  metadataBase: new URL("https://iniziosolutions.com"),
-
-  openGraph: {
-    title: "Embroidery Digitizing & Vector Art in USA | Inizio Solutions",
-    description: "Expert Embroidery Digitizing, Vector Art & Premium Custom Patches in the USA. Fast turnaround, High-quality, print-ready files. Get a FREE Quote Now!",
-    url: "https://iniziosolutions.com",
-    siteName: "Inizio Solutions",
-
-    images: [
-      {
-        url: "https://iniziosolutions.com/assets/images/open-graph.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Inizio Solutions Logo",
-      },
-    ],
-    type: "website",
-  },
-};
+});
 
 const homeSchema = {
 

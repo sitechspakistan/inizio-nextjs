@@ -1,3 +1,4 @@
+import { buildMetadata } from "@/lib/seo";
 import InnerHero from "@/app/components/InnerHero";
 import ContentOne from "@/app/components/ContentOne";
 import Boxes from "@/app/components/Boxes";
@@ -6,28 +7,11 @@ import PortfolioSec from "../../components/PortfolioSec";
 import Cta from "../../components/Cta";
 import ContactForm from "@/app/components/ContactForm";
 
-export const metadata = {
-    title: "Custom Patches Manufacturer | Inizio Solutions, LLC",
-    description: "Design high-quality embroidered, PVC, or woven custom patches. Get vibrant colors, expert design support, and fast delivery guaranteed. Start your order now!",
-    alternates: {
-        canonical: "https://iniziosolutions.com/services/custom-patches",
-    },
-    openGraph: {
-        title: "Custom Patches Manufacturer | Inizio Solutions, LLC",
-        description: "Design high-quality embroidered, PVC, or woven custom patches. Get vibrant colors, expert design support, and fast delivery guaranteed. Start your order now!",
-        url: "https://iniziosolutions.com/services/custom-patches",
-        siteName: "Inizio Solutions",
-        images: [
-            {
-                url: "https://iniziosolutions.com/assets/images/open-graph.jpg",
-                width: 1200,
-                height: 630,
-                alt: "Inizio Solutions Logo",
-            },
-        ],
-        type: "website",
-    },
-};
+export const metadata = buildMetadata({
+    title: "Top Quality Custom Patches: Embroidered, PVC & Woven",
+    description: "Custom embroidered, PVC, woven, leather and chenille patches for teams, brands and uniforms. Free design help and quotes. Fast US delivery.",
+    canonical: "https://iniziosolutions.com/services/custom-patches",
+});
 
 const customSchema =
 {

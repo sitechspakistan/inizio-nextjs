@@ -1,16 +1,12 @@
+import { buildMetadata } from "@/lib/seo";
 import SecondHero from "../components/SecondHero"
 import { Suspense } from "react"
 
-export const metadata = {
-    title: "Privacy & Policy | Inizio Solutions ",
-    description: "Read the Privacy & Policy of Inizio Solutions, LLC to understand how we collect, use, and protect your personal information on our website.",
-    alternates: {
-        canonical: "https://iniziosolutions.com/privacy-policy",
-    },
-    icons: {
-        icon: "/assets/images/inizo-logo.webp",
-    },
-};
+export const metadata = buildMetadata({
+    title: "Privacy Policy | Inizio Solutions",
+    description: "How Inizio Solutions, LLC collects, uses and protects your personal information and design files when you use our website and services.",
+    canonical: "https://iniziosolutions.com/privacy-policy",
+});
 export default function PrivacyPolicy() {
     return (
 
