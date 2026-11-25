@@ -12,8 +12,8 @@ const SERVICES = [
     cta: "Digitize my logo",
     href: "/services/embroidery-digitizing",
     media: [
-      { src: "/assets/images/2.JPG", alt: "Blades N Fades logo digitized as an embroidery stitch file", caption: "On the machine", contain: true },
-      { src: "/assets/images/1.jpeg", alt: "Beanies embroidered with the Blades N Fades logo by Inizio Solutions", caption: "Stitch-out" },
+      { src: "/assets/images/portfolio/machine.jpg", alt: "Embroidery machine stitching a digitized floral design", caption: "On the machine" },
+      { src: "/assets/images/portfolio/digitizing/1.webp", alt: "Digitized character embroidery sample by Inizio Solutions", caption: "Stitch-out", contain: true },
     ],
   },
   {
